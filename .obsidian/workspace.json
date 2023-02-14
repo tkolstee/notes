@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0d71a02dcccc961b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Trig Identities.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Algebra.md",
+                "file": "Mathematics/Trig Identities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Algebra.md",
+                "file": "Mathematics/Trig Identities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Algebra.md"
+                "file": "Mathematics/Trig Identities.md"
               }
             }
           }
@@ -146,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56f03f6be7702819",
+  "active": "0d71a02dcccc961b",
   "lastOpenFiles": [
+    "Mathematics/Algebra.md",
     "conflict-files-obsidian-git.md",
     "README.md",
     "Ansible/_Ansible Index.md"
