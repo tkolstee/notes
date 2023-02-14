@@ -1,5 +1,3 @@
-
-
 [Red Hat Ansible](https://www.ansible.com/)
 
 [Docs](https://docs.ansible.com/ansible/latest/index.html) [Installing](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html) [GitHub](https://github.com/ansible/)
