@@ -28,7 +28,6 @@ def gen_even_numbers():
 ```
 `````
 
-
 ## Generator Expressions
 These are comprehensions that yield generators.
 
