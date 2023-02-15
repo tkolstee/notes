@@ -48,20 +48,20 @@ When generators take a parameter as input and act as a filter, they can be chain
 
 `````ad-example
 ```python
-def first_three(foo):
+def first_three(x):
 	count = 0
-	for i in foo:
+	for i in x:
 		if count > 2:
 			break
 		yield i
 		count += 1
 
-def add_one(foo):
-	for i in foo:
+def add_one(x):
+	for i in x:
 		yield i+1
 
-def distinct_items(foo):
-	for i in set(foo):
+def distinct_items(x):
+	for i in set(x):
 		yield i
 
 mylist = [ 1, 2, 2, 1, 3, 4, 5, 4, 6 ]
