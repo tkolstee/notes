@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "97b01bc8c008301a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/CircuitPython.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/BeautifulSoup.md",
+                "file": "Python/CircuitPython.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/BeautifulSoup.md",
+                "file": "Python/CircuitPython.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/BeautifulSoup.md"
+                "file": "Python/CircuitPython.md"
               }
             }
           }
@@ -148,9 +161,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ada4026e6004d34c",
+  "active": "97b01bc8c008301a",
   "lastOpenFiles": [
     "Python/BeautifulSoup.md",
+    "Python/CircuitPython.md",
     "Python",
     "Docker/Public Docker Repositories.md",
     "Docker/Dockerfile.md",
