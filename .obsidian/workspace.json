@@ -121,7 +121,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -139,8 +140,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ada4026e6004d34c",
+  "active": "c8d7bb285a6785ef",
   "lastOpenFiles": [
+    "Docker/Public Docker Repositories.md",
+    "Docker/Dockerfile.md",
+    "Docker/Docker Registry.md",
+    "Docker",
     "Mathematics/Algebra.md",
     "Mathematics/Trig Identities.md",
     "Algorithms/Finding Degrees of Similarity among Text Documents.md",
