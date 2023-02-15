@@ -65,8 +65,9 @@ def distinct_items(x):
 		yield i
 
 mylist = [ 1, 2, 2, 1, 3, 4, 5, 4, 6 ]
-x = list( first_three( capitalized( distinct_items( mylist ) ) ) )
+x = list( first_three( distinct_items( add_one ( mylist ) ) ) )
 ```
+result: `[ 2, 3, 4 ]`
 
 `````
 
