@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python Library - Parallel-ssh.md",
+                "file": "Python/Libraries/Python Library - Base64.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b5e4d23122cb299",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/List of Libraries to Check Out.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python Library - Parallel-ssh.md",
+                "file": "Python/Libraries/List of Libraries to Check Out.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python Library - Parallel-ssh.md",
+                "file": "Python/Libraries/List of Libraries to Check Out.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python Library - Parallel-ssh.md"
+                "file": "Python/Libraries/List of Libraries to Check Out.md"
               }
             }
           }
@@ -148,16 +161,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c14948b88a2afe1",
+  "active": "1b5e4d23122cb299",
   "lastOpenFiles": [
-    "Python/Python Library - Parallel-ssh.md",
+    "Python/Libraries/Python Library - Base64.md",
+    "Python/Libraries/List of Libraries to Check Out.md",
+    "Python/Libraries/Python Library - Parallel-ssh.md",
+    "Python/Libraries",
     "00 Current Learning/Natural Language Processing.md",
     "Algorithms/Jaccard Index.md",
     "Algorithms/TF-IDF.md",
     "Algorithms/Soundex.md",
     "Python/Python Decorators.md",
-    "Python/Python Library - Base64.md",
-    "Python/Python Library - BeautifulSoup.md",
+    "Python/Libraries/Python Library - BeautifulSoup.md",
     "Python/Python Assertions.md",
     "00 Current Learning",
     "Python/Python Generators.md",
