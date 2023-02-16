@@ -4,83 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6229b64a824d62d8",
+        "id": "c4ba25b4aa357291",
         "type": "tabs",
         "children": [
           {
-            "id": "dd99a1f23e84a8b7",
+            "id": "0c14948b88a2afe1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Current Learning/Natural Language Processing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6d0adc46756a20c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Python Library - BeautifulSoup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5716cd051d5def94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Python Decorators.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87c6e0aee912c76e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Soundex.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b93c9d92638f6a13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/TF-IDF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "015c74279f5e4c2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms/Jaccard Index.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms/Jaccard Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms/Jaccard Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Algorithms/Jaccard Index.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -209,16 +140,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "015c74279f5e4c2a",
+  "active": "0c14948b88a2afe1",
   "lastOpenFiles": [
-    "Algorithms/TF-IDF.md",
+    "00 Current Learning/Natural Language Processing.md",
     "Algorithms/Jaccard Index.md",
+    "Algorithms/TF-IDF.md",
     "Algorithms/Soundex.md",
     "Python/Python Decorators.md",
     "Python/Python Library - Base64.md",
     "Python/Python Library - BeautifulSoup.md",
     "Python/Python Assertions.md",
-    "00 Current Learning/Natural Language Processing.md",
     "00 Current Learning",
     "Python/Python Generators.md",
     "Python/CircuitPython.md",
