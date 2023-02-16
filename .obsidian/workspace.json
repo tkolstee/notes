@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "87c6e0aee912c76e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Soundex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b93c9d92638f6a13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/TF-IDF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python Decorators.md",
+                "file": "Algorithms/TF-IDF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python Decorators.md",
+                "file": "Algorithms/TF-IDF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python Decorators.md"
+                "file": "Algorithms/TF-IDF.md"
               }
             }
           }
@@ -173,14 +197,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5716cd051d5def94",
+  "active": "b93c9d92638f6a13",
   "lastOpenFiles": [
+    "Algorithms/Soundex.md",
+    "Algorithms/TF-IDF.md",
+    "Python/Python Decorators.md",
     "Python/Python Library - Base64.md",
     "Python/Python Library - BeautifulSoup.md",
     "Python/Python Assertions.md",
     "00 Current Learning/Natural Language Processing.md",
     "00 Current Learning",
-    "Python/Python Decorators.md",
     "Python/Python Generators.md",
     "Python/CircuitPython.md",
     "Python",
