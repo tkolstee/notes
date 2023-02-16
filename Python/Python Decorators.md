@@ -343,3 +343,31 @@ except RuntimeError as e:
 	print(f"Raised error - {e} - {str(i._locaionts)}")
 ```
 `````
+
+## Preserving Metadata when Decorating
+
+By replacing a function with another function we lose its docstrings and other metadata. Rather than manually carrying it over, use `@functools.wraps(f)` to do this.
+
+`````ad-example
+title: Using functools to preserve metadata
+collapse: true
+```python
+import functools
+
+def noop(f):
+	@functools.wraps(f)
+	def noop_wrapper(*args, **kwargs):
+		"""wrap it up"""
+		print("Calling wrapped function")
+		return f(*args, **kwargs)
+	return noop_warpper
+
+@noop
+def hello():
+	"""print hi"""
+	print("Hello, world!")
+
+print(hello.__name__)   # "hello" instead of "noop_wrapper"
+print(hello.__doc__)    # "print hi" insstead of "wrap it up"
+```
+`````
