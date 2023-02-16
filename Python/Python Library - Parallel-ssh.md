@@ -20,3 +20,6 @@ exit_code = host_out.exit_code
 ```
 
 `output` is a list of `host_out` entries.
+
+[Parallel-SSH Documentation](https://parallel-ssh.readthedocs.io/en/latest/)
+
