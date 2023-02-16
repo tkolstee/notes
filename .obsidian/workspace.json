@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Untitled.md",
+                "file": "Python/Python Decorators.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Untitled.md",
+                "file": "Python/Python Decorators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Untitled.md",
+                "file": "Python/Python Decorators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Untitled.md"
+                "file": "Python/Python Decorators.md"
               }
             }
           }
@@ -175,8 +175,8 @@
   },
   "active": "5716cd051d5def94",
   "lastOpenFiles": [
+    "Python/Python Library - Base64.md",
     "Python/Python Library - BeautifulSoup.md",
-    "Python/Untitled.md",
     "Python/Python Assertions.md",
     "00 Current Learning/Natural Language Processing.md",
     "00 Current Learning",
