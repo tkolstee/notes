@@ -20,14 +20,12 @@
             }
           },
           {
-            "id": "584a699ccb17fb1f",
+            "id": "b3163e9fe185789f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "Python/Code Snippets/Get Hostname.md",
-                "mode": "source",
-                "source": false
+                "currentVersion": "1.1.14"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Code Snippets/Get Hostname.md",
+                "file": "Python/Libraries/Python Library - parallel-ssh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Code Snippets/Get Hostname.md",
+                "file": "Python/Libraries/Python Library - parallel-ssh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Code Snippets/Get Hostname.md"
+                "file": "Python/Libraries/Python Library - parallel-ssh.md"
               }
             }
           }
@@ -161,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "584a699ccb17fb1f",
+  "active": "b3163e9fe185789f",
   "lastOpenFiles": [
-    "Python/Libraries/Python Library - parallel-ssh.md",
     "Python/Code Snippets/Get Hostname.md",
+    "Python/Libraries/Python Library - parallel-ssh.md",
     "Python/Code Snippets",
     "Python/Libraries/Python Library - Base64.md",
     "Python/Libraries/List of Libraries to Check Out.md",
