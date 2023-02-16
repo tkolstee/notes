@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "c4ba25b4aa357291",
+        "id": "baa5d6f5dff9286c",
         "type": "tabs",
         "children": [
           {
-            "id": "0c14948b88a2afe1",
+            "id": "67041ae38ebcf8f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Libraries/Python Library - Base64.md",
+                "file": "Python/Libraries/Python Library - parallel-ssh.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1b5e4d23122cb299",
+            "id": "584a699ccb17fb1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Libraries/List of Libraries to Check Out.md",
+                "file": "Python/Code Snippets/Get Hostname.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Libraries/List of Libraries to Check Out.md",
+                "file": "Python/Code Snippets/Get Hostname.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Libraries/List of Libraries to Check Out.md",
+                "file": "Python/Code Snippets/Get Hostname.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Libraries/List of Libraries to Check Out.md"
+                "file": "Python/Code Snippets/Get Hostname.md"
               }
             }
           }
@@ -161,11 +161,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1b5e4d23122cb299",
+  "active": "584a699ccb17fb1f",
   "lastOpenFiles": [
+    "Python/Libraries/Python Library - parallel-ssh.md",
+    "Python/Code Snippets/Get Hostname.md",
+    "Python/Code Snippets",
     "Python/Libraries/Python Library - Base64.md",
     "Python/Libraries/List of Libraries to Check Out.md",
-    "Python/Libraries/Python Library - Parallel-ssh.md",
     "Python/Libraries",
     "00 Current Learning/Natural Language Processing.md",
     "Algorithms/Jaccard Index.md",
