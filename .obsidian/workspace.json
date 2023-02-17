@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b3163e9fe185789f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.14"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ac482b5efd36737f",
@@ -159,7 +149,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3163e9fe185789f",
+  "active": "67041ae38ebcf8f5",
   "lastOpenFiles": [
     "Python/Code Snippets/Get Hostname.md",
     "Python/Libraries/Python Library - parallel-ssh.md",
