@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "baa5d6f5dff9286c",
+        "id": "f8422b2993b6807a",
         "type": "tabs",
         "children": [
           {
-            "id": "67041ae38ebcf8f5",
+            "id": "95f417bdf11b58e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python Library - parallel-ssh.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ac482b5efd36737f",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Libraries/Python Library - parallel-ssh.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Libraries/Python Library - parallel-ssh.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Python/Libraries/Python Library - parallel-ssh.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -149,10 +140,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "67041ae38ebcf8f5",
+  "active": "95f417bdf11b58e6",
   "lastOpenFiles": [
-    "Python/Code Snippets/Get Hostname.md",
     "Python/Libraries/Python Library - parallel-ssh.md",
+    "Packer.md",
+    "Python/Code Snippets/Get Hostname.md",
     "Python/Code Snippets",
     "Python/Libraries/Python Library - Base64.md",
     "Python/Libraries/List of Libraries to Check Out.md",
