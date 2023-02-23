@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "577289939f441b9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terraform.md",
+                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terraform.md",
+                "file": "git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terraform.md"
+                "file": "git.md"
               }
             }
           }
@@ -148,9 +161,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "95f417bdf11b58e6",
+  "active": "577289939f441b9b",
   "lastOpenFiles": [
     "Terraform.md",
+    "git.md",
     "Python/Libraries/Python Library - parallel-ssh.md",
     "Packer.md",
     "Python/Code Snippets/Get Hostname.md",
