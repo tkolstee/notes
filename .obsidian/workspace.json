@@ -30,9 +30,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "09bb3abef9b2c77e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "git.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -161,10 +165,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "577289939f441b9b",
+  "active": "09bb3abef9b2c77e",
   "lastOpenFiles": [
-    "Terraform.md",
+    "Kubernetes/Installing Kubernetes.md",
     "git.md",
+    "Kubernetes",
+    "Terraform.md",
     "Python/Libraries/Python Library - parallel-ssh.md",
     "Packer.md",
     "Python/Code Snippets/Get Hostname.md",
