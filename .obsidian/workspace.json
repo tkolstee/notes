@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNIX Shell (bash).md",
+                "file": "git.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b1f820221e149692",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UNIX Shell (bash).md",
+                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UNIX Shell (bash).md",
+                "file": "git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UNIX Shell (bash).md"
+                "file": "git.md"
               }
             }
           }
@@ -148,7 +159,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee1580a47c734ec8",
+  "active": "b1f820221e149692",
   "lastOpenFiles": [
     "UNIX Shell (bash).md",
     "Terraform.md",
