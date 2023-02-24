@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Current Learning/Distance Formulas.md",
+                "file": "00 Current Learning/k-Nearest Neighbor.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Current Learning/Distance Formulas.md",
+                "file": "00 Current Learning/k-Nearest Neighbor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Current Learning/Distance Formulas.md",
+                "file": "00 Current Learning/k-Nearest Neighbor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Current Learning/Distance Formulas.md"
+                "file": "00 Current Learning/k-Nearest Neighbor.md"
               }
             }
           }
@@ -185,8 +185,8 @@
   },
   "active": "6e160716cbf8b526",
   "lastOpenFiles": [
-    "00 Current Learning/Manhattan Distance.md",
     "00 Current Learning/Distance Formulas.md",
+    "00 Current Learning/Manhattan Distance.md",
     "00 Current Learning/k-Nearest Neighbor.md",
     "00 Current Learning/Natural Language Processing.md",
     "UNIX Shell (bash).md",

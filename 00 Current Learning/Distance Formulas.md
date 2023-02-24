@@ -24,9 +24,13 @@ Take the XOR of the two values ($a \oplus b$) and count the number of 1 bits.
 
 
 ## Cosine Distance
+Often used in plagiarism detection, where the documents are converted into vectors with a component for each unique word and a value for the number of occurrences in a document.
 
-Cosine similarity is the cosine of the angle between two points. At 90 degrees, cosine similarity is 0.
 
-Cosine distance or difference is 1 - the cosine similarity. At 90 degrees the cosine distance is 
-The cosine of the angle between two points $cos(\theta)$  represents the **cosine similarity**.
-$1 - cos(\theta)$ is the cosine difference
+Cosine similarity:
+$$cos(\theta)$$
+
+Cosine distance (difference):
+$$1 - cos(\theta)$$
+
+At 90 degrees the points are completely dissimilar (1). 
