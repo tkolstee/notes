@@ -28,9 +28,19 @@
                 "currentVersion": "1.1.15"
               }
             }
+          },
+          {
+            "id": "3d29e0b1fb2c8816",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,7 +169,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b1f820221e149692",
+  "active": "3d29e0b1fb2c8816",
   "lastOpenFiles": [
     "UNIX Shell (bash).md",
     "Terraform.md",
