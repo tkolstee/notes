@@ -15,3 +15,10 @@ Variations and parameters include the [[Distance Formulas]] used and the value o
 | ------------ | ---- | -------- |
 | small        | low  | high     |
 | large        | high | low         |
+
+Example of differences in $k$ values with $k=15$ and $k=3$
+![[knn example.png]]
+
+---
+# Sources
+[K Nearest Neighbors | Intuitive explained | Machine Learning Basics - YouTube](https://www.youtube.com/watch?v=0p0o5cmgLdE&list=PLkguTFqZ9THFtRU9V-8ocNyG8iyw4RXBe)

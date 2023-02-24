@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Current Learning/k-Nearest Neighbor.md",
+                "file": "Mathematics/Distance Formulas.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 Current Learning/k-Nearest Neighbor.md",
+                "file": "Mathematics/Distance Formulas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Current Learning/k-Nearest Neighbor.md",
+                "file": "Mathematics/Distance Formulas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 Current Learning/k-Nearest Neighbor.md"
+                "file": "Mathematics/Distance Formulas.md"
               }
             }
           }
@@ -183,11 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e160716cbf8b526",
+  "active": "e3acfc5506306e0c",
   "lastOpenFiles": [
-    "00 Current Learning/Distance Formulas.md",
+    "Algorithms/k-Nearest Neighbor.md",
+    "Algorithms/knn example.png",
+    "Mathematics/Distance Formulas.md",
     "00 Current Learning/Manhattan Distance.md",
-    "00 Current Learning/k-Nearest Neighbor.md",
     "00 Current Learning/Natural Language Processing.md",
     "UNIX Shell (bash).md",
     "Terraform.md",
@@ -215,7 +216,6 @@
     "Docker/Dockerfile.md",
     "Docker/Docker Registry.md",
     "Docker",
-    "Mathematics/Algebra.md",
-    "Mathematics/Trig Identities.md"
+    "Mathematics/Algebra.md"
   ]
 }
