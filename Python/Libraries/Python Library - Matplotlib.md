@@ -13,12 +13,13 @@ plt.plot(x_values, y_values)
 plt.show()
 ```
 
-Plot same line but with points marked at each data point:
-`plt.plot(x_vals, y_vals, marker='o')`
+----
+# Links
 
-Plot only the data points - no line
-`plt.plot(x_vals, y_vals, 'o')`
-
-
-
+[Home Page](https://matplotlib.org)
+[Plot Types](https://matplotlib.org/stable/plot_types/index.html)
+[Examples](https://matplotlib.org/stable/gallery/index.html)
+[Docs](https://matplotlib.org/stable/index.html)
+[Quick start guide](https://matplotlib.org/stable/tutorials/introductory/quick_start.html)
+[Cheat Sheets](https://matplotlib.org/cheatsheets/)
 
