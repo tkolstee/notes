@@ -33,14 +33,28 @@
             "id": "3d29e0b1fb2c8816",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.15"
+                "file": "00 Current Learning/Natural Language Processing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e160716cbf8b526",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Current Learning/Distance Formulas.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git.md",
+                "file": "00 Current Learning/Distance Formulas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git.md",
+                "file": "00 Current Learning/Distance Formulas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git.md"
+                "file": "00 Current Learning/Distance Formulas.md"
               }
             }
           }
@@ -169,8 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d29e0b1fb2c8816",
+  "active": "6e160716cbf8b526",
   "lastOpenFiles": [
+    "00 Current Learning/Manhattan Distance.md",
+    "00 Current Learning/Distance Formulas.md",
+    "00 Current Learning/k-Nearest Neighbor.md",
+    "00 Current Learning/Natural Language Processing.md",
     "UNIX Shell (bash).md",
     "Terraform.md",
     "git.md",
@@ -183,7 +201,6 @@
     "Python/Libraries/Python Library - Base64.md",
     "Python/Libraries/List of Libraries to Check Out.md",
     "Python/Libraries",
-    "00 Current Learning/Natural Language Processing.md",
     "Algorithms/Jaccard Index.md",
     "Algorithms/TF-IDF.md",
     "Algorithms/Soundex.md",
@@ -199,9 +216,6 @@
     "Docker/Docker Registry.md",
     "Docker",
     "Mathematics/Algebra.md",
-    "Mathematics/Trig Identities.md",
-    "Algorithms/Finding Degrees of Similarity among Text Documents.md",
-    "conflict-files-obsidian-git.md",
-    "README.md"
+    "Mathematics/Trig Identities.md"
   ]
 }
