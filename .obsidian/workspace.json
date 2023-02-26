@@ -4,22 +4,191 @@
     "type": "split",
     "children": [
       {
-        "id": "3d16a0cf7f99b236",
+        "id": "fa703f49ac2642b7",
         "type": "tabs",
         "children": [
           {
-            "id": "d763c97f6a5665b7",
+            "id": "1cad83dc989e589a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Libraries/Python Library - Matplotlib.md",
+                "file": "Python/Unit Testing in Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "442d0ab8dadc12ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/String Representations of Objects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "276fc2f4018c1b1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Source File Encoding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "398ebc4fbd9a7d27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Random Numbers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c193a2393b7aabc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - PyYAML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cce1a4b63dbfc9e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - XML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be9ebd096a32da8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - urllib and requests.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "afb8c6a040926e6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - urllib and requests.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3969877b332c37d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python re (Regular Expressions) Module.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47f01877a90fe13a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - JSON.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee75a67e432784ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - HashLib.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b274a87aa778f39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Environment Variables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b34d6441b1784da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Data Classes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71b97f6235da46bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - CSV.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "38868b44c99cbf2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - configparser.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -65,8 +234,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Libraries/Python Library - Matplotlib.md",
+                "file": "Python/Libraries/Python Library - configparser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Libraries/Python Library - Matplotlib.md",
+                "file": "Python/Libraries/Python Library - configparser.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,11 +294,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Libraries/Python Library - Matplotlib.md"
+                "file": "Python/Libraries/Python Library - configparser.md"
               }
             }
+          },
+          {
+            "id": "dc14e2072b4c752c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -148,8 +325,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5d0cafba6f3253bc",
+  "active": "38868b44c99cbf2c",
   "lastOpenFiles": [
+    "Python/Libraries/Python Library - CSV.md",
+    "Python/Libraries/Python Library - configparser.md",
+    "Python/Data Classes.md",
+    "Python/Environment Variables.md",
+    "Python/Libraries/Python Library - HashLib.md",
+    "Python/Libraries/Python Library - JSON.md",
+    "Python/Libraries/Python re (Regular Expressions) Module.md",
+    "Python/Libraries/Python Library - urllib and requests.md",
+    "Python/Python Tracebacks.md",
+    "Python/Libraries/Python Library - XML.md",
+    "Python/Libraries/Python Library - PyYAML.md",
+    "Python/Random Numbers.md",
+    "Python/Source File Encoding.md",
+    "Python/String Representations of Objects.md",
+    "Python/Unit Testing in Python.md",
     "Python/Libraries/Python Library - Matplotlib.md",
     "Mathematics/Distance Formulas.md",
     "Algorithms/k-Nearest Neighbor.md",
@@ -163,25 +355,10 @@
     "Kubernetes",
     "Python/Libraries/Python Library - parallel-ssh.md",
     "Packer.md",
-    "Python/Code Snippets/Get Hostname.md",
     "Python/Code Snippets",
-    "Python/Libraries/Python Library - Base64.md",
-    "Python/Libraries/List of Libraries to Check Out.md",
     "Python/Libraries",
-    "Algorithms/Jaccard Index.md",
-    "Algorithms/TF-IDF.md",
-    "Algorithms/Soundex.md",
-    "Python/Python Decorators.md",
-    "Python/Libraries/Python Library - BeautifulSoup.md",
-    "Python/Python Assertions.md",
     "00 Current Learning",
-    "Python/Python Generators.md",
-    "Python/CircuitPython.md",
     "Python",
-    "Docker/Public Docker Repositories.md",
-    "Docker/Dockerfile.md",
-    "Docker/Docker Registry.md",
-    "Docker",
-    "Mathematics/Algebra.md"
+    "Docker"
   ]
 }
