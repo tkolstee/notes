@@ -4,215 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fa703f49ac2642b7",
+        "id": "6d12a21ee32635ab",
         "type": "tabs",
         "children": [
           {
-            "id": "1cad83dc989e589a",
+            "id": "a219322539638bf2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Unit Testing in Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "442d0ab8dadc12ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/String Representations of Objects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "276fc2f4018c1b1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Source File Encoding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "398ebc4fbd9a7d27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Random Numbers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c193a2393b7aabc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python Library - PyYAML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cce1a4b63dbfc9e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python Library - XML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be9ebd096a32da8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python Library - urllib and requests.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "afb8c6a040926e6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python Library - urllib and requests.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3969877b332c37d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python re (Regular Expressions) Module.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47f01877a90fe13a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python Library - JSON.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee75a67e432784ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python Library - HashLib.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b274a87aa778f39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Environment Variables.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b34d6441b1784da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Data Classes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71b97f6235da46bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python Library - CSV.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38868b44c99cbf2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python Library - configparser.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cb3f7faaafeda9de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Python Closures.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e205a29e555fa24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Libraries/Python Library - openpyxl.md",
+                "file": "Python/Global Interpreter Lock (GIL).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 16
+        ]
       }
     ],
     "direction": "vertical"
@@ -278,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Libraries/Python Library - openpyxl.md",
+                "file": "Python/Global Interpreter Lock (GIL).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -295,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Libraries/Python Library - openpyxl.md",
+                "file": "Python/Global Interpreter Lock (GIL).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -318,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Libraries/Python Library - openpyxl.md"
+                "file": "Python/Global Interpreter Lock (GIL).md"
               }
             }
           },
@@ -349,25 +156,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e205a29e555fa24",
+  "active": "a219322539638bf2",
   "lastOpenFiles": [
+    "Python/Global Interpreter Lock (GIL).md",
+    "Python/Unit Testing in Python.md",
+    "Python/String Representations of Objects.md",
+    "Python/Source File Encoding.md",
+    "Python/Random Numbers.md",
+    "Python/Libraries/Python Library - PyYAML.md",
+    "Python/Libraries/Python Library - XML.md",
+    "Python/Libraries/Python Library - urllib and requests.md",
+    "Python/Libraries/Python re (Regular Expressions) Module.md",
+    "Python/Libraries/Python Library - JSON.md",
+    "Python/Libraries/Python Library - HashLib.md",
+    "Python/Environment Variables.md",
+    "Python/Data Classes.md",
+    "Python/Libraries/Python Library - CSV.md",
+    "Python/Libraries/Python Library - configparser.md",
     "Python/Python Closures.md",
     "Python/Libraries/Python Library - openpyxl.md",
-    "Python/Libraries/Python Library - configparser.md",
-    "Python/Libraries/Python Library - CSV.md",
-    "Python/Data Classes.md",
-    "Python/Environment Variables.md",
-    "Python/Libraries/Python Library - HashLib.md",
-    "Python/Libraries/Python Library - JSON.md",
-    "Python/Libraries/Python re (Regular Expressions) Module.md",
-    "Python/Libraries/Python Library - urllib and requests.md",
     "Python/Python Tracebacks.md",
-    "Python/Libraries/Python Library - XML.md",
-    "Python/Libraries/Python Library - PyYAML.md",
-    "Python/Random Numbers.md",
-    "Python/Source File Encoding.md",
-    "Python/String Representations of Objects.md",
-    "Python/Unit Testing in Python.md",
     "Python/Libraries/Python Library - Matplotlib.md",
     "Mathematics/Distance Formulas.md",
     "Algorithms/k-Nearest Neighbor.md",
@@ -377,7 +185,6 @@
     "UNIX Shell (bash).md",
     "Terraform.md",
     "git.md",
-    "Kubernetes/Installing Kubernetes.md",
     "Kubernetes",
     "Python/Code Snippets",
     "Python/Libraries",
