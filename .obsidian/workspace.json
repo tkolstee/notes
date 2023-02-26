@@ -186,9 +186,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cb3f7faaafeda9de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python Closures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e205a29e555fa24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - openpyxl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -254,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Libraries/Python Library - configparser.md",
+                "file": "Python/Libraries/Python Library - openpyxl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -271,7 +295,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Libraries/Python Library - configparser.md",
+                "file": "Python/Libraries/Python Library - openpyxl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -294,7 +318,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Libraries/Python Library - configparser.md"
+                "file": "Python/Libraries/Python Library - openpyxl.md"
               }
             }
           },
@@ -325,10 +349,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38868b44c99cbf2c",
+  "active": "7e205a29e555fa24",
   "lastOpenFiles": [
-    "Python/Libraries/Python Library - CSV.md",
+    "Python/Python Closures.md",
+    "Python/Libraries/Python Library - openpyxl.md",
     "Python/Libraries/Python Library - configparser.md",
+    "Python/Libraries/Python Library - CSV.md",
     "Python/Data Classes.md",
     "Python/Environment Variables.md",
     "Python/Libraries/Python Library - HashLib.md",
@@ -353,8 +379,6 @@
     "git.md",
     "Kubernetes/Installing Kubernetes.md",
     "Kubernetes",
-    "Python/Libraries/Python Library - parallel-ssh.md",
-    "Packer.md",
     "Python/Code Snippets",
     "Python/Libraries",
     "00 Current Learning",
