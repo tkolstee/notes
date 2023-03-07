@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Global Interpreter Lock (GIL).md",
+                "file": "Python/Libraries/Python Library - openpyxl.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Global Interpreter Lock (GIL).md",
+                "file": "Python/Libraries/Python Library - openpyxl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Global Interpreter Lock (GIL).md",
+                "file": "Python/Libraries/Python Library - openpyxl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Global Interpreter Lock (GIL).md"
+                "file": "Python/Libraries/Python Library - openpyxl.md"
               }
             }
           },
@@ -158,6 +158,20 @@
   },
   "active": "a219322539638bf2",
   "lastOpenFiles": [
+    "Python/Libraries/Python Library - configparser.md",
+    "Kubernetes/Installing Kubernetes.md",
+    "Docker/Public Docker Repositories.md",
+    "Docker/Dockerfile.md",
+    "Docker/Docker Registry.md",
+    "Algorithms/k-Nearest Neighbor.md",
+    "Algorithms/knn example.png",
+    "Algorithms/Jaccard Index.md",
+    "Algorithms/Finding Degrees of Similarity among Text Documents.md",
+    "00 Current Learning/Natural Language Processing.md",
+    "README.md",
+    "Packer.md",
+    "UNIX Shell (bash).md",
+    "Terraform.md",
     "Python/Global Interpreter Lock (GIL).md",
     "Python/Unit Testing in Python.md",
     "Python/String Representations of Objects.md",
@@ -171,20 +185,6 @@
     "Python/Libraries/Python Library - HashLib.md",
     "Python/Environment Variables.md",
     "Python/Data Classes.md",
-    "Python/Libraries/Python Library - CSV.md",
-    "Python/Libraries/Python Library - configparser.md",
-    "Python/Python Closures.md",
-    "Python/Libraries/Python Library - openpyxl.md",
-    "Python/Python Tracebacks.md",
-    "Python/Libraries/Python Library - Matplotlib.md",
-    "Mathematics/Distance Formulas.md",
-    "Algorithms/k-Nearest Neighbor.md",
-    "Algorithms/knn example.png",
-    "00 Current Learning/Manhattan Distance.md",
-    "00 Current Learning/Natural Language Processing.md",
-    "UNIX Shell (bash).md",
-    "Terraform.md",
-    "git.md",
     "Kubernetes",
     "Python/Code Snippets",
     "Python/Libraries",
