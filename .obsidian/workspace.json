@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Libraries/Python Library - openpyxl.md",
+                "file": "00 Current Learning/Natural Language Processing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd27520c52e07082",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Windows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd2f19196d6737c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "ac482b5efd36737f",
@@ -85,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Libraries/Python Library - openpyxl.md",
+                "file": "WSL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Libraries/Python Library - openpyxl.md",
+                "file": "WSL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Libraries/Python Library - openpyxl.md"
+                "file": "WSL.md"
               }
             }
           },
@@ -156,8 +182,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a219322539638bf2",
+  "active": "fd2f19196d6737c7",
   "lastOpenFiles": [
+    "Windows.md",
+    "WSL.md",
+    "00 Current Learning/Natural Language Processing.md",
+    "Python/Libraries/Python Library - openpyxl.md",
     "Python/Libraries/Python Library - configparser.md",
     "Kubernetes/Installing Kubernetes.md",
     "Docker/Public Docker Repositories.md",
@@ -167,7 +197,6 @@
     "Algorithms/knn example.png",
     "Algorithms/Jaccard Index.md",
     "Algorithms/Finding Degrees of Similarity among Text Documents.md",
-    "00 Current Learning/Natural Language Processing.md",
     "README.md",
     "Packer.md",
     "UNIX Shell (bash).md",
@@ -182,9 +211,6 @@
     "Python/Libraries/Python Library - urllib and requests.md",
     "Python/Libraries/Python re (Regular Expressions) Module.md",
     "Python/Libraries/Python Library - JSON.md",
-    "Python/Libraries/Python Library - HashLib.md",
-    "Python/Environment Variables.md",
-    "Python/Data Classes.md",
     "Kubernetes",
     "Python/Code Snippets",
     "Python/Libraries",
