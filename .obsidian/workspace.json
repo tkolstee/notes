@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Flask.md",
+                "file": "Python/Flask/Flask-Bootstrap.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Flask.md",
+                "file": "Python/Flask/Flask-Bootstrap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Flask.md",
+                "file": "Python/Flask/Flask-Bootstrap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Flask.md"
+                "file": "Python/Flask/Flask-Bootstrap.md"
               }
             }
           },
@@ -169,10 +169,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3acfc5506306e0c",
+  "active": "778f7bf901d02387",
   "lastOpenFiles": [
+    "Python/Flask/Flask.md",
+    "Python/Flask/Flask-Bootstrap.md",
+    "Python/Flask/Flask Application Instance.md",
+    "Python/Flask/Running Flask Apps.md",
+    "Python/Flask/Flask Templates.md",
+    "Python/Flask/Flask Contexts.md",
+    "Python/Flask/Flask Responses.md",
+    "Python/Flask/Flask Requests.md",
+    "Python/Flask/Flask Routes.md",
+    "Python/Flask",
     "WSL.md",
-    "Python/Flask.md",
     "00 Current Learning/Natural Language Processing.md",
     "Windows.md",
     "Python/Libraries/Python Library - openpyxl.md",
@@ -190,14 +199,6 @@
     "UNIX Shell (bash).md",
     "Terraform.md",
     "Python/Global Interpreter Lock (GIL).md",
-    "Python/Unit Testing in Python.md",
-    "Python/String Representations of Objects.md",
-    "Python/Source File Encoding.md",
-    "Python/Random Numbers.md",
-    "Python/Libraries/Python Library - PyYAML.md",
-    "Python/Libraries/Python Library - XML.md",
-    "Python/Libraries/Python Library - urllib and requests.md",
-    "Python/Libraries/Python re (Regular Expressions) Module.md",
     "Kubernetes",
     "Python/Code Snippets",
     "Python/Libraries",

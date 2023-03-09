@@ -3,5 +3,6 @@
   "spellcheck": true,
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "newFileLocation": "current"
 }
