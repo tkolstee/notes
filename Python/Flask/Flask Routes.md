@@ -32,3 +32,25 @@ def user(id):
 
 Types `string`, `int`, `float`, and `path` are supported.
 `Path` is distinct from `string` in that it can include slashes.
+
+## Error Handlers
+```python
+@app.errhandler(494)
+def page_not_found(e):
+	return render_template('404.html'), 404
+```
+
+## Reverse Mapping
+Use function name (endpoint name for routes added with `app.add_url_route()`):
+
+```python
+url_for('index')                # = '/'
+url_for('index', external=True) # http://localhost:5000/
+url_for('user', name='john')    # /user/john
+```
+
+## Static Files
+```python
+
+url_for('static', filename='css/styles.css')
+```
