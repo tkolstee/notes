@@ -51,6 +51,5 @@ url_for('user', name='john')    # /user/john
 
 ## Static Files
 ```python
-
 url_for('static', filename='css/styles.css')
 ```
