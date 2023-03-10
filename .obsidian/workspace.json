@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Django/Projects.md",
+                "file": "Python/Django/Projects and Apps.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Django/Projects.md",
+                "file": "Python/Django/Projects and Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Django/Projects.md",
+                "file": "Python/Django/Projects and Apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Django/Projects.md"
+                "file": "Python/Django/Projects and Apps.md"
               }
             }
           },
@@ -217,7 +217,7 @@
   },
   "active": "0f545ea7a899e9a4",
   "lastOpenFiles": [
-    "Python/Django/Projects.md",
+    "Python/Django/Projects and Apps.md",
     "Python/Django",
     "Python/Flask/Flask-Moment.md",
     "Python/Flask/Flask Web Forms.md",
