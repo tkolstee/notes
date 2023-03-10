@@ -1,7 +1,7 @@
 
 
 ```r
-$ cd projects
+$ cd project
 $ virtualenv ./.venv
 $ . ./.venv/bin/activate
 $ pip install django
@@ -9,7 +9,7 @@ $ django-admin startproject mysite .
 $ ./manage.py runserver
 ```
 
-- :luc_folder_open: `projects`
+- :luc_folder_open: `project`
 	- :luc_folder_open: `.venv`
 	- :luc_folder_open: `mysite`
 		- :luc_file_minus:  `manage.py`
