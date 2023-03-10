@@ -1,14 +1,12 @@
 
 
-```
-cd projects
-
-virtualenv ./.venv
-. ./.venv/bin/activate
-pip install django
-
-django-admin startproject mysite .
-./manage.py runserver
+```r
+$ cd projects
+$ virtualenv ./.venv
+$ . ./.venv/bin/activate
+$ pip install django
+$ django-admin startproject mysite .
+$ ./manage.py runserver
 ```
 
 - :luc_folder_open: `projects`
