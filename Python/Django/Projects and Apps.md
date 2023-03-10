@@ -48,3 +48,30 @@ class MyConfig(AppConfig):
 	verbose_name = "My Great App"
 ```
 
+
+## Database Settings
+
+`project/settings.py`
+```python
+""" sqlite default config """
+DATABASES = {
+	'default': {
+		'ENGINE': 'django.db.backends.sqlite3',
+		'NAME': os.path.join(BASE_DIR, 'db.sqlite3')
+	}
+}
+
+""" PostgreSQL config """
+DATABASES = {
+	'default': {
+		'ENGINE': 'django.db.backends.postgresql_psycopg2',
+		'NAME': 'mysitedb',
+		'USER': 'username',
+		'PASSWORD': 'password',
+		'HOST': 'localhost',
+		'PORT': '',
+	}
+}
+```
+
+`project/urls.py`
