@@ -1,6 +1,6 @@
 
 
-```shell
+```
 cd projects
 
 virtualenv ./.venv
