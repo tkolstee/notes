@@ -8,7 +8,7 @@ virtualenv ./.venv
 pip install django
 
 django-admin startproject mysite .
-runserver
+./manage.py runserver
 ```
 
 - :luc_folder_open: `projects`
