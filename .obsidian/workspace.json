@@ -64,9 +64,21 @@
                 "currentVersion": "1.1.16"
               }
             }
+          },
+          {
+            "id": "0f545ea7a899e9a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Django/Projects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -132,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Flask/Flask Web Forms.md",
+                "file": "Python/Django/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Flask/Flask Web Forms.md",
+                "file": "Python/Django/Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Flask/Flask Web Forms.md"
+                "file": "Python/Django/Projects.md"
               }
             }
           },
@@ -203,8 +215,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "022529eed6b0a770",
+  "active": "0f545ea7a899e9a4",
   "lastOpenFiles": [
+    "Python/Django/Projects.md",
+    "Python/Django",
     "Python/Flask/Flask-Moment.md",
     "Python/Flask/Flask Web Forms.md",
     "Python/Flask/Flask Routes.md",
@@ -232,7 +246,6 @@
     "Algorithms/Finding Degrees of Similarity among Text Documents.md",
     "README.md",
     "Packer.md",
-    "UNIX Shell (bash).md",
     "Kubernetes",
     "Python/Code Snippets",
     "Python/Libraries",
