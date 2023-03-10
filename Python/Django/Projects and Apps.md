@@ -39,14 +39,6 @@ urlpatterns = [
 [View App](http://localhost:8000)
 
 
-## Register the Built-in Admin App
-`myapp/admin.py`
-```python
-from django.contrib import admin
-from myapp.models import Post
-admin.site.register(Post)
-```
-
 ## Provide a Human-Readable App Name
 `myapp/apps.py`
 ```python
