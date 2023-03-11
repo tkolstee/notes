@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python Packages, Imports, and Modules.md",
+                "file": "Python/Python Tracebacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python Packages, Imports, and Modules.md",
+                "file": "Python/Python Tracebacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python Packages, Imports, and Modules.md",
+                "file": "Python/Python Tracebacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python Packages, Imports, and Modules.md"
+                "file": "Python/Python Tracebacks.md"
               }
             }
           },
@@ -158,17 +158,27 @@
   },
   "active": "1da32da9a300839b",
   "lastOpenFiles": [
-    "Python/Python Special Variables.md",
     "Python/Python Packages, Imports, and Modules.md",
-    "Python/Python Collections and Iteration.md",
-    "Python/Django/Projects and Apps.md",
-    "Python/Python Object Attributes.md",
     "Python/Python Memory Mapping.md",
+    "Python/Python Decorators.md",
+    "Python/Python Collections and Iteration.md",
+    "Python/Python Closures.md",
+    "Python/Python Assertions.md",
+    "Python/Code Snippets/Random Numbers.md",
+    "Python/Object Orientation/Python Object Attributes.md",
+    "Python/Object Orientation",
+    "Python/Python Generators.md",
+    "Python/Global Interpreter Lock (GIL).md",
+    "Python/Code Snippets/Environment Variables.md",
+    "Python/Code Snippets/Detecting Keypresses.md",
+    "Python/Debugging and Tracing.md",
+    "Python/Object Orientation/Data Classes.md",
+    "Python/CircuitPython.md",
+    "Python/Callable.md",
+    "Python/Python Special Variables.md",
+    "Python/Django/Projects and Apps.md",
     "Python/Flask/Flask Authentication.md",
     "Python/Django/Views and Routing.md",
-    "Python/Detecting Keypresses.md",
-    "Python/Debugging and Tracing.md",
-    "Python/Callable.md",
     "Python/Django",
     "Python/Flask/Flask-Moment.md",
     "Python/Flask/Flask Web Forms.md",
@@ -176,16 +186,7 @@
     "Python/Flask/Flask Responses.md",
     "Python/Flask/Flask-Bootstrap.md",
     "Python/Flask/Flask.md",
-    "Python/Flask/Flask Application Instance.md",
-    "Python/Flask/Running Flask Apps.md",
-    "Python/Flask/Flask Templates.md",
-    "Python/Flask/Flask Contexts.md",
-    "Python/Flask/Flask Requests.md",
     "Python/Flask",
-    "WSL.md",
-    "00 Current Learning/Natural Language Processing.md",
-    "Windows.md",
-    "Python/Libraries/Python Library - openpyxl.md",
     "Algorithms/knn example.png",
     "Kubernetes",
     "Python/Code Snippets",

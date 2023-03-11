@@ -129,22 +129,18 @@ print(demo_reader.compressed.__path__) # ['./path2/demo_reader/compressed']
 
 ## Distribution Packages
 
-```
-📁 project_name
-	README.rst                # overview documentation 
-	📁 docs                   # many forms (e.g. Sphinx)
-	📁 src                    # not directly importable 
-		📁 package_name
-			__init__.py
-			more_source.py
-			📁 subpackage1
-				__init__.py
-	📁 tests
-		test_code.py
-	setup.py
-```
-README is in .rst (ReStructuredText) format.
-
+- :luc_folder_open: `project_name`
+	- :luc_file: `README.rst `  # documentation (ReStructuredText format)
+	- :luc_folder_open: `docs`                # many forms (e.g. Sphinx)
+	- :luc_folder_open: `src`                   # not directly importable 
+		- :luc_folder_open: `package_name`
+			- :luc_file: `__init__.py`
+			- :luc_file: `more_source.py`
+			- :luc_folder_open: `subpackage1`
+				- :luc_file: `__init__.py`
+	- :luc_folder_open: `tests`
+		- :luc_file: `test_code.py`
+	- :luc_file: `setup.py`
 
 ## Source Package
 - Contains everything needed to build the package

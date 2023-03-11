@@ -1,4 +1,3 @@
-
 Lightweight classes used only to store structured data
 
 ## Declaring
