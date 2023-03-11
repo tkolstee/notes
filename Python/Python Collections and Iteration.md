@@ -35,7 +35,9 @@ Numerically indexed, supports `index`, `count`, `reversed`, etc.
 
 #### Iterator Protocol
 Iterates through the elements of an iterable (possibly `self`)
-- 
+- Inherit from abstract class `collections.abc.Iterator`
+- Override abstract method `__next__`
+- Inherits from Iterable as well including `__iter__` method.
 
 ## Iteration
 ### Default Process
