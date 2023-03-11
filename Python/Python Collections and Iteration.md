@@ -17,16 +17,25 @@
 ### Protocols
 #### Container Protocol
 Supports `in` and `not in` operators
+Implementing:
+- Inherit from `collections.abc.Container`
+- Override abstract method `__contains__`
 
 #### Sized Protocol
 Supports `len()`
 
 #### Iterable
 Yields an iterator when requested
+Implementing:
+- Inherit from `collections.abc.Iterable`
+- Override abstract method `__iter__`
 
 #### Sequence
 Numerically indexed, supports `index`, `count`, `reversed`, etc.
 
+#### Iterator Protocol
+Iterates through the elements of an iterable (possibly `self`)
+- 
 
 ## Iteration
 ### Default Process
