@@ -4,14 +4,33 @@
 
 ## Default Method
 
-At a low level, `__dict__` is a dict that lists names and values of object attributes.
-
 Normally these are accessed via builtin functions:
 | Function                    | Delegates to                                                  |     |
 | --------------------------- | ------------------------------------------------------------- | --- |
 | `getattr(obj, name)`        | `obj.__getattribute__(name)`, then<br>`obj.__getattr__(name)` |     |
 | `setattr(obj, name, value)` | `obj.__setattr__(name, value)`                                |     |
 | `del(obj.name)`             | `obj.__delattr__(name)`                                                              |     |
+
+At a low level, `__dict__` is a dict that lists names and values of object attributes. The default `__getattr__`, `__setattr__`, etc. methods use `__dict__` to access attributes.
+
+
+## Slots
+Slots are a simple and automatic way to reduce the memory footprint and overhead of an object. This replaces `__dict__` with an indexed collection.
+
+To use, define a class attribute `__slots__` as a tuple of attribute names, then use the object as normal.
+
+Using `__slots__` limits you to only the attribute names provided. Referencing an attributed not listed in `__slots__` raises an `AttributeError`.
+
+```python
+class two_d_point:
+
+	__slots__ = ('x', 'y')
+
+	def __init__(self, x, y):
+		self.x = x
+		self.y = y
+```
+
 
 
 
