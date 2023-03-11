@@ -24,8 +24,7 @@ else:
 ```
 
 ## Object Factories
-Callable objects can be factories that create and return other objects or values.
-
+Callable objects can be factories that create and return other objects or values, or even copies of itself.
 
 ```python
 import collections.abc
