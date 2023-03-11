@@ -42,9 +42,81 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8c8da13b6aa873da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Adding APT Repositories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b67ed50e5f15958",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/awk.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b238353575d7cc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/cut.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dfd158c1ed19901",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/kubectl.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "feac7e77568e1b81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/K8s Concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4a64ea04be0fb89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/K8s Concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -110,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/PAM.md",
+                "file": "Kubernetes/K8s Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/PAM.md",
+                "file": "Kubernetes/K8s Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/PAM.md"
+                "file": "Kubernetes/K8s Concepts.md"
               }
             }
           },
@@ -181,11 +253,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3acfc5506306e0c",
+  "active": "a4a64ea04be0fb89",
   "lastOpenFiles": [
+    "Kubernetes/kubectl.md",
+    "Kubernetes/Minikube.md",
+    "Kubernetes/K8s Concepts.md",
+    "Kubernetes/Kubernetes Architecture.png",
+    "Linux/cut.md",
+    "Linux/awk.md",
+    "Linux/Adding APT Repositories.md",
+    "Linux/PAM.md",
     "Linux",
     "Linux/sed.md",
-    "Linux/PAM.md",
     "Linux/tmux.md",
     "git.md",
     "Packer.md",
@@ -204,11 +283,6 @@
     "Python/Null Coalescing.md",
     "Python/Core Language/Language Overview.md",
     "Python/Core Language/Functions.md",
-    "Python/Core Language/Variables and Scoping.md",
-    "Python/Core Language/Operators.md",
-    "Python/Libraries/Python Library - Chef API.md",
-    "Python/Libraries/Python Library - SimpleHTTPServer and http.server.md",
-    "Python/Core Language/Data Types.md",
     "Python/Core Language",
     "Python/Core Language/Exception Hierarchy 1.png",
     "Python/Data Science",
@@ -219,7 +293,6 @@
     "Kubernetes",
     "Python/Code Snippets",
     "Python/Libraries",
-    "00 Current Learning",
-    "Python"
+    "00 Current Learning"
   ]
 }
