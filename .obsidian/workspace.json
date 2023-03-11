@@ -8,127 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "32e02653845231b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/tmux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46b2fe9ec19e2dbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/sed.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "745ab373dc9bb057",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/PAM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c8da13b6aa873da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/Adding APT Repositories.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b67ed50e5f15958",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/awk.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b238353575d7cc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux/cut.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9dfd158c1ed19901",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/kubectl.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "feac7e77568e1b81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/K8s Concepts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4a64ea04be0fb89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Data Science/Libraries for Data Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5fe161f14b01256a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud/Managing Azure VMs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66fd3a29c5c07b0d",
+            "id": "2a50df8b257e3407",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -140,19 +20,19 @@
             }
           },
           {
-            "id": "2a50df8b257e3407",
+            "id": "a31045e04e749d05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Chef/InSpec Compliance Reporting.md",
+                "file": "Chef/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chef/InSpec Compliance Reporting.md",
+                "file": "Chef/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chef/InSpec Compliance Reporting.md",
+                "file": "Chef/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chef/InSpec Compliance Reporting.md"
+                "file": "Chef/Untitled.md"
               }
             }
           },
@@ -289,9 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a50df8b257e3407",
+  "active": "a31045e04e749d05",
   "lastOpenFiles": [
     "Chef/ChefSpec Unit Testing.md",
+    "Chef/Untitled.md",
     "Chef/InSpec Compliance Reporting.md",
     "Cloud/Managing Azure VMs.md",
     "Chef",
@@ -319,7 +200,6 @@
     "Kubernetes/Kubernetes Architecture.png",
     "Linux/cut.md",
     "Linux/awk.md",
-    "Linux/Adding APT Repositories.md",
     "Linux",
     "Python/Core Language",
     "Python/Core Language/Exception Hierarchy 1.png",
