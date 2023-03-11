@@ -4,107 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8c5a9375c3ce18c0",
+        "id": "b041f4c7cd5975a3",
         "type": "tabs",
         "children": [
           {
-            "id": "d3f4948fb968d90a",
+            "id": "ee4664d112e7991c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Object Orientation/Classes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a91f102d11f4a14b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Core Language/Data Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6baa4ddb410d0e32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Null Coalescing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "98afb91d1515dc98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Data Science/Libraries for Data Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "071353bebd249e66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Dispatching Based upon Type.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99a9f7ccf977f4ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Command-Line Arguments.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d57d5707f0b226f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Distance Formulas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42c96500b5356db0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Mean Formulas.md",
+                "file": "git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Mean Formulas.md",
+                "file": "git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Mean Formulas.md",
+                "file": "git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Mean Formulas.md"
+                "file": "git.md"
               }
             }
           },
@@ -241,10 +156,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "42c96500b5356db0",
+  "active": "ee4664d112e7991c",
   "lastOpenFiles": [
-    "Mathematics/Distance Formulas.md",
+    "Packer.md",
+    "README.md",
+    "Terraform.md",
+    "UNIX Shell (bash).md",
+    "Windows.md",
+    "WSL.md",
+    "git.md",
+    "00 Current Learning/Natural Language Processing.md",
     "Mathematics/Mean Formulas.md",
+    "Mathematics/Distance Formulas.md",
     "Python/Dispatching Based upon Type.md",
     "Python/Introspection.md",
     "Python/Command-Line Arguments.md",
@@ -261,14 +184,6 @@
     "Python/Core Language/Looping.md",
     "Python/Flask/Sample Flask CRUD App.md",
     "Python/Data Science/Seaborn.md",
-    "Python/Core Language/Conditional Statements.md",
-    "Python/Core Language/Comments.md",
-    "Python/Callable.md",
-    "Python/CircuitPython.md",
-    "Python/Dates and Times.md",
-    "Python/Core Language/Exceptions.md",
-    "Python/Core Language/File Operations.md",
-    "Python/Core Language/Python Closures.md",
     "Python/Core Language",
     "Python/Core Language/Exception Hierarchy 1.png",
     "Python/Data Science",
