@@ -209,3 +209,148 @@ Register for account at [PyPi](https://pypi.org)
 Use PyPi user/pass
 People can now install package using pip from remote
 
+
+## Plugins
+
+### With Namespace Packages
+Core package designates subpackages as extension points
+Core package scans subpackages at runtime to discover plugins
+Devs can augment the namespace package's extension subpackages
+
+```
+demo_reader/
+	compressed/
+	util/
+		__init__.py
+		writer.py
+	__main__.py
+	multireader.py
+```
+
+Note `compressed` subdir is empty.
+In multireader.py we can define:
+```python
+import importlib
+import os
+import pkgutil
+import demo_reader.compressed
+
+def iter_namespace(ns_pkg):
+  return pkgutil.iter_modules(
+	  ns_pkg.__path__,
+	  ns_pkg.__name__ + "."
+  )
+
+compression_plugins = {
+  importlib.import_module(module_name)
+  for _, module_name, _ in iter_namespace(demo_reader.compressed)
+}
+
+extension_map = {
+  module.extension: module.opener
+  for module in compression_plugins
+}
+```
+
+`pkgutil.iter_modules` knows how to find all sub packages.
+First argument is where to find subpackages
+Second argument is a prefix that it returns before package names.
+
+Set comprehension builds `compression_plugins` set
+Build `extension_map` dict with module-level attributes from `compression_plugins`.
+
+`compressed/bzipped.py`
+```python
+import bz2
+from ..util import writer
+extension = '.bz2'
+opener = bz2.open
+
+if __name__ == '__main__':
+  writer.main(opener)
+```
+
+`compressed/gzipped.py`
+```python
+import gzip
+from ..util import writer
+extension = '.gz'
+opener = gzip.open
+
+if __name__ == '__main__':
+  writer.main(opener)
+```
+
+
+### With setuptools
+Define extension points using `setuptools`
+Plugins add to extension points in `setup.py`
+Core package iterates over plugins added to extension points
+
+```
+demo_reader/
+	src/
+		demo_reader/
+			util/
+				__init__.py
+				writer.py
+			__init__.py       - empty
+			__main__.py
+			multireader.py
+	tests/
+		test_multireader.py
+	README.rst
+	setup.py
+```
+
+`multireader.py`
+```python
+import os
+import pkg_resources
+
+# ...
+
+compression_plugins = {
+	entry_point.load()
+	for entry_point
+	in pkg_resources.iter_entry_points('demo_reader.compression_plugins')
+}
+
+# Maps file exts to corresponding open methods
+extension_map = {
+	module.extension: module.opener
+	for module in compression_plugins
+}
+```
+
+`src/demo_reader_bz2/bzipped.py`
+```python
+import bz2
+from demo_reader.util import writer
+extension = '.bz2'
+opener = bz2.open
+
+if __name__ == '__main__':
+  writer.main(bz2.open)
+```
+
+`setup.py`
+```python
+import setuptools
+
+setuptools.setup(
+	name="demo_reader_bz2_plugin",
+	version="0.0.0",
+	description="demo_reader plugin for reading bz2 files",
+	packages=setuptools.find_packages ('src'),
+	package_dir={'':: 'src'},
+	entry_points={
+		'demo_reader.compression_plugins': [
+			'bz2 = demo_reader_bz2.bzipped'
+		]
+	}
+)
+```
+
+`entry_points` defines entry point name (key) and extension name and object (value separated with =)
+
