@@ -114,9 +114,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a06e00432dbc7039",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python Decorators.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eb797a9d3c5596ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Object Orientation/Classes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -182,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Exceptions.md",
+                "file": "Python/Object Orientation/Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Exceptions.md",
+                "file": "Python/Object Orientation/Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Exceptions.md"
+                "file": "Python/Object Orientation/Classes.md"
               }
             }
           },
@@ -253,11 +277,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3acfc5506306e0c",
+  "active": "eb797a9d3c5596ec",
   "lastOpenFiles": [
+    "Python/Python Decorators.md",
+    "Python/Object Orientation/Classes.md",
+    "Python/Data Science/PyPlot Cheat Sheet.md",
+    "Python/Exceptions.md",
     "Python/Exception Hierarchy 1.png",
     "Python/Python Packages, Imports, and Modules.md",
-    "Python/Exceptions.md",
     "Python/Data Science/Pandas Cheat Sheet.md",
     "Python/Data Science/NumPy Cheat Sheet.md",
     "Python/Data Science/Pandas DataFrame.md",
@@ -272,7 +299,6 @@
     "Python/Source File Encoding.md",
     "Python/Python Tracebacks.md",
     "Python/Python Memory Mapping.md",
-    "Python/Python Decorators.md",
     "Python/Python Closures.md",
     "Python/Python Assertions.md",
     "Python/Code Snippets/Random Numbers.md",
@@ -282,7 +308,6 @@
     "Python/Global Interpreter Lock (GIL).md",
     "Python/Code Snippets/Environment Variables.md",
     "Python/Code Snippets/Detecting Keypresses.md",
-    "Python/Debugging and Tracing.md",
     "Python/Django",
     "Python/Flask",
     "Algorithms/knn example.png",
