@@ -40,18 +40,18 @@ The iterator returned by `iter(callable, sentinel)` whose `__next__` does the fo
 ## Iteration Functions
 Some of these are native, some in the `itertools` module.
 
-| Function                     | Purpose                                                 |
-| ---------------------------- | ------------------------------------------------------- |
-| `enumerate(i)`               | Returns tuples of (index, value)                        |
-| `sum(i)`                     | Returns sum of all elements                             |
-| `min(i)` / `max(i)`          | Returns smallest/largest values in iterable             |
-| `i.count('val')`             | Counts instances of matching elements                   |
-| `itertools.islice(i, count)` | Returns a new iterator representing a slice of another  |
-| `any(i)` / `all(i)`          | Returns true if any/all elements are truthy             |
-| `zip(i1, i2, i3)`            | Interleaves elements, stopping once first is exhausted. |
-| `map(fn, i)`                 | Runs a function across all items and returns results    |
-| `filter(fn, i)`              | Returns only results where fn returns True              |
-| functools.reduce()                             |                                                         |
+| Function                        | Purpose                                                 |
+| ------------------------------- | ------------------------------------------------------- |
+| `enumerate(i)`                  | Returns tuples of (index, value)                        |
+| `sum(i)`                        | Returns sum of all elements                             |
+| `min(i)` / `max(i)`             | Returns smallest/largest values in iterable             |
+| `i.count('val')`                | Counts instances of matching elements                   |
+| `itertools.islice(i, count)`    | Returns a new iterator representing a slice of another  |
+| `any(i)` / `all(i)`             | Returns true if any/all elements are truthy             |
+| `zip(i1, i2, i3)`               | Interleaves elements, stopping once first is exhausted. |
+| `map(fn, i)`                    | Runs a function across all items and returns results    |
+| `filter(fn, i)`                 | Returns only results where fn returns True              |
+| `functools.reduce(fn, l, init)` | See below                                                        |
 
 `islice` is evaluated lazily, so it affects the parent iterator's state.
 ````ad-example
@@ -101,6 +101,8 @@ list(n) = [ 'a=1', 'b=2', 'c=3' ]
 
 ````
 
+
+`reduce` takes a two-argument function, a collection, and an optional initialization value.
 
 
 ```python
