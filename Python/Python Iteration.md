@@ -40,18 +40,18 @@ The iterator returned by `iter(callable, sentinel)` whose `__next__` does the fo
 ## Iteration Functions
 Some of these are native, some in the `itertools` module.
 
-| Function            | Purpose                                                 |
-| ------------------- | ------------------------------------------------------- |
-| `enumerate(i)`      | Returns tuples of (index, value)                        |
-| `sum(i)`            | Returns sum of all elements                             |
-| `min(i)` / `max(i)` | Returns smallest/largest values in iterable             |
-| `i.count('val')`    | Counts instances of matching elements                   |
-| `itertools.islice(i, count)`  | Returns a new iterator representing a slice of another  |
-| `any(i)` / `all(i)` | Returns true if any/all elements are truthy             |
-| `zip(i1, i2, i3)`   | Interleaves elements, stopping once first is exhausted. |
-| `map(fn, i)`        | Runs a function across all items and returns results    |
-|                     |                                                         |
-
+| Function                     | Purpose                                                 |
+| ---------------------------- | ------------------------------------------------------- |
+| `enumerate(i)`               | Returns tuples of (index, value)                        |
+| `sum(i)`                     | Returns sum of all elements                             |
+| `min(i)` / `max(i)`          | Returns smallest/largest values in iterable             |
+| `i.count('val')`             | Counts instances of matching elements                   |
+| `itertools.islice(i, count)` | Returns a new iterator representing a slice of another  |
+| `any(i)` / `all(i)`          | Returns true if any/all elements are truthy             |
+| `zip(i1, i2, i3)`            | Interleaves elements, stopping once first is exhausted. |
+| `map(fn, i)`                 | Runs a function across all items and returns results    |
+| `filter(fn, i)`              | Returns only results where fn returns True              |
+| functools.reduce()                             |                                                         |
 
 `islice` is evaluated lazily, so it affects the parent iterator's state.
 ````ad-example
@@ -87,24 +87,24 @@ list(m) = [ 'ITEM: 1', 'ITEM: 2', 'ITEM: 3' ]
 ```
 
 Map can use multiple arguments for multiple collections
+Lambda should have the same number of arguments as the number of collections.
+```python
 l = [1, 2, 3]
 m = ['a', 'b', 'c']
-n = map(lambda x: f"ITEM: {x}", l, m)
-list(n)
+n = map(lambda x, y: f"{x}={y}", m, l)
+
+
+""" 
+list(n) = [ 'a=1', 'b=2', 'c=3' ]
+"""
+```
+
 ````
 
 
 
 ```python
 
-
-# Multiple args for multiple collections.
-data1 = [ 'a', 'b', 'c' ]
-data2 = [ 'alpha', 'bravo', 'charlie' ]
-def printit(x, y):
-	return f"{x} = {y}"
-list(map(printit, data1, data2))
-# [ 'a = alpha', 'b = bravo', 'c = charlie' ]
 
 # Return only entities that pass a function test.
 mylist(filter(lambda x: x>=0, nums))
