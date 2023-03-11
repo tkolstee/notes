@@ -4,6 +4,83 @@
 
 ## Default Method
 
+At a low level, `__dict__` is a dict that lists names and values of object attributes.
+
+Normally these are accessed via builtin functions:
+| Function                    | Delegates to                                                  |     |
+| --------------------------- | ------------------------------------------------------------- | --- |
+| `getattr(obj, name)`        | `obj.__getattribute__(name)`, then<br>`obj.__getattr__(name)` |     |
+| `setattr(obj, name, value)` | `obj.__setattr__(name, value)`                                |     |
+| `del(obj.name)`             | `obj.__delattr__(name)`                                                              |     |
+
+
+
+
+------
+
+
+## Slots
+Slots are a way of reducing the memory footprint of an object and increasing its efficiency.
+The default method of storing attributes is bypassed, using an indexed collection instead of `__dict__`.
+
+Using `__slots__` limits you to only those attribute names. Assigning an attribute not listed raises an `AttributeError`.
+
+To use, define a class attribute, `__slots__`, as a tuple and proceed as normal.
+
+```python
+class geometric_point:
+
+	__slots__ = ('x', 'y')
+
+	def __init__(self, x, y):
+		  self.x = x
+		  self.y = y
+```
+
+
+## Dynamic Attributes
+
+Dynamic attributes are those whose names are not fixed (e.g. a vector that can take coordinates as x and y or p and q). 
+
+These can be used to:
+- Transform attribute names or make the names dynamically assignable
+- Alter how attributes are stored
+- Implement virtual attributes
+
+An example would be a mathematical vector class that can accept coordinates as (x, y), (p, q), or (x, y, z) just as easily.
+
+> [!Prerequisite] Prerequisite: [[000 ToSort/OldOrg2/STEMpunk/Python/Working/Stuff/Object Attributes|How object attributes are normally stored]]
+
+### Implementing Dynamic Attributes
+Implement the following methods:
+`__init__`: Takes in arguments, e.g. using `**kwargs` to specify both attribute names and values.
+`__repr__`: Should use the argument names as they should be provided to the initializer.
+`__getattr__`: Should intercept attempts to get attributes, and return the attribute value or raise `AttributeError` if invalid.
+`__setattr__`: Should intercept attempts to set attributes, and either set them appropriately or raise `AttributeError` if improper.
+`__delattr__`: Should intercept calls to delete the attribute
+
+By overriding `__getattr__` and leaving `__getattribute__` alone, we can still retrieve "real" attributes with calls to `getattr(self, name)`.
+
+### Overriding getattribute
+
+If overriding `__getattribute__` you must avoid using the dot operator on `self` anywhere in the code that performs the override.
+This can also have a effects on debugging tools and other introspective features.
+
+`__getattribute__` does all of the following.
+- Use [[slots]] mechanism if in use.
+- Use `vars(obj)[name]`
+- Use `hasattr(cls, name)` and `getattr(cls, name)`
+- Use `cls.__getattr__(obj, name)`
+- raise `AttributeError` if all of these fail.
+
+> [!Example:] Example: [[DEDUPED/Python/Code Samples/vector_dynamic_attributes.py]], an immutable Vector class
+
+
+
+#status/imported_vetme
+
+
+
 
 
 
