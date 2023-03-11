@@ -35,9 +35,22 @@ Numerically indexed, supports `index`, `count`, `reversed`, etc.
 
 #### Iterator Protocol
 Iterates through the elements of an iterable (possibly `self`)
+Implementing:
 - Inherit from abstract class `collections.abc.Iterator`
 - Override abstract method `__next__`
 - Inherits from Iterable as well including `__iter__` method.
+
+#### ItemsView Protocol
+Allows view of items from a mapping, e.g. `dict.items()` output
+Implementing:
+- Inherit from `collections.abc.ItemsView` (also inherits `MappingView`, `Set`)
+- Override `__contains__` and `__iter__`
+
+#### KeysView Protocol
+View of keys from a mapping, e.g. `dict.keys()` output
+Implementing:
+- Inherit from `collections.abc.KeysView` (also inherits `MappingView`, `Set`)
+- 
 
 ## Iteration
 ### Default Process
