@@ -1,7 +1,37 @@
 
-## Default Process
+```toc
 
-### Client-side Process
+```
+
+## Collections
+
+### Basic Collection Types
+* str
+* bytes
+* range
+* tuple
+* list
+* dict
+* set
+
+### Protocols
+#### Container Protocol
+Supports `in` and `not in` operators
+
+#### Sized Protocol
+Supports `len()`
+
+#### Iterable
+Yields an iterator when requested
+
+#### Sequence
+Numerically indexed, supports `index`, `count`, `reversed`, etc.
+
+
+## Iteration
+### Default Process
+
+#### Client-side Process
 An *iterable* object is a long-lived object that represents a collection.
 An *iterator* is a short-lived object that represents the "place" in the iteration, like a cursor.
 
@@ -12,15 +42,15 @@ The client:
 - Discards the iterator as it is now useless.
 
 
-### Iterable Objects
+#### Iterable Objects
 - Inherits from abstract class `collections.abc.Iterable`.
 - Implements abstract method `__iter__()` which returns an iterator.
 
-### Iterator Objects
+#### Iterator Objects
 - Implement `__next__()` which returns the next element or raises `StopIteration` when done.
 - Iterators are also iterable. Usually their `__iter__()` method just calls `return self`.
 
-### The iter() function
+#### The iter() function
 The global `iter()` backend can handle objects that don't fully implement `__iter__()`.
 
 A call to `iter(object)`:
@@ -30,14 +60,14 @@ A call to `iter(object)`:
 	- Each call to `__next__()` returns the value and increments the index
 	- Catches `IndexError` and re-raises as `StopIteration`
 
-#### Two-argument form of iter()
+##### Two-argument form of iter()
 If passed two arguments, iter produces a special custom iterator.
 The iterator returned by `iter(callable, sentinel)` whose `__next__` does the following:
 	- Calls the `callable` and saves the return value.
 	- If the return value matches the sentinel, raises `StopIteration`
 	- Otherwise, returns the value received by the callable.
 
-## Iteration Functions
+### Iteration Functions
 Some of these are native, some in the `itertools` module.
 
 | Function                        | Purpose                                                 |

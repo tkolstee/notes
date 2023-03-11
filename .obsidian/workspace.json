@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python Iteration.md",
+                "file": "Python/Python Collections and Iteration.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python Iteration.md",
+                "file": "Python/Python Collections and Iteration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python Iteration.md",
+                "file": "Python/Python Collections and Iteration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python Iteration.md"
+                "file": "Python/Python Collections and Iteration.md"
               }
             }
           },
@@ -157,12 +157,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3acfc5506306e0c",
+  "active": "84de983071700617",
   "lastOpenFiles": [
     "Python/Django/Projects and Apps.md",
     "Python/Python Object Attributes.md",
     "Python/Python Memory Mapping.md",
-    "Python/Python Iteration.md",
+    "Python/Python Collections and Iteration.md",
     "Python/Flask/Flask Authentication.md",
     "Python/Django/Views and Routing.md",
     "Python/Detecting Keypresses.md",
