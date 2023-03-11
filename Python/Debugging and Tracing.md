@@ -40,16 +40,40 @@ Pauses execution to allow for exploration
 | ll       | long list - print out source code for current instruction       |
 | p [expr] | print value of expression                                       |
 
-## Code.Interact
+## code.interact
+
 Drops you into the REPL at the point in the program where it occurs:
 ```python
 import code
 
-x = "Kilroy was here"
-print("Hello")
-code.interact(local=locals())
-print("World")
+def brkpoint():
+    print("BREAK!")
+    code.interact(local=locals())
+    print("Resuming...")
+
+print("Hello, ")
+brkpoint()
+print("world!")
 ```
+
+using `exit()` at the REPL will exit the program. Using CTRL-D (linux/OSX) or CTRL-Z (Windows) will resume execution.
+
+`local=locals()` will pass the local namespace to the REPL. This could also be a dictionary or `globals()`, for instance.
+
+## Hex Dumps
+
+```python
+from binascii import hexlify
+
+hex_buffer=hexlify(buffer).decode("ascii")
+
+indexes = ' '.join(str(n).zfill(2) for n in range(len(buffer)))
+hex_pairs = ' '.join(hex_buffer[i:i+2] for i in range(0, len(hex_buffer), 2))
+
+print(indexes)
+print(hex_pairs)
+```
+
 
 ---
 # See Also
