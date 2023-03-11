@@ -37,28 +37,29 @@ The iterator returned by `iter(callable, sentinel)` whose `__next__` does the fo
 	- If the return value matches the sentinel, raises `StopIteration`
 	- Otherwise, returns the value received by the callable.
 
-## Iterator Tools
-In the itertools module we have several functions for iterating through objects:
+## Iteration Functions
+Some of these are native, some in the `itertools` module.
 
-| Function            | Purpose                                                    |
-| ------------------- | ---------------------------------------------------------- |
-| `enumerate(i)`      | Returns tuples of (index, value)                           |
-| `sum(i)`            | Returns sum of all elements                                |
-| `min(i)` / `max(i)` | Returns smallest/largest values in iterable                |
-| `i.count('val')`    | Counts instances of matching elements                      |
-| `islice(i, count)`         | Returns a new iterator representing a slice of another|
+| Function            | Purpose                                                 |
+| ------------------- | ------------------------------------------------------- |
+| `enumerate(i)`      | Returns tuples of (index, value)                        |
+| `sum(i)`            | Returns sum of all elements                             |
+| `min(i)` / `max(i)` | Returns smallest/largest values in iterable             |
+| `i.count('val')`    | Counts instances of matching elements                   |
+| `islice(i, count)`  | Returns a new iterator representing a slice of another  |
+| `any(i)` / `all(i)` | Returns true if any/all elements are truthy             |
+| `zip(i1, i2, i3)`   | Interleaves elements, stopping once first is exhausted. |
+| `map(fn, i)`        | Runs a function across all items and returns results    |
+|                     |                                                         |
 
 
-`islice` is evaluated lazily, so it affects the parent iterator's 
-
-
+`islice` is evaluated lazily, so it affects the parent iterator's state.
+````ad-example
+title: Example: Use of `islice`
+collapse: true
 ```python
 import itertools
 
-# islice()
-# Iterable representing a slice of another iterable
-# Lazily evaluated, so each call depends upon and
-# modifies origintal iterator's state
 squares = (x*x for x in range(1,100_000_001))
 y = itertools.islice(squares, 3)
 next(y)       # 1
@@ -68,29 +69,27 @@ next(y)       # 16
 next(y)       # 25
 next(y)       # (raises StopIteration)
 next(squares) # 36
+```
+````
 
-# Unbounded iterator of all integers >0
-all_squares = (x*x for x in itertools.count())
-# WARNING: Using generator comprehension here.
-# Doing this as a list comprehension would be
-# an infinite loop.
+`map` is evaluated lazily in Python 3 but not Python 2.x
+````ad-example
+title: Example: Use of `map`
+collapse: true
+```python
+l = [ 1, 2, 3 ]
+m = map(lambda x: f"ITEM: {x}", l)
 
-# Return true if any element is true/truthy.
-any(l)  # Return true iff any elment is true/thy
-all(l)  # Return true iff all elements are true/thy
-any([]) # is false
-all([]) # is true
+"""
+m = <map object at 0x...>
+list(m) = [ 'ITEM: 1', 'ITEM: 2', 'ITEM: 3' ]
+"""
+```
+````
 
-# Interleave corresponding elements
-lower = ['a', 'b', 'c']
-upper = ['A', 'B', 'C', 'D']
-nato = ['alpha', 'bravo', 'charlie', 'delta']
-[ x for x in zip(lower, upper, nato)]
-# [('a', 'A', 'alpha'),
-#  ('b', 'B', 'bravo'),
-#  ('c', 'C', 'charlie'),
-#  # Note: Stops here as lower is exhausted.
-#  ]
+
+
+```python
 
 # Run a function across all items
 # WARNING: Not lazy in Python 2.x
