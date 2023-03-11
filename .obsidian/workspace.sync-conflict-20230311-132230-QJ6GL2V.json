@@ -8,77 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd8ff486c03aefc0",
+            "id": "bb6b49290f980c6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSL.md",
+                "file": "Python/Flask/Flask.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "778f7bf901d02387",
+            "id": "c82d5612001681a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Flask/Flask Routes.md",
+                "file": "Python/Flask/Flask Contexts.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "21b7726b0221eb28",
+            "id": "62e7f5416f6eada8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Flask/Flask-Moment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a779ba882d82b6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Flask/Flask Web Forms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "022529eed6b0a770",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
-          },
-          {
-            "id": "0f545ea7a899e9a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Django/Projects and Apps.md",
+                "file": "Python/Python Iteration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -144,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Django/Projects and Apps.md",
+                "file": "Python/Python Iteration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Django/Projects and Apps.md",
+                "file": "Python/Python Iteration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Django/Projects and Apps.md"
+                "file": "Python/Python Iteration.md"
               }
             }
           },
@@ -215,36 +181,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0f545ea7a899e9a4",
+  "active": "62e7f5416f6eada8",
   "lastOpenFiles": [
-    "Python/Python Object Attributes.md",
-    "Python/Python Memory Mapping.md",
+    "Python/Flask/Flask Contexts.md",
     "Python/Python Iteration.md",
     "Python/Flask/Flask Authentication.md",
+    "Python/Flask/Flask.md",
+    "Python/Flask/Flask Templates.md",
+    "Python/Flask/Flask Routes.md",
+    "Python/Django/Projects and Apps.md",
+    "Python/Enumeration.md",
     "Python/Django/Views and Routing.md",
     "Python/Detecting Keypresses.md",
     "Python/Debugging and Tracing.md",
+    "Python/Python Object Attributes.md",
     "Python/Callable.md",
-    "Python/Django/Projects and Apps.md",
+    "Python/String Representations of Objects.md",
+    "Python/Source File Encoding.md",
+    "Python/Random Numbers.md",
+    "Python/Python Memory Mapping.md",
     "Python/Django",
     "Python/Flask/Flask-Moment.md",
     "Python/Flask/Flask Web Forms.md",
-    "Python/Flask/Flask Routes.md",
     "Python/Flask/Flask Responses.md",
     "Python/Flask/Flask-Bootstrap.md",
-    "Python/Flask/Flask.md",
     "Python/Flask/Flask Application Instance.md",
     "Python/Flask/Running Flask Apps.md",
-    "Python/Flask/Flask Templates.md",
-    "Python/Flask/Flask Contexts.md",
     "Python/Flask/Flask Requests.md",
     "Python/Flask",
     "WSL.md",
     "00 Current Learning/Natural Language Processing.md",
-    "Windows.md",
-    "Python/Libraries/Python Library - openpyxl.md",
-    "Python/Libraries/Python Library - configparser.md",
-    "Kubernetes/Installing Kubernetes.md",
     "Algorithms/knn example.png",
     "Kubernetes",
     "Python/Code Snippets",
