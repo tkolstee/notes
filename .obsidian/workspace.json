@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "7b1723af72aecf9e",
+        "id": "e741c775edaeed93",
         "type": "tabs",
         "children": [
           {
-            "id": "2a50df8b257e3407",
+            "id": "b269944db89ae703",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chef/ChefSpec Unit Testing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a31045e04e749d05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chef/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chef/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chef/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Chef/Untitled.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,10 +148,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a31045e04e749d05",
+  "active": "b269944db89ae703",
   "lastOpenFiles": [
+    "Specs, Formats, and Encodings/JSON.md",
+    "Ansible/Ansible Playbooks.md",
+    "Specs, Formats, and Encodings/HCL - HashiCorp Configuration Language.md",
+    "Specs, Formats, and Encodings/YAML.md",
+    "Specs, Formats, and Encodings/Text Endodings.md",
+    "Specs, Formats, and Encodings/Markdown.md",
+    "Specs, Formats, and Encodings/Base64.md",
+    "Specs, Formats, and Encodings/ASCII.md",
+    "Chef/Generating Self-Signed Certificates.md",
+    "Specs, Formats, and Encodings",
     "Chef/ChefSpec Unit Testing.md",
-    "Chef/Untitled.md",
     "Chef/InSpec Compliance Reporting.md",
     "Cloud/Managing Azure VMs.md",
     "Chef",
@@ -191,15 +179,7 @@
     "Mathematics/Geometry.md",
     "Mathematics/Mean Formulas.md",
     "Mathematics/Rules of Exponents.md",
-    "Mathematics/Square Root.md",
-    "Mathematics/Trig Identities.md",
-    "Kubernetes/K8s Concepts.md",
-    "Kubernetes/Command Walkk.md",
-    "Kubernetes/kubectl.md",
-    "Kubernetes/Minikube.md",
     "Kubernetes/Kubernetes Architecture.png",
-    "Linux/cut.md",
-    "Linux/awk.md",
     "Linux",
     "Python/Core Language",
     "Python/Core Language/Exception Hierarchy 1.png",
@@ -208,7 +188,6 @@
     "Python/Django",
     "Python/Flask",
     "Algorithms/knn example.png",
-    "Kubernetes",
-    "Python/Code Snippets"
+    "Kubernetes"
   ]
 }
