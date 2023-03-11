@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8d41215812955bf0",
+        "id": "8c5a9375c3ce18c0",
         "type": "tabs",
         "children": [
           {
-            "id": "84de983071700617",
+            "id": "1da32da9a300839b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Python Collections and Iteration.md",
+                "file": "Python/Python Packages, Imports, and Modules.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "ac482b5efd36737f",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python Collections and Iteration.md",
+                "file": "Python/Python Packages, Imports, and Modules.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python Collections and Iteration.md",
+                "file": "Python/Python Packages, Imports, and Modules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python Collections and Iteration.md"
+                "file": "Python/Python Packages, Imports, and Modules.md"
               }
             }
           },
@@ -157,12 +156,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84de983071700617",
+  "active": "1da32da9a300839b",
   "lastOpenFiles": [
+    "Python/Python Packages, Imports, and Modules.md",
+    "Python/Python Collections and Iteration.md",
     "Python/Django/Projects and Apps.md",
     "Python/Python Object Attributes.md",
     "Python/Python Memory Mapping.md",
-    "Python/Python Collections and Iteration.md",
     "Python/Flask/Flask Authentication.md",
     "Python/Django/Views and Routing.md",
     "Python/Detecting Keypresses.md",
@@ -186,7 +186,6 @@
     "Windows.md",
     "Python/Libraries/Python Library - openpyxl.md",
     "Python/Libraries/Python Library - configparser.md",
-    "Kubernetes/Installing Kubernetes.md",
     "Algorithms/knn example.png",
     "Kubernetes",
     "Python/Code Snippets",

@@ -36,15 +36,6 @@
 | `collections.abc.Reversible`      | Allows reversing of item ordering                                                                                        | `__reversed__`                                                     | `Iterable`                       |
 | `collections.abc.MutableSet`      | Represents a mutable set collection (clear, pop, remove, ior, iand, ixor, isub)                                          | `__contains__`, `__iter__`, `__len__`, `add`, `discard`            | `Set`                            |
 | `collections.abc.MutableSequence` | Mutable collection of numerically indexed items                                                                          | `__getitem__`, `__setitem__`, `__delitem__`, `__len__`, `insert`   | `Sequence`                       |
-|                                   |                                                                                                                          |                                                                    |                                  |
-
-
-#### Sized Protocol
-Supports `len()`
-
-#### Sequence
-Numerically indexed, supports `index`, `count`, `reversed`, etc.
-
 
 ## Iteration
 ### Default Process
@@ -149,6 +140,7 @@ list(n) = [ 'a=1', 'b=2', 'c=3' ]
 
 ````
 
+`reduce` iteratively accumulates a value from a sequence
 ````ad-example
 title: Example: Use of `reduce`
 collapse: true
