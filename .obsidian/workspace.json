@@ -126,9 +126,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "66fd3a29c5c07b0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chef/ChefSpec Unit Testing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/Managing Azure VMs.md",
+                "file": "Chef/ChefSpec Unit Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud/Managing Azure VMs.md",
+                "file": "Chef/ChefSpec Unit Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud/Managing Azure VMs.md"
+                "file": "Chef/ChefSpec Unit Testing.md"
               }
             }
           },
@@ -265,10 +277,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5fe161f14b01256a",
+  "active": "66fd3a29c5c07b0d",
   "lastOpenFiles": [
-    "Python/Data Science/Libraries for Data Analysis.md",
     "Cloud/Managing Azure VMs.md",
+    "Chef/ChefSpec Unit Testing.md",
+    "Chef",
+    "Python/Data Science/Libraries for Data Analysis.md",
     "Cloud",
     "Python/Data Science/ndarray.md",
     "Mathematics/N choose K.md",
@@ -295,7 +309,6 @@
     "Linux/Adding APT Repositories.md",
     "Linux/PAM.md",
     "Linux",
-    "Linux/sed.md",
     "Python/Core Language",
     "Python/Core Language/Exception Hierarchy 1.png",
     "Python/Data Science",
@@ -304,7 +317,6 @@
     "Python/Flask",
     "Algorithms/knn example.png",
     "Kubernetes",
-    "Python/Code Snippets",
-    "Python/Libraries"
+    "Python/Code Snippets"
   ]
 }
