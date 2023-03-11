@@ -46,7 +46,7 @@ Some of these are native, some in the `itertools` module.
 | `sum(i)`            | Returns sum of all elements                             |
 | `min(i)` / `max(i)` | Returns smallest/largest values in iterable             |
 | `i.count('val')`    | Counts instances of matching elements                   |
-| `islice(i, count)`  | Returns a new iterator representing a slice of another  |
+| `itertools.islice(i, count)`  | Returns a new iterator representing a slice of another  |
 | `any(i)` / `all(i)` | Returns true if any/all elements are truthy             |
 | `zip(i1, i2, i3)`   | Interleaves elements, stopping once first is exhausted. |
 | `map(fn, i)`        | Runs a function across all items and returns results    |
@@ -85,17 +85,18 @@ m = <map object at 0x...>
 list(m) = [ 'ITEM: 1', 'ITEM: 2', 'ITEM: 3' ]
 """
 ```
+
+Map can use multiple arguments for multiple collections
+l = [1, 2, 3]
+m = ['a', 'b', 'c']
+n = map(lambda x: f"ITEM: {x}", l, m)
+list(n)
 ````
 
 
 
 ```python
 
-# Run a function across all items
-# WARNING: Not lazy in Python 2.x
-m = map(lambda x: f"ITEM: {x}", range(5))
-# <map object at 0x....>
-list(m)  # ['ITEM: 0', 'ITEM: 1', ..., 'ITEM: 4']
 
 # Multiple args for multiple collections.
 data1 = [ 'a', 'b', 'c' ]
