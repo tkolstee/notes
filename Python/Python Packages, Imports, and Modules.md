@@ -127,3 +127,66 @@ print(demo_reader.compressed.__path__) # ['./path2/demo_reader/compressed']
 ```
 ````
 
+## Distribution Packages
+
+```
+📁 project_name
+	README.rst                # overview documentation 
+	📁 docs                   # many forms (e.g. Sphinx)
+	📁 src                    # not directly importable 
+		📁 package_name
+			__init__.py
+			more_source.py
+			📁 subpackage1
+				__init__.py
+	📁 tests
+		test_code.py
+	setup.py
+```
+README is in .rst (ReStructuredText) format.
+
+
+## Source Package
+- Contains everything needed to build the package
+- Cannot be placed directly into installation dir, must be built
+
+To build source packages that use `setuptools`:
+```
+import setuptools
+setuptools.setup(
+	name="demo_reader",
+	version="1.0.0",
+	description="Tools for reading various file formats",
+	packages=setuptools.find_packages('src'),
+	package_dir={'': 'src'}
+)
+```
+`python setup.py sdist`
+
+Writes `dist` dir with a `tar.gz` file - installable with `pip`
+
+## Built Package
+- placed directly into installation directory
+- build results are included in the package
+- can be platform-specific
+- Use the *wheel* format defined in PEP 427
+
+`pip install wheel`
+`python setup.py bdist_wheel`
+
+Writes file in `dist/` with `.whl` extension
+can install with `pip`
+name like `packagename-version-py3-none-any.whl`
+- py3 = python version
+- none = ABI requirements (if binary constraints)
+- any = Platform requirements (oses)
+
+## Uploading Packages to PyPi
+
+Register for account at [PyPi](https://pypi.org)
+`python -m pip install --user --upgrade twine`
+`$ twine upload dist/demo_reader-1.0.0-py3-none-any.whl`
+
+Use PyPi user/pass
+People can now install package using pip from remote
+
