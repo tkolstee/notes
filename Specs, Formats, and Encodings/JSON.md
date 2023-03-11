@@ -1,6 +1,10 @@
 JavaScript Object Notation
 
-
+```JSON
+{
+	
+}
+```
 
 ----
 # Source
