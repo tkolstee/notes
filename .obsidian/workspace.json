@@ -138,9 +138,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2a50df8b257e3407",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Chef/InSpec Compliance Reporting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -206,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chef/ChefSpec Unit Testing.md",
+                "file": "Chef/InSpec Compliance Reporting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chef/ChefSpec Unit Testing.md",
+                "file": "Chef/InSpec Compliance Reporting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chef/ChefSpec Unit Testing.md"
+                "file": "Chef/InSpec Compliance Reporting.md"
               }
             }
           },
@@ -277,10 +289,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66fd3a29c5c07b0d",
+  "active": "2a50df8b257e3407",
   "lastOpenFiles": [
-    "Cloud/Managing Azure VMs.md",
     "Chef/ChefSpec Unit Testing.md",
+    "Chef/InSpec Compliance Reporting.md",
+    "Cloud/Managing Azure VMs.md",
     "Chef",
     "Python/Data Science/Libraries for Data Analysis.md",
     "Cloud",
@@ -307,7 +320,6 @@
     "Linux/cut.md",
     "Linux/awk.md",
     "Linux/Adding APT Repositories.md",
-    "Linux/PAM.md",
     "Linux",
     "Python/Core Language",
     "Python/Core Language/Exception Hierarchy 1.png",
