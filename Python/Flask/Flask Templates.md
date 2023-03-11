@@ -35,6 +35,11 @@ collapse: true
 | `striptags` | Removes any HTML tags from the value |
 ```
 
+
+`render_template` uses templates from project root or app's `templates` directory.
+
+They are referenced by name and path, so an app-specific directory should be uner `templates` to provide a unique namespace: `/projectroot/app/templates/app/mytemplate.html` can be accessed from anywhere with `render_template('app/mytemplate.html')`.
+
 #### Jinja2 Constructs
 ```jinja2
 <!-- For Loop -->
@@ -59,7 +64,15 @@ collapse: true
 {% include 'common.html' %}
 ```
 
+Available within template by default:
+- `config`, `request`, `session`, and `g` objects
+- `url_for()`, `get_flashed_messages()` methods
+- Automatic escaping of vars is enabled. 
+	- If it's known to be safe, use `markupsafe.Markup` or `|safe` filter in templates.
+
 #### Blocks
+This allows for template inheritance. For example you might create an app called `base` that contains your base (branded) templates, and then use them to wrap context-specific templates.
+
 `base.html`
 ```jinja2
 <html>
@@ -86,4 +99,5 @@ collapse: true
 <h1>Hello, world!</h1>
 {% endblock %}
 ```
+
 

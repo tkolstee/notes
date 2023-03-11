@@ -65,17 +65,25 @@ using `exit()` at the REPL will exit the program. Using CTRL-D (linux/OSX) or CT
 `bytes.hex()` provides a string with a hex dump of the bytes. A separator character can be provided.
 
 ```python
-my_string = b'ascii'
+my_string = 'Hello, world!'.encode('utf-8')
 
 # Print column headers with offset (00 01 02)
 print(' '.join([str(n).zfill(2) for n in range(len(my_string))]))
 
-# Print characters in string
+# Print hex representations
 print(my_string.hex(' '))
 
-# 00 01 02 03 04
-# 61 73 63 69 69
+# Print character representations 
+print ('  '.join(my_string.decode()))
+
+output = """
+00 01 02 03 04 05 06 07 08 09 10 11 12
+48 65 6c 6c 6f 2c 20 77 6f 72 6c 64 21
+H  e  l  l  o  ,     w  o  r  l  d  !
+"""
 ```
+
+Also see `binascii` module and function `hexlify` for an alternate method.
 
 ---
 # See Also

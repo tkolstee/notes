@@ -8,67 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f545ea7a899e9a4",
+            "id": "bb6b49290f980c6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Django/Projects and Apps.md",
+                "file": "Python/Flask/Flask.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "20c0585e2dc53a9c",
+            "id": "c82d5612001681a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Debugging and Tracing.md",
+                "file": "Python/Flask/Flask Contexts.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fd1471076f03f8eb",
+            "id": "62e7f5416f6eada8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/String Representations of Objects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc1a60b63fe5e4ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Callable.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "532cb6261fea43f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Debugging and Tracing.md",
+                "file": "Python/Python Iteration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Debugging and Tracing.md",
+                "file": "Python/Python Iteration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Debugging and Tracing.md",
+                "file": "Python/Python Iteration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Debugging and Tracing.md"
+                "file": "Python/Python Iteration.md"
               }
             }
           },
@@ -205,36 +181,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "532cb6261fea43f1",
+  "active": "62e7f5416f6eada8",
   "lastOpenFiles": [
+    "Python/Flask/Flask Contexts.md",
+    "Python/Python Iteration.md",
+    "Python/Flask/Flask Authentication.md",
+    "Python/Flask/Flask.md",
+    "Python/Flask/Flask Templates.md",
+    "Python/Flask/Flask Routes.md",
+    "Python/Django/Projects and Apps.md",
+    "Python/Enumeration.md",
+    "Python/Django/Views and Routing.md",
+    "Python/Detecting Keypresses.md",
+    "Python/Debugging and Tracing.md",
     "Python/Python Object Attributes.md",
     "Python/Callable.md",
     "Python/String Representations of Objects.md",
     "Python/Source File Encoding.md",
     "Python/Random Numbers.md",
     "Python/Python Memory Mapping.md",
-    "Python/Debugging and Tracing.md",
-    "Python/Django/Projects and Apps.md",
     "Python/Django",
     "Python/Flask/Flask-Moment.md",
     "Python/Flask/Flask Web Forms.md",
-    "Python/Flask/Flask Routes.md",
     "Python/Flask/Flask Responses.md",
     "Python/Flask/Flask-Bootstrap.md",
-    "Python/Flask/Flask.md",
     "Python/Flask/Flask Application Instance.md",
     "Python/Flask/Running Flask Apps.md",
-    "Python/Flask/Flask Templates.md",
-    "Python/Flask/Flask Contexts.md",
     "Python/Flask/Flask Requests.md",
     "Python/Flask",
     "WSL.md",
     "00 Current Learning/Natural Language Processing.md",
-    "Windows.md",
-    "Python/Libraries/Python Library - openpyxl.md",
-    "Python/Libraries/Python Library - configparser.md",
-    "Kubernetes/Installing Kubernetes.md",
-    "Docker/Public Docker Repositories.md",
     "Algorithms/knn example.png",
     "Kubernetes",
     "Python/Code Snippets",
