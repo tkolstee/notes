@@ -7,6 +7,9 @@
 When using `import`, each module is imported into its own namespace.
 We can use `from` to import things into the global namespace, and `as` to change the names.
 
+````ad-example
+title: Examples of `import`
+collapse: true
 Example: Package `foo` contains functions `bar` and `baz`, and submodule `sub`.
 `sub` contains function `quux`
 
@@ -23,6 +26,7 @@ from foo import sub  # module sub, function sub.quux
 
 from foo import sub as xyzzy   # module xyzzy
 ```
+````
 
 #### Relative Imports
 `from ..module_name import name`
