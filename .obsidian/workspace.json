@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fd1471076f03f8eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Source File Encoding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Tracing.md",
+                "file": "Python/Source File Encoding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Tracing.md",
+                "file": "Python/Source File Encoding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Tracing.md"
+                "file": "Python/Source File Encoding.md"
               }
             }
           },
@@ -169,10 +181,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "20c0585e2dc53a9c",
+  "active": "fd1471076f03f8eb",
   "lastOpenFiles": [
-    "Python/Django/Projects and Apps.md",
+    "Python/Random Numbers.md",
+    "Python/Python Memory Mapping.md",
     "Python/Tracing.md",
+    "Python/Django/Projects and Apps.md",
     "Python/Django",
     "Python/Flask/Flask-Moment.md",
     "Python/Flask/Flask Web Forms.md",
@@ -198,8 +212,6 @@
     "Algorithms/k-Nearest Neighbor.md",
     "Algorithms/knn example.png",
     "Algorithms/Jaccard Index.md",
-    "Algorithms/Finding Degrees of Similarity among Text Documents.md",
-    "README.md",
     "Kubernetes",
     "Python/Code Snippets",
     "Python/Libraries",
