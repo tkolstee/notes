@@ -3,6 +3,29 @@
 
 ```toc
 ```
+## Installing Packages
+
+```r
+pip install packagename
+```
+
+### Upgrading Packages
+
+```r
+pip list --outdated
+pip list --outdated --pre    # List prerelease or release candidates
+
+pip install -U packagename
+```
+
+### Requirements File
+```R
+# Record packages in environment
+$ pip freeze > requirements.txt
+
+# Install packages from exported file
+$ pip install -r requirements.txt
+```
 
 ## Importing and Namespaces
 When using `import`, each module is imported into its own namespace.

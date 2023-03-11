@@ -5,7 +5,7 @@
 
 ## Collections
 
-### Basic Collection Types
+## Basic Collection Types
 * str
 * bytes
 * range
@@ -14,7 +14,77 @@
 * dict
 * set
 
-### Protocols
+## Numeric Indexing
+Collections that accept numeric indexes are numbered starting from 0.
+Negative indexing starts with -1 at the end, -2 second-to-last, etc.
+
+If the collection is mutable, assignment can be made the same way.
+
+Accessing an element which doesn't exist (for reading or assignment) results in an `IndexError`.
+
+`del` can delete an individual element if indexed.
+
+```python
+mylist = [ 'a', 'b', 'c', 'd', 'e' ]
+
+mylist[0]       # 'a'
+mylist[3]       # 'd'
+mylist[-2]      # 'd'
+
+mylist[3] = 'D' # ['a', 'b', 'c', 'D', 'e']
+
+mylist[5]       # raises IndexError
+
+del mylist[3]   # [ 'a', 'b', 'c', 'e' ]
+```
+
+### Slicing
+Numeric indexing can specify a range of elements called a *slice*.
+Syntax is `collection[start:stop:step]` with each part being optional.
+
+`start` indicates the element to start with, inclusive with a default of 0.
+`end` indicates the element to end on, exclusive. Defaults to end of collection.
+`step` indicates the number of items to advance, default 1.
+
+```python
+mylist = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
+mylist[2:5]      # ['c', 'd', 'e']
+mylist[:2]       # ['a', 'b']
+mylist[4:]       # ['e', 'f', 'g']
+mylist[0:5:2]    # ['a', 'c', 'e']
+mylist[1:5:2]    # ['b', 'd']
+mylist[:]        # ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+```
+
+Assigning to slices is possible. Assigned value does not need to be the same size, unless `step` is used.
+
+```python
+mylist = [ 1, 1, 1, 1, 1, 1 ]
+mylist[0:3] = [2, 2, 2]        # [2, 2, 2, 1, 1, 1]
+mylist[1:4] = [ 3, 3 ]         # [2, 3, 3, 1, 1]
+mylist[1::2] = [ 4, 4 ]        # [2, 4, 3, 4, 1]
+del mylist[1::2]               # [2, 3, 1]
+```
+
+## Key Indexing
+Some collections use immutable objects as keys into their items (e.g. `dict`).
+If assigning to an existing key the previous value will be overwritten.
+Referencing a nonexistent key raises `KeyError`.
+
+```python
+mydict = { 'foo': 1, 'bar': 2, 'baz': 3 }
+mydict['foo']   # 1
+mydict['baz']   # 3
+
+mydict['bar'] = 10  # { 'foo': 1, 'bar': 10, 'baz': 3 }
+
+del mydict['foo']   # { 'bar': 2, 'baz': 3 }
+```
+
+
+
+## Protocols
 | Name                              | Description                                                                                                              | Override Abstract                                                  | Also inherits                    |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ | -------------------------------- |
 | `collections.abc.Container`       | Supports `in`, `not in`                                                                                                  | `__contains__`                                                     |                                  |
