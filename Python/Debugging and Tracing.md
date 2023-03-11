@@ -40,6 +40,17 @@ Pauses execution to allow for exploration
 | ll       | long list - print out source code for current instruction       |
 | p [expr] | print value of expression                                       |
 
+## Code.Interact
+Drops you into the REPL at the point in the program where it occurs:
+```python
+import code
+
+x = "Kilroy was here"
+print("Hello")
+code.interact(local=locals())
+print("World")
+```
+
 ---
 # See Also
 [Python - sys.settrace() - GeeksforGeeks](https://www.geeksforgeeks.org/python-sys-settrace/)

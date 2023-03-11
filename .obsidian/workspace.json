@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Tracing.md",
+                "file": "Python/Debugging and Tracing.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Object Attributes.md",
+                "file": "Python/Debugging and Tracing.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Object Attributes.md",
+                "file": "Python/Debugging and Tracing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Object Attributes.md",
+                "file": "Python/Debugging and Tracing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Object Attributes.md"
+                "file": "Python/Debugging and Tracing.md"
               }
             }
           },
@@ -207,13 +207,13 @@
   },
   "active": "532cb6261fea43f1",
   "lastOpenFiles": [
+    "Python/Python Object Attributes.md",
     "Python/Callable.md",
-    "Python/Object Attributes.md",
     "Python/String Representations of Objects.md",
     "Python/Source File Encoding.md",
     "Python/Random Numbers.md",
     "Python/Python Memory Mapping.md",
-    "Python/Tracing.md",
+    "Python/Debugging and Tracing.md",
     "Python/Django/Projects and Apps.md",
     "Python/Django",
     "Python/Flask/Flask-Moment.md",
