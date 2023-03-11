@@ -35,7 +35,8 @@
 | `collections.abc.Sequence`        | Allows numeric indexing and slicing (`contains`, `iter`, `reversed`, `index`, `count`)                                   | `__getitem__`, `__len__`                                           | `Reversible`, `Collection`       |
 | `collections.abc.Reversible`      | Allows reversing of item ordering                                                                                        | `__reversed__`                                                     | `Iterable`                       |
 | `collections.abc.MutableSet`      | Represents a mutable set collection (clear, pop, remove, ior, iand, ixor, isub)                                          | `__contains__`, `__iter__`, `__len__`, `add`, `discard`            | `Set`                            |
-| `collections.abc.MutableSequence` |                                                                                                                          |                                                                    |                                  |
+| `collections.abc.MutableSequence` | Mutable collection of numerically indexed items                                                                          | `__getitem__`, `__setitem__`, `__delitem__`, `__len__`, `insert`   | `Sequence`                       |
+|                                   |                                                                                                                          |                                                                    |                                  |
 
 
 #### Sized Protocol
