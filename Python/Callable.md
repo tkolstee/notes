@@ -7,6 +7,8 @@ Class instances can be made callable by implementing a `__call__` method.
 
 `callable(obj)` will tell if an object *appears* to be callable, but false positives are possible.
 
+You should also Inherit from abstract class `collections.abc.Callable`.  This will mark our intention to make the object callable, and raise a TypeError if the `__call__` method is not overridden.
+
 ````ad-example
 title: Simple example: A callable object
 
@@ -21,6 +23,5 @@ if (callable(x)):
 ```
 ````
 
-## Implementing
-Inherit from abstract class `collections.abc.Callable` and override `__call__` method.
 
+## Object Factories
