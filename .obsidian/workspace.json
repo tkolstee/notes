@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Source File Encoding.md",
+                "file": "Python/String Representations of Objects.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc1a60b63fe5e4ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Callable.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Source File Encoding.md",
+                "file": "Python/Callable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Source File Encoding.md",
+                "file": "Python/Callable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Source File Encoding.md"
+                "file": "Python/Callable.md"
               }
             }
           },
@@ -181,8 +193,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd1471076f03f8eb",
+  "active": "cc1a60b63fe5e4ba",
   "lastOpenFiles": [
+    "Python/String Representations of Objects.md",
+    "Python/Callable.md",
+    "Python/Source File Encoding.md",
     "Python/Random Numbers.md",
     "Python/Python Memory Mapping.md",
     "Python/Tracing.md",
@@ -208,10 +223,7 @@
     "Kubernetes/Installing Kubernetes.md",
     "Docker/Public Docker Repositories.md",
     "Docker/Dockerfile.md",
-    "Docker/Docker Registry.md",
-    "Algorithms/k-Nearest Neighbor.md",
     "Algorithms/knn example.png",
-    "Algorithms/Jaccard Index.md",
     "Kubernetes",
     "Python/Code Snippets",
     "Python/Libraries",
