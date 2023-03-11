@@ -62,18 +62,20 @@ using `exit()` at the REPL will exit the program. Using CTRL-D (linux/OSX) or CT
 
 ## Hex Dumps
 
+`bytes.hex()` provides a string with a hex dump of the bytes. A separator character can be provided.
+
 ```python
-from binascii import hexlify
+my_string = b'ascii'
 
-hex_buffer=hexlify(buffer).decode("ascii")
+# Print column headers with offset (00 01 02)
+print(' '.join([str(n).zfill(2) for n in range(len(my_string))]))
 
-indexes = ' '.join(str(n).zfill(2) for n in range(len(buffer)))
-hex_pairs = ' '.join(hex_buffer[i:i+2] for i in range(0, len(hex_buffer), 2))
+# Print characters in string
+print(my_string.hex(' '))
 
-print(indexes)
-print(hex_pairs)
+# 00 01 02 03 04
+# 61 73 63 69 69
 ```
-
 
 ---
 # See Also
