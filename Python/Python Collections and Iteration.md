@@ -15,42 +15,22 @@
 * set
 
 ### Protocols
-#### Container Protocol
-Supports `in` and `not in` operators
-Implementing:
-- Inherit from `collections.abc.Container`
-- Override abstract method `__contains__`
+| Name                         | Description                                     | Override Abstract          | Also inherits        |
+| ---------------------------- | ----------------------------------------------- | -------------------------- | -------------------- |
+| `collections.abc.Container`  | supports `in`, `not in`                         | `__contains__`             |                      |
+| `collections.abc.Iterable`   | Yields an iterator                              | `__iter__`                 |                      |
+| `collections.abc.Iterator`   | Allows iteration                                | `__next__`                 | Iterable             |
+| `colllections.abc.ItemsView` | View of items from mapping e.g. `dict.items()`  | `__contains__`, `__iter__` | `MappingView`, `Set` |
+| `collections.abc.KeysView`   | View of keys from a mapping, e.g. `dict.keys()` | `__contains__`, `__iter__` | `MappingView`, `Set` |
+|                              |                                                 |                            |                      |
+
 
 #### Sized Protocol
 Supports `len()`
 
-#### Iterable
-Yields an iterator when requested
-Implementing:
-- Inherit from `collections.abc.Iterable`
-- Override abstract method `__iter__`
-
 #### Sequence
 Numerically indexed, supports `index`, `count`, `reversed`, etc.
 
-#### Iterator Protocol
-Iterates through the elements of an iterable (possibly `self`)
-Implementing:
-- Inherit from abstract class `collections.abc.Iterator`
-- Override abstract method `__next__`
-- Inherits from Iterable as well including `__iter__` method.
-
-#### ItemsView Protocol
-Allows view of items from a mapping, e.g. `dict.items()` output
-Implementing:
-- Inherit from `collections.abc.ItemsView` (also inherits `MappingView`, `Set`)
-- Override `__contains__` and `__iter__`
-
-#### KeysView Protocol
-View of keys from a mapping, e.g. `dict.keys()` output
-Implementing:
-- Inherit from `collections.abc.KeysView` (also inherits `MappingView`, `Set`)
-- 
 
 ## Iteration
 ### Default Process
