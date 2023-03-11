@@ -138,9 +138,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "af2e50a91a9eabad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - Chef API.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73309ea209b4e28b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python Comprehensions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68a02a6eb2ebba95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - pprint.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a5f6a54df68bafcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Object Orientation/Classes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -277,11 +325,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb797a9d3c5596ec",
+  "active": "a5f6a54df68bafcb",
   "lastOpenFiles": [
     "Python/Object Orientation/Data Classes.md",
     "Python/Object Orientation/Python Object Attributes.md",
+    "Python/Object Orientation/Inheritance.md",
     "Python/Object Orientation/Classes.md",
+    "Python/Python Context Managers.md",
+    "Python/Libraries/Python Library - pprint.md",
+    "Python/Python Comprehensions.md",
+    "Python/Libraries/Python Library - Chef API.md",
     "Python/Python Decorators.md",
     "Python/Data Science/PyPlot Cheat Sheet.md",
     "Python/Exceptions.md",
@@ -292,7 +345,6 @@
     "Python/Data Science/Pandas DataFrame.md",
     "Python/Data Science/NumPy Arrays.md",
     "Python/Data Science/ndarray.md",
-    "Python/Object Orientation/Inheritance.md",
     "Python/Data Science",
     "Python/Python Collections and Iteration.md",
     "Python/Code Snippets/Enumerating Files in a Directory.md",
@@ -303,11 +355,7 @@
     "Python/Python Memory Mapping.md",
     "Python/Python Closures.md",
     "Python/Python Assertions.md",
-    "Python/Code Snippets/Random Numbers.md",
     "Python/Object Orientation",
-    "Python/Python Generators.md",
-    "Python/Global Interpreter Lock (GIL).md",
-    "Python/Code Snippets/Environment Variables.md",
     "Python/Django",
     "Python/Flask",
     "Algorithms/knn example.png",
