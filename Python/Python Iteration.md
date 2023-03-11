@@ -54,21 +54,6 @@ In the itertools module we have several functions for iterating through objects:
 ```python
 import itertools
 
-# Get tuples of (index, value)
-list(enumerate(['a', 'b', 'c', 'd']))  
-# [(0, 'a'), (1, 'b'), (2, 'c'), (3, 'd')]
-
-# Get sum of all elements
-sum( x*x for x in range(1, 1000001))
-# 333333833333500000
-
-# Get min and max elements
-smallest = min(l1)
-largest = max(l1)
-
-# Get count of matching elements
-l1.count('a')
-
 # islice()
 # Iterable representing a slice of another iterable
 # Lazily evaluated, so each call depends upon and
