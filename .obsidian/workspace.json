@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "right": {
     "id": "ac482b5efd36737f",
@@ -156,7 +157,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1da32da9a300839b",
+  "active": "e3acfc5506306e0c",
   "lastOpenFiles": [
     "Python/Python Packages, Imports, and Modules.md",
     "Python/Python Collections and Iteration.md",
