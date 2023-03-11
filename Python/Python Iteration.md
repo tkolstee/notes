@@ -101,33 +101,30 @@ list(n) = [ 'a=1', 'b=2', 'c=3' ]
 
 ````
 
+````ad-example
+title: Example: Use of `reduce`
+collapse: true
+
 
 `reduce` takes a two-argument function, a collection, and an optional initialization value.
 
+The function arguments are:
+- Returned value from previous run (first run is initialization value if given or first value in collection if not)
+- Current value in iteration
+
+Returns the final accumulated value.
 
 ```python
+import functools
 
-
-# Return only entities that pass a function test.
-mylist(filter(lambda x: x>=0, nums))
-
-# Applies a two-argument function over a collection.
-# First argument is an accumulated value (initial value if given or takes first value in sequence).
-# Second argument is next value in collection
-# Often used for summation or multiplication (Use initial value of 1 for mult, 0 for summation).
-x = functools.reduce(lambda x, y: x+y, range(10), 100)
-# Equvalent code
-x = 100
-for value in range(10):
-	x += value
+s = functools.reduce(
+	lambda accum, cur: accum+cur,   # Add value in list to accumulated sum
+	range(10),                       # Add numbers from 0-9
+	100                              # Start with sum at 100
+)
 ```
-
-
----
-# See Also
-[Python Docs: collections.abc](https://docs.python.org/3/library/collections.abc.html)
-
-
+Sum of numbers from 0-9 is 45, but since we started at 100 the returned result is 145.
+````
 
 ---
 # See Also
