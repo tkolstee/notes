@@ -8,64 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd8ff486c03aefc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WSL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "778f7bf901d02387",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Flask/Flask Routes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21b7726b0221eb28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Flask/Flask-Moment.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a779ba882d82b6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Flask/Flask Web Forms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "022529eed6b0a770",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
-          },
-          {
             "id": "0f545ea7a899e9a4",
             "type": "leaf",
             "state": {
@@ -76,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "20c0585e2dc53a9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Tracing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Django/Projects and Apps.md",
+                "file": "Python/Tracing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Django/Projects and Apps.md",
+                "file": "Python/Tracing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Django/Projects and Apps.md"
+                "file": "Python/Tracing.md"
               }
             }
           },
@@ -215,9 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0f545ea7a899e9a4",
+  "active": "20c0585e2dc53a9c",
   "lastOpenFiles": [
     "Python/Django/Projects and Apps.md",
+    "Python/Tracing.md",
     "Python/Django",
     "Python/Flask/Flask-Moment.md",
     "Python/Flask/Flask Web Forms.md",
@@ -245,7 +200,6 @@
     "Algorithms/Jaccard Index.md",
     "Algorithms/Finding Degrees of Similarity among Text Documents.md",
     "README.md",
-    "Packer.md",
     "Kubernetes",
     "Python/Code Snippets",
     "Python/Libraries",
