@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "right": {
     "id": "ac482b5efd36737f",
@@ -157,8 +156,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3acfc5506306e0c",
+  "active": "1da32da9a300839b",
   "lastOpenFiles": [
+    "Python/Python Special Variables.md",
     "Python/Python Packages, Imports, and Modules.md",
     "Python/Python Collections and Iteration.md",
     "Python/Django/Projects and Apps.md",
@@ -186,7 +186,6 @@
     "00 Current Learning/Natural Language Processing.md",
     "Windows.md",
     "Python/Libraries/Python Library - openpyxl.md",
-    "Python/Libraries/Python Library - configparser.md",
     "Algorithms/knn example.png",
     "Kubernetes",
     "Python/Code Snippets",

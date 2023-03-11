@@ -1,9 +1,10 @@
-
-## Modules and Packages
 **Modules** are python files that hold functions that can be `import`ed into other python programs.
 **Packages** are special types of modules which may contains other modules or packages in a hierarchy.
 
-### Importing and Namespaces
+```toc
+```
+
+## Importing and Namespaces
 When using `import`, each module is imported into its own namespace.
 We can use `from` to import things into the global namespace, and `as` to change the names.
 
@@ -28,20 +29,20 @@ from foo import sub as xyzzy   # module xyzzy
 ```
 ````
 
-#### Relative Imports
+### Relative Imports
 `from ..module_name import name`
 
 Single dot indicates current package, two dots indicates parent package, etc.
 Import path can be just two dots.
 
-#### Search Path
+### Search Path
 When using `import`, Python looks in `sys.path` to find the modules.
 `sys.path` is initialized (in part) from the `PYTHONPATH` environment variable.
 To add a directory to the search path:
 - Add to `PYTHONPATH` before python is invoked, or
 - Append to `sys.path` at runtime.
 
-### Implementing Modules
+## Implementing Modules
 
 Use a file to define a module. Functions defined within are callable when importing the module.
 
@@ -55,7 +56,7 @@ if __name__ == "__main__":
 	main()
 ```
 
-### Implementing Packages
+## Implementing Packages
 A package is usually a directory with an `__init__.py` file inside. The package name is the same as the directory.
 
 [PEP 420](https://peps.python.org/pep-0420/)made `__init__.py` optional as of Python 3.3, but it is still useful and accepted by convention.
@@ -76,4 +77,53 @@ collapse: true
 		- :luc_function_square: `def quux()`
 ````
 
+## Special Variables
+`__name__`: The original filename of the file or module being run, or `__main__` if this file repsresents the main program.
+`__path__`: The path of a package. Not present in "regular" modules
+`__file__`: The file of the module or package.
+`__all__`: Controls `from...import` behavior. List everything `*` should import.
+
+## Namespace Packages
+Package split across multiple directories with no `__init__.py`
+Defined in [PEP420](https://python.org/dev/peps/pep-0420/)
+No package-level initialization code. Avoids complex questions of init order.
+
+Namespace Package Discovery Algorithm
+- Scan each dir in `sys.path`
+- Import standard package if found
+- Import standard module if found
+- Otherwise, all matching dirs contribute to a namespace package.
+
+````ad-example
+title: Example Namespace Package Layout
+collapse: false
+
+- :luc_folder_minus: `path1`
+	- :far_folder: `demo_reader`
+		- :luc_folder_open: `util`
+			- :luc_file: `__init__.py`
+			- :luc_file: `writer.py`
+		- :luc_file: `multireader.py`
+- :luc_folder_open: `path2`
+	- :far_folder: `demo_reader`
+		- :luc_folder_open: `compressed`
+			- :luc_file: `__init__.py`
+			- :luc_file: `bzipped.py`
+			- :luc_file: `gzipped.py`
+
+```python
+import sys
+sys.path.extend(['./path1', './path2'])
+
+import demo_reader
+print(demo_reader.__path__)
+# _NamespacePath(['./path1/demo_reader', './path2/demo_reader'])
+
+import demo_reader.util
+print(demo_reader.util.__path__)       # ['./path1/demo_reader/util']
+
+import demo_reader.compressed
+print(demo_reader.compressed.__path__) # ['./path2/demo_reader/compressed']
+```
+````
 
