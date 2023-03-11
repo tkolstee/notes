@@ -15,7 +15,7 @@
 - Shared among all classes
 - Masked by creation/modification of an instance method with same name
 - Referenced internally as `self.__class__.attr_name`
-- Referenced externally as `class_name.attr_name`
+- Referenced externally as `Class_name.attr_name`
 
 ### Properties
 - Attributes which are accessed through methods ("getters" and "setters").
@@ -71,7 +71,7 @@ If property is to be assignable, implement the "setter" function
 The `@property` decorator replaces the getter with a callable object and puts the original wrapped method into `propname.fget()`. When defining a setter, it maps the wrapped method to `propname.fset()`.
 
 
-## Default Method
+## Default Method for Accessing Properties
 
 Normally these are accessed via builtin functions:
 | Function                    | Delegates to                                                  |     |
