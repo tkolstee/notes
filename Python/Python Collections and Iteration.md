@@ -22,7 +22,8 @@
 | `collections.abc.Iterator`   | Allows iteration                                | `__next__`                 | Iterable             |
 | `colllections.abc.ItemsView` | View of items from mapping e.g. `dict.items()`  | `__contains__`, `__iter__` | `MappingView`, `Set` |
 | `collections.abc.KeysView`   | View of keys from a mapping, e.g. `dict.keys()` | `__contains__`, `__iter__` | `MappingView`, `Set` |
-|                              |                                                 |                            |                      |
+| `collections.abc.ByteString` | Read-only, mutable sequence                     | `__len__`                  |                      |
+| `collections.abc.Collection` |                                                 |                            |                      |
 
 
 #### Sized Protocol
