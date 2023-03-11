@@ -46,9 +46,10 @@ In the itertools module we have several functions for iterating through objects:
 | `sum(i)`            | Returns sum of all elements                                |
 | `min(i)` / `max(i)` | Returns smallest/largest values in iterable                |
 | `i.count('val')`    | Counts instances of matching elements                      |
-| `islice(i, count)`         | Returns a new iterator representing a slice of another^[1] |
+| `islice(i, count)`         | Returns a new iterator representing a slice of another|
 
-[^1]: Lazily evaluated, so each call depends upon and modifies original iterator's state.
+
+`islice` is evaluated lazily, so it affects the parent iterator's 
 
 
 ```python
