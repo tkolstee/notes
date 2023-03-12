@@ -26,3 +26,5 @@ There are many more relation types in the RFCs ([RFC 5988](https://www.rfc-archi
 | next-archive | Target is a resource that is a next archive in a sequence of archives.
 | up | Target is a parent resource of the current resource.
 
+
+
