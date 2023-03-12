@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ab507a57924dba12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Libs/passport-google-oauth20.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Core Language/JS Objects.md",
+                "file": "JavaScript/Libs/passport-google-oauth20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Core Language/JS Objects.md",
+                "file": "JavaScript/Libs/passport-google-oauth20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Core Language/JS Objects.md"
+                "file": "JavaScript/Libs/passport-google-oauth20.md"
               }
             }
           },
@@ -156,8 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bedf3304f916ef01",
+  "active": "ab507a57924dba12",
   "lastOpenFiles": [
+    "JavaScript/Core Language/JS Objects.md",
+    "JavaScript/Libs/passport-google-oauth20.md",
     "JavaScript/Core Language/00 JS Overview.md",
     "JavaScript/Core Language/JS Input-Output.md",
     "JavaScript/Libs/jQuery.md",
@@ -186,8 +201,6 @@
     "JavaScript/Core Language/JS String.md",
     "JavaScript/Core Language/JS Strings.md",
     "JavaScript/Execution.md",
-    "JavaScript/Core Language/JS Objects.md",
-    "JavaScript/Core Language/JS Functions.md",
     "JavaScript/Core Language",
     "JS Array Methods Cheat Sheet.png",
     "JavaScript/Libs",
