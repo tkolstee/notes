@@ -1,4 +1,7 @@
-RFC 5988
+Defines semantic relationships between two HTML documents.
+Codified in [RFC 5988](https://www.rfc-archive.org/getrfc?rfc=5988#gsc.tab=0) and updated in [RFC 8288](https://www.rfc-archive.org/getrfc?rfc=8288#gsc.tab=0)
+
+
 
 Sure! RFC 5988 is a specification that defines the syntax and semantics of Web Linking, a mechanism that allows resources to be linked together on the web using hyperlinks.
 
@@ -36,3 +39,14 @@ Some other standardized link relation types defined in RFC 5988 include:
 -   `up`: Indicates that the link target is a parent resource of the current resource.
 
 There are many others, and new link relation types may be defined in the future as new use cases arise.
+
+The total number of standardized link relation types defined in RFC 5988 is not fixed, as new link relation types may be defined in the future. However, as of the publication of RFC 8288, which updates and replaces RFC 5988, there are approximately 50 standardized link relation types defined in the specification.
+
+Additionally, there are many more link relation types defined in related specifications such as the HTML5 Link Types specification and the IANA Link Relations registry.
+
+Sure! Here are the URLs for the HTML5 Link Types specification and the IANA Link Relations registry:
+
+-   HTML5 Link Types: [https://html.spec.whatwg.org/multipage/links.html#linkTypes](https://html.spec.whatwg.org/multipage/links.html#linkTypes)
+-   IANA Link Relations registry: [https://www.iana.org/assignments/link-relations/link-relations.xhtml](https://www.iana.org/assignments/link-relations/link-relations.xhtml)
+
+Both of these resources provide a comprehensive list of standardized link relation types that can be used in HTML link elements and Link headers.
