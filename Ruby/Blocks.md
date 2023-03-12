@@ -1,0 +1,1 @@
+Enclosed by curly brackets `{ ... }` or `do ... end`.

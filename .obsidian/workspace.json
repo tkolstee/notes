@@ -8,18 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b269944db89ae703",
+            "id": "4d64d3c6bd3d2cf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Specs, Formats, and Encodings/JSON.md",
+                "file": "JavaScript/Core Language/JS Importing and Exporting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00d82fa9e73812d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Libs/Hosting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "424d204662453f01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Core Language/00 JS Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9432b1fa3ab1936a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Core Language/00 JS Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a79f583e36c6201",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Core Language/JS Types.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Specs, Formats, and Encodings/JSON.md",
+                "file": "JavaScript/Core Language/JS Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Specs, Formats, and Encodings/JSON.md",
+                "file": "JavaScript/Core Language/JS Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Specs, Formats, and Encodings/JSON.md"
+                "file": "JavaScript/Core Language/JS Types.md"
               }
             }
           },
@@ -156,46 +205,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b269944db89ae703",
+  "active": "4a79f583e36c6201",
   "lastOpenFiles": [
-    "Specs, Formats, and Encodings/JSON.md",
-    "Ansible/Ansible Playbooks.md",
-    "Specs, Formats, and Encodings/HCL - HashiCorp Configuration Language.md",
-    "Specs, Formats, and Encodings/YAML.md",
-    "Specs, Formats, and Encodings/Text Endodings.md",
-    "Specs, Formats, and Encodings/Markdown.md",
-    "Specs, Formats, and Encodings/Base64.md",
-    "Specs, Formats, and Encodings/ASCII.md",
-    "Chef/Generating Self-Signed Certificates.md",
+    "JavaScript/Core Language/JS Objects.md",
+    "JavaScript/Core Language/00 JS Overview.md",
+    "JavaScript/Core Language/JS Types.md",
+    "JavaScript/Core Language/JS Operators.md",
+    "JavaScript/Core Language/JS Variables.md",
+    "JavaScript/Core Language/JS Comments.md",
+    "JavaScript/Core Language/JS Functions.md",
+    "JavaScript/Core Language/JS Conditionals.md",
+    "JavaScript/Core Language/JS Loops.md",
+    "JavaScript/Core Language/JS Importing and Exporting.md",
+    "JavaScript/Core Language/JS Destructuring.md",
+    "JavaScript/Core Language/JS Classes.md",
+    "JavaScript/Core Language/JS Async Programming.md",
+    "JavaScript/Core Language/JS Arrays.md",
+    "JavaScript/Core Language",
+    "JS Array Methods Cheat Sheet.png",
+    "JavaScript/Libs/Hosting.md",
+    "JavaScript/Libs/Electron.md",
+    "JavaScript/Libs/EJS.md",
+    "JavaScript/Libs/bcrypt.md",
+    "JavaScript/Libs",
+    "Ruby/Variables and Constant.md",
+    "JavaScript",
+    "Ruby/00 Overview.md",
+    "Ruby/Data Types.md",
+    "Ruby/Operators.md",
+    "Ruby/Object Orientation.md",
+    "Ruby/Modules.md",
+    "Ruby/Methods (Functions).md",
+    "Ruby/Loops.md",
+    "Ruby",
     "Specs, Formats, and Encodings",
-    "Chef/ChefSpec Unit Testing.md",
-    "Chef/InSpec Compliance Reporting.md",
-    "Cloud/Managing Azure VMs.md",
     "Chef",
-    "Python/Data Science/Libraries for Data Analysis.md",
     "Cloud",
-    "Python/Data Science/ndarray.md",
-    "Mathematics/N choose K.md",
-    "Mathematics/Absolute Value.md",
-    "Mathematics/Mathematical Logic.md",
-    "Mathematics/Algebra.md",
-    "Mathematics/Calculus.md",
-    "Mathematics/Associative Property.md",
-    "Mathematics/Commutative Property.md",
-    "Mathematics/Distance Formulas.md",
-    "Mathematics/Distributive Property.md",
-    "Mathematics/Geometry.md",
-    "Mathematics/Mean Formulas.md",
-    "Mathematics/Rules of Exponents.md",
     "Kubernetes/Kubernetes Architecture.png",
     "Linux",
     "Python/Core Language",
     "Python/Core Language/Exception Hierarchy 1.png",
     "Python/Data Science",
-    "Python/Core Language/Object Orientation",
-    "Python/Django",
-    "Python/Flask",
-    "Algorithms/knn example.png",
-    "Kubernetes"
+    "Algorithms/knn example.png"
   ]
 }
