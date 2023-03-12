@@ -1,6 +1,9 @@
 Determine what elements the style rules are applied to.
 
 ```CSS
+/* Universal (wildcard) */
+*
+
 /* HTML Tag */
     tagname {...}
 
