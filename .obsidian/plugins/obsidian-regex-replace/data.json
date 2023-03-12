@@ -1,6 +1,6 @@
 {
-  "findText": "` |",
-  "replaceText": " |",
+  "findText": "Indicates that the link target",
+  "replaceText": "Target",
   "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,
