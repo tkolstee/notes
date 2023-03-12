@@ -79,26 +79,10 @@ input:checked+p                   # p immediately after checked element
 | position: relative; | Relative to where 'static' would be.          |
 | position: absolute; | Relative to nearest parent that is positional |
 | position: fixed;    | Fixed relative to viewport, not page.         |
-| flexbox:                     |                                               |
 
-
-
-```css
-border: 5px;
-border: 5px 2px 5px 2px;   // top, right, bottom, left
-color: gray;
-margin: 5px;
-width: 500px;
-```
-
-
-
-## Layout
 
 ### Flexbox
-flex container and flex items
-
-Container properties
+flexible container and flexible items:
 ```css
 display: flex;
 flex-direction: column;
@@ -107,10 +91,8 @@ flex-flow
 justify-content
 align-items
 align-content
-```
 
-Flex item properties:
-```css
+# Flex item properties
 order
 flex-grow
 flex-shrink
@@ -120,7 +102,7 @@ align-self
 ```
 
 
-### Grid
-grid-based layout system
+[[CSS Flexbox Cheat Sheet.png]]
 
 
+#TODO: Expand on Flexbox, Grid Layout, Box Model
