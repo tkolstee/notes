@@ -1,14 +1,9 @@
 Defines semantic relationships between two HTML documents.
 Codified in [RFC 5988](https://www.rfc-archive.org/getrfc?rfc=5988#gsc.tab=0) and updated in [RFC 8288](https://www.rfc-archive.org/getrfc?rfc=8288#gsc.tab=0)
 
-
-
-Sure! RFC 5988 is a specification that defines the syntax and semantics of Web Linking, a mechanism that allows resources to be linked together on the web using hyperlinks.
-
-The key components of Web Linking are "links" and "link relation types". A "link" is an association between two resources, typically expressed as a hyperlink, while a "link relation type" is a keyword that identifies the nature of the relationship between the two resources.
-
-The syntax of Web Linking is based on HTTP headers and follows a specific format, consisting of a Link header field with one or more link-value pairs. Each link-value pair consists of a URI, followed by a comma-separated list of link parameters, which are used to describe the relationship between the two resources.
-
+```HTML
+<link rel="stylesheet" href="http://www.example.org/css/style.css">
+```
 The specification also defines a set of standardized link relation types, such as "stylesheet" for linking to stylesheets and "next" for indicating the next page in a paginated sequence. Web Linking can be used to provide additional context and metadata for resources, improving the user experience and facilitating resource discovery and sharing.
 
 Overall, RFC 5988 provides a standardized way of linking resources on the web, making it easier to navigate and interact with the vast array of content available online.
