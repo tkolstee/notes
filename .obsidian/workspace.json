@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e32b1507d71ca51b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Design/Design Elements.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Design/favicon.md",
+                "file": "Web Design/Design Elements.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Design/favicon.md",
+                "file": "Web Design/Design Elements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Design/favicon.md"
+                "file": "Web Design/Design Elements.md"
               }
             }
           },
@@ -169,10 +181,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24bb46c0c55ba019",
+  "active": "e32b1507d71ca51b",
   "lastOpenFiles": [
-    "Web Design/CSS/CSS Layout and Positioning.md",
+    "Web Design/Icons/Font Awesome.md",
+    "Web Design/Design Elements.md",
     "Web Design/favicon.md",
+    "Web Design/Untitled.md",
+    "Web Design/Icons",
+    "Web Design/CSS/CSS Layout and Positioning.md",
     "Web Design/CSS/CSS Selectors.md",
     "Web Design/CSS/00 CSS Overview.md",
     "Web Design/CSS/Including CSS in Web Pages.md",
@@ -200,15 +216,11 @@
     "JavaScript/Node",
     "JavaScript/Libs/Passport.md",
     "JavaScript/Libs/npm.md",
-    "JavaScript/Libs/npm-check-updates.md",
-    "JavaScript/Core Language/JS Importing and Exporting.md",
-    "JavaScript/Libs/nodemon.md",
     "JavaScript/Server-Side",
     "JavaScript/Core Language",
     "JavaScript/Core Language/JS Array Methods Cheat Sheet.png",
     "JavaScript/Libs",
     "JavaScript",
-    "Ruby",
     "Kubernetes/Kubernetes Architecture.png",
     "Python/Core Language/Exception Hierarchy 1.png",
     "Algorithms/knn example.png"
