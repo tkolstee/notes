@@ -15,10 +15,12 @@ Take over for both "dict" and "object" type in most other languages - key-value 
 
 ## Object Methods
 ```javascript
-var user = {
-	name: 'Bob'
-	greet: function() {
-		console.log("Hello Bob")
+var user = { 
+	fname: 'Joe', 
+	lname: 'Jones',
+	fullname: function() {
+		return this.fname + " " + this.lname
 	}
 }
 ```
+
