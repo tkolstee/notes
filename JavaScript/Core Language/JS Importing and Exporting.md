@@ -47,6 +47,47 @@ Output:
 ````
 
 
+## Exporting one function
+
+Module Code
+```javascript
+function ping() { return "PONG!"; }
+```
+            
+Client Code
+```javascript
+const foo = require(__dirname + '/ping.js');
+// ...
+console.log(foo())   // "PONG!"
+```
+
+## Exporting multiple functions
+
+Module Code
+```javascript
+function ping() { return "PONG!"; }
+module.exports.ping = ping;
+
+// shorter version below
+module.exports.marco = function() { return "POLO!"; }
+```
+
+Client Code
+```javascript
+const pinger = require(__dirname + '/ping.js');
+console.log(pinger.ping());  // PONG!
+console.log(pinger.marco()); // POLO!
+```
+
+Shortened form
+"exports" is aliased to "module.exports" and is an object too, so:
+```javascript
+exports = {
+	ping:  function() { return "PING!"; },
+	marco: function() { return "POLO!"; }
+}
+```
+
 ## Wildcard
 ```javascript
 import * as x from "./exporter.js";

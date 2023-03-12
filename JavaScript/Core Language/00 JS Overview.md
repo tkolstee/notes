@@ -15,8 +15,6 @@ doStuff()
 [[JS Loops]]
 [[JS Functions]]
 
-
-
 ## Dates
 ```javascript
 var today = new Date()
@@ -25,12 +23,9 @@ var anotherDate = new Date("2022-10-03")
 
 
 ## Misc
-alert(string)
-prompt(string) => string
-typeof(obj) => type
-
-x = string.slice(start, end=$\infty$);
-Math.random()
+`typeof(obj) => type`
+`Math.random()` - returns a random number between 0 and 0.9999....
+`setInterval(callbackFunction, msec)` - Delayed Execution
 
 ---
 # Sources
