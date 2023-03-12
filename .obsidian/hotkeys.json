@@ -14,5 +14,14 @@
       ],
       "key": "ArrowUp"
     }
-  ]
+  ],
+  "obsidian-regex-replace:obsidian-regex-replace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:open-search": []
 }
