@@ -8,79 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4d64d3c6bd3d2cf9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Core Language/JS Importing and Exporting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00d82fa9e73812d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Libs/Hosting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "424d204662453f01",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Core Language/00 JS Overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9432b1fa3ab1936a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Core Language/00 JS Overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a79f583e36c6201",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Core Language/JS Objects.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "024a09b12910e239",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Execution.md",
+                "file": "JavaScript/Core Language/JS Async Programming.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Execution.md",
+                "file": "JavaScript/Core Language/JS Async Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Execution.md",
+                "file": "JavaScript/Core Language/JS Async Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Execution.md"
+                "file": "JavaScript/Core Language/JS Async Programming.md"
               }
             }
           },
@@ -219,13 +158,18 @@
   },
   "active": "024a09b12910e239",
   "lastOpenFiles": [
-    "JavaScript/Core Language/JS Objects.md",
-    "JavaScript/Execution.md",
-    "JavaScript/Core Language/JS Functions.md",
-    "JavaScript/Core Language/JS Types.md",
-    "JavaScript/Core Language/00 JS Overview.md",
-    "JavaScript/Core Language/JS Operators.md",
     "JavaScript/Core Language/JS Variables.md",
+    "JavaScript/Core Language/00 JS Overview.md",
+    "JavaScript/Core Language/JS Types.md",
+    "JavaScript/Core Language/JS Special Types.md",
+    "JavaScript/Core Language/JS Number.md",
+    "JavaScript/Core Language/JS Boolean.md",
+    "JavaScript/Core Language/JS String.md",
+    "JavaScript/Core Language/JS Strings.md",
+    "JavaScript/Execution.md",
+    "JavaScript/Core Language/JS Objects.md",
+    "JavaScript/Core Language/JS Functions.md",
+    "JavaScript/Core Language/JS Operators.md",
     "JavaScript/Core Language/JS Comments.md",
     "JavaScript/Core Language/JS Conditionals.md",
     "JavaScript/Core Language/JS Loops.md",
@@ -244,11 +188,6 @@
     "Ruby/Variables and Constant.md",
     "JavaScript",
     "Ruby/00 Overview.md",
-    "Ruby/Data Types.md",
-    "Ruby/Operators.md",
-    "Ruby/Object Orientation.md",
-    "Ruby/Modules.md",
-    "Ruby/Methods (Functions).md",
     "Ruby",
     "Specs, Formats, and Encodings",
     "Chef",
