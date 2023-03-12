@@ -11,8 +11,12 @@
             "id": "e09fd411f8f55673",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Web Design/CSS/SASS.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Web Design/CSS/SASS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Web Design/CSS/SASS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Web Design/CSS/SASS.md"
+              }
             }
           },
           {
@@ -150,6 +158,7 @@
   },
   "active": "e09fd411f8f55673",
   "lastOpenFiles": [
+    "Web Design/CSS/SASS.md",
     "Web Design/Untitled.md",
     "Web Design/HTML/Link Rel Tag Standard.md",
     "Linux/awk.md",
@@ -170,7 +179,6 @@
     "Web Design/CSS/CSS Declarations.md",
     "Web Design/CSS/CSS calc Function.md",
     "Web Design/CSS/CSS Sizing and Positioning Units.md",
-    "Web Design/CSS/Untitled.md",
     "Web Design/CSS/CSS Colors.md",
     "Web Design/CSS/CSS Media Queries.md",
     "Web Design/CSS",
