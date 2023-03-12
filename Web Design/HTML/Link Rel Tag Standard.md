@@ -4,12 +4,10 @@ Codified in [RFC 5988](https://www.rfc-archive.org/getrfc?rfc=5988#gsc.tab=0) an
 ```HTML
 <link rel="stylesheet" href="http://www.example.org/css/style.css">
 ```
-The specification also defines a set of standardized link relation types, such as "stylesheet" for linking to stylesheets and "next" for indicating the next page in a paginated sequence. Web Linking can be used to provide additional context and metadata for resources, improving the user experience and facilitating resource discovery and sharing.
 
-Overall, RFC 5988 provides a standardized way of linking resources on the web, making it easier to navigate and interact with the vast array of content available online.
-
-RFC 5988 defines several standardized link relation types, which are intended to provide a consistent way of describing the relationship between linked resources. These include:
-
+| Relation Type | Description |
+| ------------- | ----------- |
+|               |             |
 -   `alternate`: Indicates that the link target is an alternate representation of the resource (e.g. a different format or language).
 -   `author`: Indicates that the link target is the author of the resource.
 -   `canonical`: Indicates that the link target is the preferred version of the resource, for use in search engine indexing and duplicate content detection.
