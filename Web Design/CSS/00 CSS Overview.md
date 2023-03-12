@@ -1,59 +1,23 @@
+
+
 ## General Syntax
-```CSS
-# Comment
+```css
+/* General form: */
 selector {
-	name: value;    # aka declaration
-	name: value;
+	property: value;
+	property: value;
+}
+
+/* Example */
+h1 {
+	color: white;
+	text-align: center;
 }
 ```
 
-## Selectors
-```css
-### By tag
-h2 { color: black }
-
-### By ID
-#myid { color: black }
-
-### Class
-.myclass { color: black }
-
-### Attribute
-input[type="checkbox"] { color: black }
-
-### Pseudo-element
-::placeholder { color: black }
-
-### Combinations with comma
-p.bodytext { color: black }       # p tag with class bodytext
-h1#title { color: black }         # h1 tag with ID title
-.article.callout { color: black } # tag with both classes
-
-### Inner tag
-.box .quotation { color: black }  # quotation inside box element
-span p                            # p tag inside span tag
-
-### Multiple Selectors:
-h1,p,span,a                       # any of the comma-separated tags
-
-### States
-.btn:hover                        # class btn when mouse hovers over it
-
-### Ordering
-.item:last-child                  # Last element of parent with class item
-
-### Preceding element
-input:checked+p                   # p immediately after checked element
-```
-
-
-## Media Queries
-```css
-@media print {}                              # when printed
-@media speech {}                             # screen reader
-@media only screen and (max-width: 600px) {} # Screen <= 600px wide
-@media screen and (min-width: 900px) {}      # Screen >= 900px wide
-```
+[[Including CSS in Web Pages]]
+[[CSS Selectors]]
+[[CSS Media Queries]]
 
 ## Declarations
 
@@ -82,6 +46,7 @@ input:checked+p                   # p immediately after checked element
 
 
 ### Flexbox
+[[Cheat Sheet]]
 flexible container and flexible items:
 ```css
 display: flex;
@@ -102,7 +67,19 @@ align-self
 ```
 
 
-[[CSS Flexbox Cheat Sheet.png]]
 
 
 #TODO: Expand on Flexbox, Grid Layout, Box Model
+
+---
+# See Also
+W3Schools [Tutorial](https://www.w3schools.com/css/), [Reference](https://www.w3schools.com/cssref/)
+[A Complete Guide to Flexbox | CSS-Tricks - CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+[Flexbox Zombies 2.0](https://mastery.games/post/flexboxzombies2/)
+[Flexbox Froggy - A game for learning CSS flexbox](https://flexboxfroggy.com/)
+[Grid Garden - A game for learning CSS grid](https://codepip.com/games/grid-garden/)
+[CSS Selectors Reference](https://www.w3schools.com/cssref/css_selectors.php)
+
+
+
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Design/CSS.md",
+                "file": "Web Design/CSS/00 CSS Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Design/CSS.md",
+                "file": "Web Design/CSS/00 CSS Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Design/CSS.md",
+                "file": "Web Design/CSS/00 CSS Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Design/CSS.md"
+                "file": "Web Design/CSS/00 CSS Overview.md"
               }
             }
           },
@@ -156,12 +156,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3acfc5506306e0c",
+  "active": "7eafcd9db0e26455",
   "lastOpenFiles": [
+    "Web Design/CSS/CSS Selectors.md",
+    "Web Design/CSS/00 CSS Overview.md",
+    "Web Design/CSS/Including CSS in Web Pages.md",
+    "Web Design/CSS/CSS Media Queries.md",
     "Web Design/CSS",
-    "Web Design/CSS Flexbox Cheat Sheet.png",
+    "Web Design/CSS/CSS Flexbox Cheat Sheet.png",
     "Web Design/Bootstrap.md",
-    "Web Design/CSS.md",
     "Data Science/Enabling GPU in Google Colab.md",
     "Web Design",
     "JavaScript/Libs/passport-google-oauth20.md",
@@ -188,14 +191,11 @@
     "JavaScript/Core Language/JS Async Programming.md",
     "JavaScript/Core Language/JS Variables.md",
     "JavaScript/Core Language/JS Types.md",
-    "JavaScript/Core Language/JS Special Types.md",
-    "JavaScript/Core Language/JS Number.md",
     "JavaScript/Core Language",
     "JavaScript/Core Language/JS Array Methods Cheat Sheet.png",
     "JavaScript/Libs",
     "JavaScript",
     "Ruby",
-    "Specs, Formats, and Encodings",
     "Kubernetes/Kubernetes Architecture.png",
     "Python/Core Language/Exception Hierarchy 1.png",
     "Algorithms/knn example.png"

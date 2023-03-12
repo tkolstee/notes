@@ -3,5 +3,6 @@
   "cssTheme": "Kanagawa",
   "enabledCssSnippets": [
     "big-math"
-  ]
+  ],
+  "baseFontSize": 21
 }
