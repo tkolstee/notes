@@ -19,17 +19,7 @@ h1 {
 [[CSS Selectors]]
 [[CSS Media Queries]]
 [[CSS Colors]]
-
--   `px`: pixels
--   `em`: relative to the font-size of the element (1em is equal to the font-size of the parent element)
--   `rem`: relative to the font-size of the root element (which is usually the `<html>` element)
--   `%`: percentage of the parent element's size
--   `vh`: viewport height (1vh is equal to 1% of the viewport height)
--   `vw`: viewport width (1vw is equal to 1% of the viewport width)
--   `vmin`: viewport minimum (1vmin is equal to the smaller of 1vw or 1vh)
--   `vmax`: viewport maximum (1vmax is equal to the larger of 1vw or 1vh)
-
-There are other less common sizing units as well, such as `ex`, `ch`, `fr`, `calc()`, etc., but the ones listed above are the most commonly used.
+[[CSS Sizing and Positioning Units]]
 
 
 
