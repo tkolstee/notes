@@ -1,4 +1,6 @@
 
+## Specifying Color
+
 CSS colors can be specified by:
 | Format        | Example                   | Support          |
 | ------------- | ------------------------- | ---------------- |
@@ -12,6 +14,20 @@ CSS colors can be specified by:
 | CMYK          | `cmyk(100%, 0%, 0%, 0%)`  | CSS4 (proposed)                 |
 | Current Color | `currentcolor`            |                  |
 |               |                           |                  |
+
+## Declarations Using Colors
+| CSS Declaration | Description |
+| --- | --- |
+| `color` | Sets the color of the text |
+| `background-color` | Sets the background color of an element |
+| `border-color` | Sets the color of an element's border |
+| `outline-color` | Sets the color of an element's outline |
+| `box-shadow` | Sets the color of a box's shadow |
+| `text-shadow` | Sets the color of text's shadow |
+| `fill` | Sets the color inside a shape |
+| `stroke` | Sets the color of a shape's outline |
+| `caret-color` | Sets the color of the cursor in an input field |
+| `mask-border-color` | Sets the color of the mask applied to an element. |
 
 ----
 # See Also
