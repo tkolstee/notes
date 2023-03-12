@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Core Language/JS Types.md",
+                "file": "JavaScript/Core Language/JS Objects.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/Core Language/JS Types.md",
+                "file": "JavaScript/Core Language/JS Objects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/Core Language/JS Types.md",
+                "file": "JavaScript/Core Language/JS Objects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/Core Language/JS Types.md"
+                "file": "JavaScript/Core Language/JS Objects.md"
               }
             }
           },
@@ -207,13 +207,13 @@
   },
   "active": "4a79f583e36c6201",
   "lastOpenFiles": [
+    "JavaScript/Core Language/JS Functions.md",
+    "JavaScript/Core Language/JS Types.md",
     "JavaScript/Core Language/JS Objects.md",
     "JavaScript/Core Language/00 JS Overview.md",
-    "JavaScript/Core Language/JS Types.md",
     "JavaScript/Core Language/JS Operators.md",
     "JavaScript/Core Language/JS Variables.md",
     "JavaScript/Core Language/JS Comments.md",
-    "JavaScript/Core Language/JS Functions.md",
     "JavaScript/Core Language/JS Conditionals.md",
     "JavaScript/Core Language/JS Loops.md",
     "JavaScript/Core Language/JS Importing and Exporting.md",

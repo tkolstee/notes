@@ -65,6 +65,9 @@ collapse: true
 - `null`: Used to indicate a deliberate non-value
 - `undefined`: Value not currently present
 
+## Arrays
+[[JS Arrays]]
+
 ## Object
 [[JS Objects]]
 Dictionaries/Hashes and Objects are the same in JavaScript. Some key/value pairs point at data (properties) whereas others point to functions (methods).
