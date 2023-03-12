@@ -18,6 +18,7 @@ h1 {
 [[Including CSS in Web Pages]]
 [[CSS Selectors]]
 [[CSS Media Queries]]
+[[CSS Colors]]
 
 ## Declarations
 
