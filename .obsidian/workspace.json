@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e741c775edaeed93",
+        "id": "51cde7ccdd05692b",
         "type": "tabs",
         "children": [
           {
-            "id": "e09fd411f8f55673",
+            "id": "332cc9666965bfde",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Design/CSS/SASS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Design/CSS/SASS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Design/CSS/SASS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Web Design/CSS/SASS.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,8 +148,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e09fd411f8f55673",
+  "active": "332cc9666965bfde",
   "lastOpenFiles": [
+    "Algorithms/Robust Hashing.md",
+    "Algorithms/Locality-Sensitive Hashing.md",
+    "Algorithms/Minhashing.md",
+    "Algorithms/k-Shingles.md",
+    "Algorithms/hash.md",
     "Web Design/CSS/SASS.md",
     "Web Design/Untitled.md",
     "Web Design/HTML/Link Rel Tag Standard.md",
@@ -183,12 +180,7 @@
     "Web Design/CSS/CSS Media Queries.md",
     "Web Design/CSS",
     "Web Design/CSS/CSS Flexbox Cheat Sheet.png",
-    "Web Design/Bootstrap.md",
-    "Data Science/Enabling GPU in Google Colab.md",
     "Web Design",
-    "JavaScript/Libs/passport-google-oauth20.md",
-    "JavaScript/Core Language/JS Objects.md",
-    "JavaScript/Core Language/00 JS Overview.md",
     "JavaScript/React",
     "JavaScript/Vue",
     "JavaScript/Node",
