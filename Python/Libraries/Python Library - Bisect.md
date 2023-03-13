@@ -1,18 +1,34 @@
-Binary search over a collection.
+Binary search over a sorted collection to find an item or insertion point.
 
 
+`bisect` is an alias for `bisect_right` which returns an insertion point after an existing item.
+`bisect_left` returns the position of the existing item so insertion would occur before it.
 ```python
-import bisect
-import sys
+>>> from bisect import bisect, bisect_left
+>>> HAYSTACK = [ x**2 for x in range(1000) ]
 
-HAYSTACK = [1, 4, 5, 6, 8, 12, 15, 20, 21, 23, 23, 26, 29, 30]
-needle = 10
+>>> bisect(HAYSTACK, 100000)
+317
+>>> HAYSTACK[316:318]
+[99856, 100489]
 
-def demo():
-	position = bisect.bisect(HAYSTACK, needle)
+>>> bisect(HAYSTACK, 544644)
+739
+>>> bisect_left(HAYSTACK, 544644)
+738
+>>> HAYSTACK[738:740]
+[544644, 546121]
 ```
-`position = bisect_fn(HAYSTACK, needle)` gets the insertion point
-`offset = `
+
+Bisect can be used as a faster version of `list.index(x)` when the list is sorted.
+```python
+>>> def grade(score, breakpoints=[60, 70, 80, 90], grades='FDCBA')
+...     i = bisect.bisect(breakpoints, score)
+...     return grades[i]
+...
+>>> [grade(score) for score in [33, 99, 77, 70, 89, 90, 100]]
+['F', 'A', 'C', 'C', 'B', 'A', 'A']
+```
 
 ----
 # Source
