@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences.md",
+                "file": "Python/Core Language/Collections/Sequences/Sequences.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences.md",
+                "file": "Python/Core Language/Collections/Sequences/Sequences.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences.md",
+                "file": "Python/Core Language/Collections/Sequences/Sequences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences.md",
+                "file": "Python/Core Language/Collections/Sequences/Sequences.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences.md"
+                "file": "Python/Core Language/Collections/Sequences/Sequences.md"
               }
             }
           },
@@ -191,9 +191,17 @@
   },
   "active": "d386cb9bc734693f",
   "lastOpenFiles": [
+    "Python/Core Language/Collections/Sequences/Memory Views.md",
+    "Python/Core Language/Collections/Sequences/Sorting.md",
+    "Python/Core Language/Collections/Sequences/Arrays.md",
+    "Python/Core Language/Collections/Sequences/Slicing.md",
+    "Python/Core Language/Collections/Sequences/Indexing.md",
+    "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
+    "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
+    "Python/Core Language/Collections/Sequences",
     "Python/Libraries/Python Library - Bisect.md",
     "Python/Core Language/Dunder Methods.md",
-    "Python/Core Language/Collections/Sequences.md",
+    "Python/Core Language/Collections/Sequences/Sequences.md",
     "Python/Core Language/Collections/Unpacking.md",
     "Python/Core Language/Collections/Tuples.md",
     "Python/00 Overview.md",
@@ -212,13 +220,6 @@
     "Python/Core Language/Exception Hierarchy 1.png",
     "Python/Core Language/Data Types.md",
     "Python/Core Language/Collections",
-    "Python/Django/Views and Routing.md",
-    "Python/Django/Projects and Apps.md",
-    "Algorithms/Robust Hashing.md",
-    "Algorithms/Locality-Sensitive Hashing.md",
-    "Algorithms/Minhashing.md",
-    "Algorithms/k-Shingles.md",
-    "Algorithms/hash.md",
     "Web Design/HTML",
     "Web Design/Icons",
     "Web Design/CSS",
@@ -228,7 +229,6 @@
     "JavaScript/Vue",
     "JavaScript/Node",
     "JavaScript/Server-Side",
-    "JavaScript/Core Language",
     "JavaScript/Core Language/JS Array Methods Cheat Sheet.png",
     "Kubernetes/Kubernetes Architecture.png",
     "Algorithms/knn example.png"
