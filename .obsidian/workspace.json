@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d386cb9bc734693f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Libraries/Python Library - Bisect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fluent",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences.md",
+                "file": "Python/Libraries/Python Library - Bisect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences.md",
+                "file": "Python/Libraries/Python Library - Bisect.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences.md"
+                "file": "Python/Libraries/Python Library - Bisect.md"
               }
             }
           },
@@ -177,11 +190,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "81aba7ec0594199c",
+  "active": "d386cb9bc734693f",
   "lastOpenFiles": [
+    "Python/Core Language/Dunder Methods.md",
+    "Python/Libraries/Python Library - Bisect.md",
+    "Python/Core Language/Collections/Sequences.md",
     "Python/Core Language/Collections/Unpacking.md",
     "Python/Core Language/Collections/Tuples.md",
-    "Python/Core Language/Collections/Sequences.md",
     "Python/00 Overview.md",
     "Python/Core Language/Collections/Python Collections and Iteration.md",
     "Python/Core Language/Collections/Indexing and Slicing.md",
@@ -196,7 +211,6 @@
     "Python/Core Language/File Operations.md",
     "Python/Core Language/Exceptions.md",
     "Python/Core Language/Exception Hierarchy 1.png",
-    "Python/Core Language/Dunder Methods.md",
     "Python/Core Language/Data Types.md",
     "Python/Core Language/Collections",
     "Python/Django/Views and Routing.md",
@@ -206,7 +220,6 @@
     "Algorithms/Minhashing.md",
     "Algorithms/k-Shingles.md",
     "Algorithms/hash.md",
-    "Web Design/CSS/SASS.md",
     "Web Design/HTML",
     "Web Design/Icons",
     "Web Design/CSS",
