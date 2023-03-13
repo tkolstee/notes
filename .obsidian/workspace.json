@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "51cde7ccdd05692b",
+        "id": "18ce2d23988a80d3",
         "type": "tabs",
         "children": [
           {
-            "id": "332cc9666965bfde",
+            "id": "fb1c75490aeb6ce7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Django/Views and Routing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c771916cbd6bc526",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Core Language/Collections/Sequences/Lists.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Python/Core Language/Collections/Sequences/Lists.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,13 +148,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c771916cbd6bc526",
+  "active": "fb1c75490aeb6ce7",
   "lastOpenFiles": [
+    "Python/Django/Views and Routing.md",
+    "Python/Core Language/Collections/Sequences/Lists.md",
     "Python/Core Language/Dunder Methods.md",
     "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
     "Python/Core Language/Collections/Sequences/Deque.md",
     "Python/Core Language/Collections/Sequences/Sorting.md",
-    "Python/Core Language/Collections/Sequences/Lists.md",
     "Python/Core Language/Collections/Sequences/Indexing and Slicing.md",
     "Python/Core Language/Collections/Sequences/Tuples.md",
     "Python/Core Language/Collections/Sequences/Bytes.md",
@@ -196,7 +176,6 @@
     "Python/Core Language/Collections/Comprehensions.md",
     "Python/Core Language/Collections",
     "Python/Core Language/Named Tuples.md",
-    "Python/Django/Views and Routing.md",
     "Python/Django/Projects and Apps.md",
     "Algorithms/Robust Hashing.md",
     "Web Design/HTML",

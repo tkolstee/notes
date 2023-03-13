@@ -36,8 +36,4 @@ Indexing: `__delitem__`, `__getitem__`, `__setitem__`
 Iteration: `__iter__`
 Representation: `__repr__`, `__str__`
 Sizing: `__len__`, `__sizeof__`
- | Method                        | Description                                | Example |
- | ----------------------------- | ------------------------------------------ | ------- |
- | `__reversed__(/)`             | `Return a reverse iterator over the list.` |         |
- | `__setattr__(name, value, /)` | `Implement setattr(self, name, value).`    |         |
- 
+Ordering: `__reversed__`
