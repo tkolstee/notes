@@ -34,23 +34,25 @@ numbers[:12:2]  # indices 0, 2, 4, 6, 8, 10
 numbers[5::2]   # indices 5, 7, 9, ... end
 ```
 
-### Why Exclude the Last (STOP) item?
+### Why Exclude the Last (stop) item?
 - It's easy to see the length of the range returned:   `range(3)` and `list[:3]` return 3 items.
 - It's easy to compute the length when start and stop are both used:  `list[4:9]` is 5 items (stop - start)
 - It's easy to paginate or split a sequence into parts:
 ```python
-mylist = range(101)
+mylist = list(range(101))
 start = 0
 length = 10
 while start < len(mylist):
 	stop = start + length
 	print(mylist[start:stop])
 	start = stop
+```
 
-"""
+```output
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 [10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
 ...
-[90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+[90, 91, 92, 93, 94, 95, 96, 97, 98, 99],
+[100]
 ```
 
