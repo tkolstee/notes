@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c771916cbd6bc526",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Core Language/Dunder Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Django/Views and Routing.md",
+                "file": "Python/Core Language/Dunder Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Django/Views and Routing.md",
+                "file": "Python/Core Language/Dunder Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Django/Views and Routing.md"
+                "file": "Python/Core Language/Dunder Methods.md"
               }
             }
           },
@@ -156,8 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "332cc9666965bfde",
+  "active": "c771916cbd6bc526",
   "lastOpenFiles": [
+    "Python/Django/Views and Routing.md",
+    "Python/Core Language/Dunder Methods.md",
     "Python/Django/Projects and Apps.md",
     "Algorithms/Robust Hashing.md",
     "Algorithms/Locality-Sensitive Hashing.md",
@@ -184,8 +199,6 @@
     "Web Design/CSS/Including CSS in Web Pages.md",
     "Web Design/CSS/CSS Declarations.md",
     "Web Design/CSS/CSS calc Function.md",
-    "Web Design/CSS/CSS Sizing and Positioning Units.md",
-    "Web Design/CSS/CSS Colors.md",
     "Web Design/CSS",
     "Web Design/CSS/CSS Flexbox Cheat Sheet.png",
     "Web Design",
