@@ -1,4 +1,7 @@
 Sequences are collections that support numeric indexing and thus are ordered.
+```toc
+
+```
 
 ## Indexing
 Positive indices are positions into the collection starting with zero.
@@ -56,3 +59,4 @@ while start < len(mylist):
 [100]
 ```
 
+### Assigning to Slices
