@@ -55,7 +55,7 @@ Numeric 0 and empty collections are falsey, all else are truthy
 | ----- | -------------------------- | ----------------------------- | --- |
 | list  | `[ a, b, c ]`              | `[ i*2 for i in range(10) ]`  |     |
 | dict  | `{'a': a, 'b': b} `        | `{i:i*2 for i in range(10) }` |     |
-| set   | `{a, b, c}`                | `(i*2 for i in range(10)`     |     |
+| set   | `{a, b, c}`                | `(i*2 for i in range(10))`     |     |
 | tuple | `(a, b, c)`                | none                          |     |
 | range | `range(start, stop, step)` | none                          |     |
 | str   | "This is a string"         | none                          |     |

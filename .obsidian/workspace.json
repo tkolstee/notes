@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Named Tuples.md",
+                "file": "Python/Core Language/Variables and Scoping.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Named Tuples.md",
+                "file": "Python/Core Language/Variables and Scoping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Named Tuples.md",
+                "file": "Python/Core Language/Variables and Scoping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Named Tuples.md"
+                "file": "Python/Core Language/Variables and Scoping.md"
               }
             }
           },
@@ -183,8 +183,19 @@
   },
   "active": "4e69df63a0b087dd",
   "lastOpenFiles": [
+    "Python/Core Language/Python Decorators.md",
+    "Python/Core Language/Python Context Managers.md",
+    "Python/Core Language/Collections/Python Comprehensions.md",
+    "Python/Core Language/Python Closures.md",
+    "Python/Core Language/Collections/Named Tuples.md",
+    "Python/Core Language/Looping.md",
+    "Python/Core Language/Functions.md",
+    "Python/Core Language/File Operations.md",
+    "Python/Core Language/Exceptions.md",
+    "Python/Core Language/Exception Hierarchy 1.png",
     "Python/Core Language/Dunder Methods.md",
-    "Python/Core Language/Named Tuples.md",
+    "Python/Core Language/Data Types.md",
+    "Python/Core Language/Collections",
     "Python/Django/Views and Routing.md",
     "Python/Django/Projects and Apps.md",
     "Algorithms/Robust Hashing.md",
@@ -200,17 +211,8 @@
     "Mathematics/Algebra.md",
     "Mathematics/Calculus.md",
     "Mathematics/Distance Formulas.md",
-    "Web Design/HTML/HTML Cheat Sheet.md",
-    "Web Design/Design Elements.md",
     "Web Design/HTML",
-    "Web Design/Icons/Font Awesome.md",
-    "Web Design/favicon.md",
     "Web Design/Icons",
-    "Web Design/CSS/CSS Layout and Positioning.md",
-    "Web Design/CSS/CSS Selectors.md",
-    "Web Design/CSS/00 CSS Overview.md",
-    "Web Design/CSS/Including CSS in Web Pages.md",
-    "Web Design/CSS/CSS Declarations.md",
     "Web Design/CSS",
     "Web Design/CSS/CSS Flexbox Cheat Sheet.png",
     "Web Design",
@@ -220,9 +222,7 @@
     "JavaScript/Server-Side",
     "JavaScript/Core Language",
     "JavaScript/Core Language/JS Array Methods Cheat Sheet.png",
-    "JavaScript/Libs",
     "Kubernetes/Kubernetes Architecture.png",
-    "Python/Core Language/Exception Hierarchy 1.png",
     "Algorithms/knn example.png"
   ]
 }
