@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "955fa2d3c7ced389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Core Language/Collections/Sequences/Deque.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
+                "file": "Python/Core Language/Collections/Sequences/Deque.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
+                "file": "Python/Core Language/Collections/Sequences/Deque.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/00 Sequences Overview.md"
+                "file": "Python/Core Language/Collections/Sequences/Deque.md"
               }
             }
           },
@@ -201,15 +213,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f8d6666b6c47dd6d",
+  "active": "955fa2d3c7ced389",
   "lastOpenFiles": [
+    "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
+    "Python/Core Language/Collections/Sequences/Deque.md",
     "Python/Core Language/Collections/Sequences/Bytes.md",
     "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
     "Python/Core Language/Collections/Sequences/Byte Array.md",
     "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
     "Python/Core Language/Collections/Sequences/Arrays.md",
     "Python/Core Language/Collections/Sequences/Sorting.md",
-    "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
     "Python/Core Language/Collections/Sequences/Memory Views.md",
     "Python/Core Language/Collections/Sequences/Indexing and Slicing.md",
     "Python/Core Language/Collections/Sequences/Slicing.md",
@@ -229,7 +242,6 @@
     "Python/Core Language/Python Context Managers.md",
     "Python/Core Language/Python Closures.md",
     "Python/Core Language/Looping.md",
-    "Python/Core Language/Functions.md",
     "Python/Core Language/Exception Hierarchy 1.png",
     "Python/Core Language/Collections",
     "Web Design/HTML",
