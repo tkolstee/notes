@@ -44,24 +44,12 @@
             }
           },
           {
-            "id": "e0335779a1da61a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Python Memory Mapping.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f8d6666b6c47dd6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Bytes.md",
+                "file": "Python/Core Language/Collections/Sequences/Indexing.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Python Memory Mapping.md",
+                "file": "Python/Core Language/Collections/Sequences/Indexing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Python Memory Mapping.md",
+                "file": "Python/Core Language/Collections/Sequences/Indexing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Python Memory Mapping.md"
+                "file": "Python/Core Language/Collections/Sequences/Indexing.md"
               }
             }
           },
@@ -213,17 +201,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e0335779a1da61a5",
+  "active": "f8d6666b6c47dd6d",
   "lastOpenFiles": [
-    "Python/Core Language/Collections/Sequences/Bytes.md",
+    "Python/Core Language/Collections/Sequences/Slicing.md",
+    "Python/Core Language/Collections/Sequences/Indexing.md",
+    "Python/Core Language/Collections/Python Collections and Iteration.md",
     "Python/Python Memory Mapping.md",
+    "Python/Core Language/Collections/Sequences/Bytes.md",
     "Python/Core Language/Collections/Sequences/Byte Array.md",
     "Python/Core Language/Collections/Sequences/Memory Views.md",
     "Python/Core Language/Collections/Sequences/Sequences.md",
     "Python/Core Language/Collections/Sequences/Sorting.md",
     "Python/Core Language/Collections/Sequences/Arrays.md",
-    "Python/Core Language/Collections/Sequences/Slicing.md",
-    "Python/Core Language/Collections/Sequences/Indexing.md",
     "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
     "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
     "Python/Core Language/Collections/Sequences",
@@ -232,7 +221,6 @@
     "Python/Core Language/Collections/Unpacking.md",
     "Python/Core Language/Collections/Tuples.md",
     "Python/00 Overview.md",
-    "Python/Core Language/Collections/Python Collections and Iteration.md",
     "Python/Core Language/Collections/Indexing and Slicing.md",
     "Python/Core Language/Collections/Built-In Sequences.md",
     "Python/Core Language/Collections/Comprehensions.md",
