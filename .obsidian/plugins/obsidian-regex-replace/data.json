@@ -1,6 +1,6 @@
 {
-  "findText": "_|",
-  "replaceText": "_ |",
+  "findText": "\\$self, ",
+  "replaceText": "",
   "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,
