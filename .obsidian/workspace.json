@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fb8cf61f3396b591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Core Language/Collections/Collection Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Variables and Scoping.md",
+                "file": "Python/Core Language/Collections/Collection Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Variables and Scoping.md",
+                "file": "Python/Core Language/Collections/Collection Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Variables and Scoping.md"
+                "file": "Python/Core Language/Collections/Collection Overview.md"
               }
             }
           },
@@ -181,8 +193,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e69df63a0b087dd",
+  "active": "fb8cf61f3396b591",
   "lastOpenFiles": [
+    "Python/Core Language/Variables and Scoping.md",
+    "Python/Core Language/Collections/Collection Overview.md",
     "Python/Core Language/Python Decorators.md",
     "Python/Core Language/Python Context Managers.md",
     "Python/Core Language/Collections/Python Comprehensions.md",
@@ -209,8 +223,6 @@
     "Linux/awk.md",
     "Linux/cut.md",
     "Mathematics/Algebra.md",
-    "Mathematics/Calculus.md",
-    "Mathematics/Distance Formulas.md",
     "Web Design/HTML",
     "Web Design/Icons",
     "Web Design/CSS",
