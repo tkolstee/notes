@@ -1,5 +1,8 @@
 
 [[dict]]
+[[OrderedDict]]
+[[DefaultDict]] - Allows for a function to define the values for missing keys.
+
 
 
 

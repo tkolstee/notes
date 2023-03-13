@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Mappings/00 Mappings.md",
+                "file": "Python/Core Language/Collections/Mappings/DefaultDict.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Collections/Mappings/00 Mappings.md",
+                "file": "Python/Core Language/Collections/Mappings/DefaultDict.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Collections/Mappings/00 Mappings.md",
+                "file": "Python/Core Language/Collections/Mappings/DefaultDict.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Collections/Mappings/00 Mappings.md"
+                "file": "Python/Core Language/Collections/Mappings/DefaultDict.md"
               }
             }
           },
@@ -172,8 +172,9 @@
   },
   "active": "ccc7534298a471b9",
   "lastOpenFiles": [
-    "Python/Core Language/Collections/Mappings/dict.md",
     "Python/Core Language/Collections/Mappings/00 Mappings.md",
+    "Python/Core Language/Collections/Mappings/dict.md",
+    "Python/Core Language/Collections/Mappings/DefaultDict.md",
     "Python/Core Language/Collections/Mappings/OrderedDict.md",
     "Python/Core Language/Collections/Sequences/Comprehensions.md",
     "Python/Core Language/Hashable.md",
@@ -200,7 +201,6 @@
     "Python/Core Language/Collections/Unpacking.md",
     "Python/Core Language/Collections/Tuples.md",
     "Python/Core Language/Collections/Indexing and Slicing.md",
-    "Python/Core Language/Collections/Comprehensions.md",
     "Python/Core Language/Collections",
     "Web Design/HTML",
     "Web Design/Icons",
