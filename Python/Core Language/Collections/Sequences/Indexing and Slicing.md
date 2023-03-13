@@ -33,14 +33,6 @@ IndexError: list index out of range
 ['a', 'b', 'c', 'e']
 ```
 
-
-
-
-
-
-----
-
-
 ## Slicing
 Reference a subset of a sequence in order.
 
@@ -92,35 +84,21 @@ while start < len(mylist):
 
 ### Assigning to Slices
 This will replace the slice with the given values, even if they are of a different size:
-
-```python
->>> x = list(range(10))
->>> x[3:5] = [ 33, 44, 55, 66 ]
->>> x
-[0, 1, 2, 33, 44, 55, 66, 5, 6, 7, 8, 9]
-```
-
-To insert a number between other numbers, use a zero-length slice (start = stop)
-```python
->>> x = list(range(10))
->>> x[3:3] = [ 33, 44, 55, 66 ]
->>> x
-[0, 1, 2, 33, 44, 55, 66, 3, 4, 5, 6, 7, 8, 9]
-```
-
 `step` can be used, but the replacement slice must be the same size as the original.
-Assigning to slices is possible. Assigned value does not need to be the same size, unless `step` is used.
 
 ```python
-mylist = [ 1, 1, 1, 1, 1, 1 ]
-mylist[0:3] = [2, 2, 2]        # [2, 2, 2, 1, 1, 1]
-mylist[1:4] = [ 3, 3 ]         # [2, 3, 3, 1, 1]
-mylist[1::2] = [ 4, 4 ]        # [2, 4, 3, 4, 1]
-del mylist[1::2]               # [2, 3, 1]
+>>> mylist = [ 1, 1, 1, 1, 1, 1 ]
+
+>>> mylist[0:3] = [2, 2, 2]        # [2, 2, 2, 1, 1, 1]
+>>> mylist[1:4] = [ 3, 3 ]         # [2, 3, 3, 1, 1]
+>>> mylist[1::2] = [ 4, 4 ]        # [2, 4, 3, 4, 1]
+
+>>> del mylist[1::2]               # [2, 3, 1]
+
+>>> mylist = [ 1, 1, 1, 1, 1, 1 ]
+>>> mylist[0:3:2] = [ 'a', 'b', 'c', 'd' ]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: attempt to assign sequence of size 4 to extended slice of size 2
 ```
-
-
-
-
-------
 
