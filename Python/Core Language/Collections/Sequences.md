@@ -156,7 +156,17 @@ To insert a number between other numbers, use a zero-length slice (start = stop)
 | `max(s)`               | Largest item of `s`                                                                                                          |
 | `s.index(x[, i[, j]])` | Index of 1st occurrence of `x` in `s`, at or after `i` but before `j` if given                                               |
 | `s.count(x)`           | Number of occurrences of `x` in `s`                                                                                          |
-|                        |                                                                                                                              |
+
+## Sorting
+`list.sort()` sorts a list in place without making a copy.
+`sorted(list)` returns a new list in sorted order.
+
+Both take keywords:
+	- `reverse=True` (default `False`) to reverse the order
+	- `key=function_name` to use a function as the key for sorting (e.g. `str.lower`, `len`).
+
+## Binary Searching with Bisect
+
 
 ----
 # Sources

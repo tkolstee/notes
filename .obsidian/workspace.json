@@ -177,14 +177,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "dc14e2072b4c752c",
+  "active": "81aba7ec0594199c",
   "lastOpenFiles": [
+    "Python/Core Language/Collections/Unpacking.md",
     "Python/Core Language/Collections/Tuples.md",
     "Python/Core Language/Collections/Sequences.md",
+    "Python/00 Overview.md",
     "Python/Core Language/Collections/Python Collections and Iteration.md",
     "Python/Core Language/Collections/Indexing and Slicing.md",
     "Python/Core Language/Collections/Built-In Sequences.md",
-    "Python/Core Language/Collections/Unpacking.md",
     "Python/Core Language/Collections/Comprehensions.md",
     "Python/Core Language/Variables and Scoping.md",
     "Python/Core Language/Python Decorators.md",
@@ -206,7 +207,6 @@
     "Algorithms/k-Shingles.md",
     "Algorithms/hash.md",
     "Web Design/CSS/SASS.md",
-    "Web Design/Untitled.md",
     "Web Design/HTML",
     "Web Design/Icons",
     "Web Design/CSS",
