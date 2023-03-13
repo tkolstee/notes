@@ -30,6 +30,15 @@ Bisect can be used as a faster version of `list.index(x)` when the list is sorte
 ['F', 'A', 'C', 'C', 'B', 'A', 'A']
 ```
 
+`insort(seq, item)` inserts an item into the correct place in a sorted collection:
+```python
+import bisect
+import random
+
+SIZE=7
+
+```
+
 ----
 # Source
 *Fluent Python*, Luciano Ramalho, 2015
