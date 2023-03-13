@@ -9,7 +9,7 @@ They are Mutable, Ordered Collections.
 >>> mylist = list(['apple', 'banana', 3, True]) # ['apple', 'banana', 3, True]
 ```
 
-## Accessing Items
+## Accessing and Changing Items
 This can be done through Numeric [[Indexing and Slicing]]
 
 ## 

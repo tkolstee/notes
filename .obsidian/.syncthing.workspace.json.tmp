@@ -8,31 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "332cc9666965bfde",
+            "id": "fb8cf61f3396b591",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Django/Views and Routing.md",
+                "file": "Python/Core Language/Collections/Tuples.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c771916cbd6bc526",
+            "id": "81aba7ec0594199c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Collections/Unpacking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0390e1dc0e4cb52e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Core Language/Collections/Indexing and Slicing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Collections/Indexing and Slicing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Collections/Indexing and Slicing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md"
+                "file": "Python/Core Language/Collections/Indexing and Slicing.md"
               }
             }
           },
@@ -149,9 +161,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "00f9ea2fc339c6b9",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -160,46 +180,46 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c771916cbd6bc526",
+  "active": "0390e1dc0e4cb52e",
   "lastOpenFiles": [
-    "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
-    "Python/Core Language/Collections/Sequences/Deque.md",
-    "Python/Core Language/Collections/Sequences/Sorting.md",
-    "Python/Core Language/Collections/Sequences/Lists.md",
-    "Python/Core Language/Collections/Sequences/Indexing and Slicing.md",
-    "Python/Core Language/Collections/Sequences/Tuples.md",
-    "Python/Core Language/Collections/Sequences/Bytes.md",
-    "Python/Core Language/Collections/Sequences/Comprehensions.md",
-    "Python/00 Overview.md",
-    "Python/Core Language/Collections/Sequences/Memory Views.md",
-    "Python/Core Language/Collections/Sequences/Arrays.md",
-    "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
-    "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
-    "Python/Libraries/Python Library - Bisect.md",
-    "Python/Core Language/Collections/Sequences/Byte Array.md",
-    "Python/Core Language/Collections/Sequences",
-    "Python/Core Language/Collections/Built-In Sequences.md",
     "Python/Core Language/Collections/Unpacking.md",
-    "Python/Core Language/Collections/Tuples.md",
     "Python/Core Language/Collections/Indexing and Slicing.md",
-    "Python/Core Language/Collections/Python Collections and Iteration.md",
+    "Python/Core Language/Collections/Tuples.md",
     "Python/Core Language/Collections/Comprehensions.md",
-    "Python/Core Language/Collections",
-    "Python/Core Language/Named Tuples.md",
-    "Python/Django/Views and Routing.md",
+    "Python/Core Language/Collections/Built-In Sequences.md",
+    "Python/Core Language/Variables and Scoping.md",
+    "Python/Core Language/Python Decorators.md",
+    "Python/Core Language/Python Context Managers.md",
+    "Python/Core Language/Python Closures.md",
+    "Python/Core Language/Looping.md",
+    "Python/Core Language/Functions.md",
+    "Python/Core Language/File Operations.md",
+    "Python/Core Language/Exceptions.md",
+    "Python/Core Language/Exception Hierarchy 1.png",
     "Python/Core Language/Dunder Methods.md",
+    "Python/Core Language/Data Types.md",
+    "Python/Core Language/Collections",
+    "Python/Django/Views and Routing.md",
     "Python/Django/Projects and Apps.md",
     "Algorithms/Robust Hashing.md",
+    "Algorithms/Locality-Sensitive Hashing.md",
+    "Algorithms/Minhashing.md",
+    "Algorithms/k-Shingles.md",
+    "Algorithms/hash.md",
+    "Web Design/CSS/SASS.md",
+    "Web Design/Untitled.md",
+    "Web Design/HTML/Link Rel Tag Standard.md",
+    "Linux/awk.md",
     "Web Design/HTML",
     "Web Design/Icons",
     "Web Design/CSS",
@@ -209,9 +229,9 @@
     "JavaScript/Vue",
     "JavaScript/Node",
     "JavaScript/Server-Side",
+    "JavaScript/Core Language",
     "JavaScript/Core Language/JS Array Methods Cheat Sheet.png",
     "Kubernetes/Kubernetes Architecture.png",
-    "Python/Core Language/Exception Hierarchy 1.png",
     "Algorithms/knn example.png"
   ]
 }

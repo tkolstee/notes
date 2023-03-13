@@ -8,24 +8,60 @@
         "type": "tabs",
         "children": [
           {
-            "id": "332cc9666965bfde",
+            "id": "fb8cf61f3396b591",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Django/Views and Routing.md",
+                "file": "Python/Core Language/Collections/Sequences/Tuples.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c771916cbd6bc526",
+            "id": "81aba7ec0594199c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Collections/Sequences/Lists.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d386cb9bc734693f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python Memory Mapping.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8d6666b6c47dd6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "955fa2d3c7ced389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "fluent",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Collections/Sequences/Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Collections/Sequences/Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md"
+                "file": "Python/Core Language/Collections/Sequences/Lists.md"
               }
             }
           },
@@ -149,57 +185,65 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "00f9ea2fc339c6b9",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c771916cbd6bc526",
+  "active": "81aba7ec0594199c",
   "lastOpenFiles": [
     "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
-    "Python/Core Language/Collections/Sequences/Deque.md",
-    "Python/Core Language/Collections/Sequences/Sorting.md",
     "Python/Core Language/Collections/Sequences/Lists.md",
-    "Python/Core Language/Collections/Sequences/Indexing and Slicing.md",
-    "Python/Core Language/Collections/Sequences/Tuples.md",
-    "Python/Core Language/Collections/Sequences/Bytes.md",
-    "Python/Core Language/Collections/Sequences/Comprehensions.md",
-    "Python/00 Overview.md",
-    "Python/Core Language/Collections/Sequences/Memory Views.md",
-    "Python/Core Language/Collections/Sequences/Arrays.md",
-    "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
-    "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
-    "Python/Libraries/Python Library - Bisect.md",
-    "Python/Core Language/Collections/Sequences/Byte Array.md",
-    "Python/Core Language/Collections/Sequences",
-    "Python/Core Language/Collections/Built-In Sequences.md",
-    "Python/Core Language/Collections/Unpacking.md",
-    "Python/Core Language/Collections/Tuples.md",
-    "Python/Core Language/Collections/Indexing and Slicing.md",
     "Python/Core Language/Collections/Python Collections and Iteration.md",
-    "Python/Core Language/Collections/Comprehensions.md",
-    "Python/Core Language/Collections",
-    "Python/Core Language/Named Tuples.md",
-    "Python/Django/Views and Routing.md",
+    "Python/Core Language/Collections/Sequences/Tuples.md",
+    "Python/Core Language/Collections/Sequences/Sorting.md",
+    "Python/Core Language/Collections/Sequences/Memory Views.md",
+    "Python/Core Language/Collections/Sequences/Indexing and Slicing.md",
+    "Python/Core Language/Collections/Sequences/Deque.md",
+    "Python/Core Language/Collections/Sequences/Comprehensions.md",
+    "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
+    "Python/Core Language/Collections/Sequences/Bytes.md",
+    "Python/Core Language/Collections/Sequences/Byte Array.md",
+    "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
+    "Python/Core Language/Collections/Sequences/Arrays.md",
+    "Python/Core Language/Collections/Sequences/Slicing.md",
+    "Python/Python Memory Mapping.md",
+    "Python/Core Language/Collections/Sequences",
+    "Python/Libraries/Python Library - Bisect.md",
     "Python/Core Language/Dunder Methods.md",
-    "Python/Django/Projects and Apps.md",
-    "Algorithms/Robust Hashing.md",
+    "Python/Core Language/Collections/Unpacking.md",
+    "Python/00 Overview.md",
+    "Python/Core Language/Collections/Indexing and Slicing.md",
+    "Python/Core Language/Collections/Built-In Sequences.md",
+    "Python/Core Language/Variables and Scoping.md",
+    "Python/Core Language/Python Decorators.md",
+    "Python/Core Language/Python Context Managers.md",
+    "Python/Core Language/Python Closures.md",
+    "Python/Core Language/Exception Hierarchy 1.png",
+    "Python/Core Language/Collections",
     "Web Design/HTML",
     "Web Design/Icons",
     "Web Design/CSS",
@@ -211,7 +255,6 @@
     "JavaScript/Server-Side",
     "JavaScript/Core Language/JS Array Methods Cheat Sheet.png",
     "Kubernetes/Kubernetes Architecture.png",
-    "Python/Core Language/Exception Hierarchy 1.png",
     "Algorithms/knn example.png"
   ]
 }
