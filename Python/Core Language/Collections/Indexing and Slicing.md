@@ -39,11 +39,18 @@ numbers[5::2]   # indices 5, 7, 9, ... end
 - It's easy to compute the length when start and stop are both used:  `list[4:9]` is 5 items (stop - start)
 - It's easy to paginate or split a sequence into parts:
 ```python
+mylist = range(101)
 start = 0
-len = 10
+length = 10
 while start < len(mylist):
-	stop = start + len
+	stop = start + length
 	print(mylist[start:stop])
 	start = stop
+
+"""
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+...
+[90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 ```
 
