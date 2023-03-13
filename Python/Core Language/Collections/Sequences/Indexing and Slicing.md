@@ -44,28 +44,6 @@ IndexError: list index out of range
 ## Slicing
 Reference a subset of a sequence in order.
 
-Note that `stop` takes the number(s) up to, but not including index `stop` itself.
-Numbers may be omitted with their place held by the `:`
-```python
-# 1-argument form:  [stop]
-numbers[4]    # indices 0-3
-
-# 2-argument form: [start:stop]
-numbers[2:5]  # indices 2-4
-numbers[:5]   # indices 0-4
-numbers[2:]   # indices 2-end
-numbers[:]    # ALL indices, 0-end
-
-# 3-argument form: [start:stop:step]
-numbers[2:8:2]  # indices 2, 4, 6
-numbers[7:20:3] # indices 7, 10, 13, 16, 18
-numbers[::2]    # Every other item (0, 2, 4...)
-numbers[:12:2]  # indices 0, 2, 4, 6, 8, 10
-numbers[5::2]   # indices 5, 7, 9, ... end
-```
-
-
-### Slicing
 Syntax is `collection[start:stop:step]` with each part being optional.
 
 `start` indicates the element to start with, inclusive with a default of 0.
@@ -73,30 +51,22 @@ Syntax is `collection[start:stop:step]` with each part being optional.
 `step` indicates the number of items to advance, default 1.
 
 ```python
-mylist = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-
-mylist[2:5]      # ['c', 'd', 'e']
-mylist[:2]       # ['a', 'b']
-mylist[4:]       # ['e', 'f', 'g']
-mylist[0:5:2]    # ['a', 'c', 'e']
-mylist[1:5:2]    # ['b', 'd']
-mylist[:]        # ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+>>> mylist = [ 'a', 'b', 'c', 'd', 'e', 'f', 'g']
+>>> mylist[2:5]
+['c', 'd', 'e']
+>>> mylist[:2]
+['a', 'b']
+>>> mylist[4:]
+['e', 'f', 'g']
+>>> mylist[0:5:2]
+['a', 'c', 'e']
+>>> mylist[1:5:2]
+['b', 'd']
+>>> mylist[::2]
+['a', 'c', 'e', 'g']
+>>> mylist[:]
+['a', 'b', 'c', 'd', 'e', 'f', 'g']
 ```
-
-Assigning to slices is possible. Assigned value does not need to be the same size, unless `step` is used.
-
-```python
-mylist = [ 1, 1, 1, 1, 1, 1 ]
-mylist[0:3] = [2, 2, 2]        # [2, 2, 2, 1, 1, 1]
-mylist[1:4] = [ 3, 3 ]         # [2, 3, 3, 1, 1]
-mylist[1::2] = [ 4, 4 ]        # [2, 4, 3, 4, 1]
-del mylist[1::2]               # [2, 3, 1]
-```
-
-
-
-
-
 
 ### Why Exclude the Last (stop) item?
 - It's easy to see the length of the range returned:   `range(3)` and `list[:3]` return 3 items.
@@ -137,6 +107,18 @@ To insert a number between other numbers, use a zero-length slice (start = stop)
 >>> x
 [0, 1, 2, 33, 44, 55, 66, 3, 4, 5, 6, 7, 8, 9]
 ```
+
+`step` can be used, but the replacement slice must be the same size as the original.
+Assigning to slices is possible. Assigned value does not need to be the same size, unless `step` is used.
+
+```python
+mylist = [ 1, 1, 1, 1, 1, 1 ]
+mylist[0:3] = [2, 2, 2]        # [2, 2, 2, 1, 1, 1]
+mylist[1:4] = [ 3, 3 ]         # [2, 3, 3, 1, 1]
+mylist[1::2] = [ 4, 4 ]        # [2, 4, 3, 4, 1]
+del mylist[1::2]               # [2, 3, 1]
+```
+
 
 
 
