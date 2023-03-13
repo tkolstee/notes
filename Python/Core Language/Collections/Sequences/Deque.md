@@ -13,8 +13,14 @@ Can be created with a maximum length, and will discard oldest items when it reac
 ```
 
 ## Adding Elements
+`append(x)` and `appendleft(x)` add an element to the right or left side of the deque.
+`extend(i)` and `extendleft(i)` add all elements from an iterable to the right or left side of the deque.
 ```python
-
+>>> dq = deque(range(2))       # deque([0, 1])
+>>> dq.append('a')             # deque([0, 1, 'a'])
+>>> dq.appendleft('b')         # deque(['b', 0, 1, 'a'])
+>>> dq.extend(['C', 'D', 'E']) # deque(['b', 0, 1, 'a', 'C', 'D', 'E'])
+>>> dq.extendleft(['F', 'G'])  # deque(['G', 'F', 'b', 0, 1, 'a', 'C', 'D', 'E'])
 ```
 
 
