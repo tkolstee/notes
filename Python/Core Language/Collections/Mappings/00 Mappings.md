@@ -1,4 +1,8 @@
 
+[[dict]]
+
+
+
 ```mermaid
 classDiagram
 Container <|-- Mapping
@@ -26,6 +30,12 @@ MutableMapping : update
 ```
 
 Specialized mappings often extend `dict` or `collections.UserDict` instead of ABCs.
+
+Testing using `isinstance(object, abc.Mapping)` is generally a good way to determine if an object is a Mapping.
+
 All mapping types in the standard library use the basic `dict`, so they all require that the keys be *hashable*.
 
+----
+# Sources
+*Fluent Python*, Luciano Ramalho, 2015
 
