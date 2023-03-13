@@ -2,6 +2,20 @@
 
 Can be created with a maximum length, and will discard oldest items when it reaches that length.
 
+## Removing Elements
+```python
+>>> dq = deque(range(10)) #      deque([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+>>> dq.pop()              # 9    deque([0, 1, 2, 3, 4, 5, 6, 7, 8])
+>>> dq.pop()              # 8    deque([0, 1, 2, 3, 4, 5, 6, 7])
+>>> dq.popleft()          # 0    deque([1, 2, 3, 4, 5, 6, 7])
+>>> dq.popleft()          # 1    deque([2, 3, 4, 5, 6, 7])
+>>> dq.pop()              # 7    deque([2, 3, 4, 5, 6])
+```
+
+## Adding Elements
+```python
+
+```
 
 
 ```python
