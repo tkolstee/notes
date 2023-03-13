@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Tuples.md",
+                "file": "Python/Core Language/Collections/Sequences/Tuples.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
+                "file": "Python/Core Language/Collections/Sequences/Memory Views.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,14 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Deque.md",
+                "file": "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Deque.md",
+                "file": "Python/Core Language/Collections/Sequences/Memory Views.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Deque.md",
+                "file": "Python/Core Language/Collections/Sequences/Memory Views.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Deque.md"
+                "file": "Python/Core Language/Collections/Sequences/Memory Views.md"
               }
             }
           },
@@ -213,18 +213,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "955fa2d3c7ced389",
+  "active": "81aba7ec0594199c",
   "lastOpenFiles": [
-    "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
+    "Python/Core Language/Collections/Sequences/Indexing and Slicing.md",
     "Python/Core Language/Collections/Sequences/Deque.md",
-    "Python/Core Language/Collections/Sequences/Bytes.md",
+    "Python/Core Language/Collections/Sequences/Comprehensions.md",
     "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
+    "Python/Core Language/Collections/Sequences/Bytes.md",
     "Python/Core Language/Collections/Sequences/Byte Array.md",
     "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
     "Python/Core Language/Collections/Sequences/Arrays.md",
+    "Python/Core Language/Collections/Sequences/Tuples.md",
+    "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
     "Python/Core Language/Collections/Sequences/Sorting.md",
     "Python/Core Language/Collections/Sequences/Memory Views.md",
-    "Python/Core Language/Collections/Sequences/Indexing and Slicing.md",
     "Python/Core Language/Collections/Sequences/Slicing.md",
     "Python/Core Language/Collections/Python Collections and Iteration.md",
     "Python/Python Memory Mapping.md",
@@ -232,11 +234,9 @@
     "Python/Libraries/Python Library - Bisect.md",
     "Python/Core Language/Dunder Methods.md",
     "Python/Core Language/Collections/Unpacking.md",
-    "Python/Core Language/Collections/Tuples.md",
     "Python/00 Overview.md",
     "Python/Core Language/Collections/Indexing and Slicing.md",
     "Python/Core Language/Collections/Built-In Sequences.md",
-    "Python/Core Language/Collections/Comprehensions.md",
     "Python/Core Language/Variables and Scoping.md",
     "Python/Core Language/Python Decorators.md",
     "Python/Core Language/Python Context Managers.md",
