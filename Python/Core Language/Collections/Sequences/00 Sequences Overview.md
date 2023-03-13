@@ -1,13 +1,6 @@
 Sequences are collections that support numeric indexing and thus are ordered.
 Examples include `list`, `tuple`, `str`, `bytes`.
 
-[[Classifying Sequences]]
-[[Built-In Sequences]]
-[[Indexing and Slicing]]
-[[Slicing]]
-[[Sorting]]
-[[Memory Views]]
-
 ## Common Sequence Operations
 | Operation              | Result                                                                                                                       |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
