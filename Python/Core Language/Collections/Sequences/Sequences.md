@@ -3,7 +3,7 @@ Examples include `list`, `tuple`, `str`, `bytes`.
 
 [[Classifying Sequences]]
 [[Built-In Sequences]]
-[[Indexing]]
+[[Indexing and Slicing]]
 [[Slicing]]
 [[Sorting]]
 [[Memory Views]]
