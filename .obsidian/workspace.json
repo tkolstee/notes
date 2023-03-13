@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4e69df63a0b087dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Core Language/Named Tuples.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Named Tuples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Named Tuples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md"
+                "file": "Python/Core Language/Named Tuples.md"
               }
             }
           },
@@ -169,10 +181,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c771916cbd6bc526",
+  "active": "4e69df63a0b087dd",
   "lastOpenFiles": [
-    "Python/Django/Views and Routing.md",
     "Python/Core Language/Dunder Methods.md",
+    "Python/Core Language/Named Tuples.md",
+    "Python/Django/Views and Routing.md",
     "Python/Django/Projects and Apps.md",
     "Algorithms/Robust Hashing.md",
     "Algorithms/Locality-Sensitive Hashing.md",
@@ -198,7 +211,6 @@
     "Web Design/CSS/00 CSS Overview.md",
     "Web Design/CSS/Including CSS in Web Pages.md",
     "Web Design/CSS/CSS Declarations.md",
-    "Web Design/CSS/CSS calc Function.md",
     "Web Design/CSS",
     "Web Design/CSS/CSS Flexbox Cheat Sheet.png",
     "Web Design",
