@@ -1,6 +1,5 @@
 Binary search over a sorted collection to find an item or insertion point.
 
-
 `bisect` is an alias for `bisect_right` which returns an insertion point after an existing item.
 `bisect_left` returns the position of the existing item so insertion would occur before it.
 ```python
@@ -32,12 +31,26 @@ Bisect can be used as a faster version of `list.index(x)` when the list is sorte
 
 `insort(seq, item)` inserts an item into the correct place in a sorted collection:
 ```python
-import bisect
-import random
+>>> import bisect
+>>> import random
+>>> SIZE=7
+>>> random.seed(1729)
+>>> my_list = []
 
-SIZE=7
-
+>>> for i in range(SIZE):
+...   new_item = random.randrange(SIZE*2)
+...   bisect.insort(my_list, new_item)
+...   print('%2d =>' % new_item, my_list)
+...
+ 0 => [0, 10]
+ 6 => [0, 6, 10]
+ 8 => [0, 6, 8, 10]
+ 7 => [0, 6, 7, 8, 10]
+ 2 => [0, 2, 6, 7, 8, 10]
+10 => [0, 2, 6, 7, 8, 10, 10]
+ 0 => [0, 0, 2, 6, 7, 8, 10, 10]
 ```
+
 
 ----
 # Source

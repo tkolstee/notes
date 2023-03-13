@@ -165,7 +165,14 @@ Both take keywords:
 	- `reverse=True` (default `False`) to reverse the order
 	- `key=function_name` to use a function as the key for sorting (e.g. `str.lower`, `len`).
 
+## Arrays
+`array.array` is more efficient than a list, but can contain only one type of value.
+Supports standard mutable sequence methods (`.pop`, `.insert`, `.extend`)
+Supports additional fast (de)serialization with `.frombytes` and `.tofile`
 
+```python
+
+```
 
 
 ----
