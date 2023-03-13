@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
+                "file": "Python/Core Language/Collections/Mappings/00 Mappings.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
+                "file": "Python/Core Language/Collections/Mappings/00 Mappings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
+                "file": "Python/Core Language/Collections/Mappings/00 Mappings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Built-In Sequences.md"
+                "file": "Python/Core Language/Collections/Mappings/00 Mappings.md"
               }
             }
           },
@@ -184,24 +184,24 @@
   },
   "active": "bfbb6d227515c1ba",
   "lastOpenFiles": [
+    "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
+    "Python/Core Language/Collections/Sequences/Comprehensions.md",
+    "Python/Core Language/Collections/Sequences/Deque.md",
+    "Python/Core Language/Collections/Sequences/Indexing and Slicing.md",
+    "Python/Core Language/Collections/Sequences/Lists.md",
+    "Python/Core Language/Collections/Sequences/Memory Views.md",
+    "Python/Core Language/Collections/Sequences/Sorting.md",
+    "Python/Core Language/Collections/Sequences/Tuples.md",
     "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
+    "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
     "Python/Core Language/Collections/Mappings/00 Mappings.md",
     "Python/Core Language/Collections/Python Collections and Iteration.md",
     "Python/Core Language/Collections/Mappings",
-    "Python/Core Language/Collections/Sequences/Tuples.md",
     "Python/Core Language/Exception Hierarchy 1.png",
-    "Python/Core Language/Collections/Sequences/Lists.md",
     "Python/Core Language/Dunder Methods.md",
-    "Python/Core Language/Collections/Sequences/Deque.md",
-    "Python/Core Language/Collections/Sequences/Sorting.md",
-    "Python/Core Language/Collections/Sequences/Indexing and Slicing.md",
     "Python/Core Language/Collections/Sequences/Bytes.md",
-    "Python/Core Language/Collections/Sequences/Comprehensions.md",
     "Python/00 Overview.md",
-    "Python/Core Language/Collections/Sequences/Memory Views.md",
     "Python/Core Language/Collections/Sequences/Arrays.md",
-    "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
-    "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
     "Python/Libraries/Python Library - Bisect.md",
     "Python/Core Language/Collections/Sequences/Byte Array.md",
     "Python/Core Language/Collections/Sequences",
