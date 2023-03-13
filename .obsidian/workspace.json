@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Sequences.md",
+                "file": "Python/Python Memory Mapping.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0335779a1da61a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Python Memory Mapping.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8d6666b6c47dd6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Core Language/Collections/Sequences/Bytes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Sequences.md",
+                "file": "Python/Python Memory Mapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Sequences.md",
+                "file": "Python/Python Memory Mapping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Sequences.md"
+                "file": "Python/Python Memory Mapping.md"
               }
             }
           },
@@ -189,9 +213,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d386cb9bc734693f",
+  "active": "e0335779a1da61a5",
   "lastOpenFiles": [
+    "Python/Core Language/Collections/Sequences/Bytes.md",
+    "Python/Python Memory Mapping.md",
+    "Python/Core Language/Collections/Sequences/Byte Array.md",
     "Python/Core Language/Collections/Sequences/Memory Views.md",
+    "Python/Core Language/Collections/Sequences/Sequences.md",
     "Python/Core Language/Collections/Sequences/Sorting.md",
     "Python/Core Language/Collections/Sequences/Arrays.md",
     "Python/Core Language/Collections/Sequences/Slicing.md",
@@ -201,7 +229,6 @@
     "Python/Core Language/Collections/Sequences",
     "Python/Libraries/Python Library - Bisect.md",
     "Python/Core Language/Dunder Methods.md",
-    "Python/Core Language/Collections/Sequences/Sequences.md",
     "Python/Core Language/Collections/Unpacking.md",
     "Python/Core Language/Collections/Tuples.md",
     "Python/00 Overview.md",
@@ -215,10 +242,7 @@
     "Python/Core Language/Python Closures.md",
     "Python/Core Language/Looping.md",
     "Python/Core Language/Functions.md",
-    "Python/Core Language/File Operations.md",
-    "Python/Core Language/Exceptions.md",
     "Python/Core Language/Exception Hierarchy 1.png",
-    "Python/Core Language/Data Types.md",
     "Python/Core Language/Collections",
     "Web Design/HTML",
     "Web Design/Icons",
