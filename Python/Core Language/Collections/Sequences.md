@@ -146,8 +146,8 @@ To insert a number between other numbers, use a zero-length slice (start = stop)
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | `x in s`               | `True` if an item of `s` is equal to `x`, else `False`.^[Sometimes used for subsequence testing, as `'car' in 'precarious'`] |
 | `x not in s`           | `False` if an item of `s` is equal to `x`, else `True`.                                                                      |
-| `s + t`                | Concatenation of `s` and `t`                                                                                                 |
-| `s * n` or `n * s`     | Adding `s` to itself `n` times                                                                                               |
+| `s + t`                | Concatenation of `s` and `t`^[Results in new object if list is immutable.]                                                                                                 |
+| `s * n` or `n * s`     | Adding `s` to itself `n` times ^[References, doesn't append. This can lead to difficult bugs.]                                                                                              |
 | `s[i]`                 | `i`th item of `s` starting from 0 (see [[#Indexing]])                                                                        |
 | `s[i:j]`               | Slice of `s` from `i` to `j` (see [[#Slicing]])                                                                              |
 | `s[i:j:k]`             | Every `k`th item from `i` to `j` (see [[#Slicing]])                                                                          |
