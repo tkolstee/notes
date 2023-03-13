@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Collections/Sequences/Lists.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Collections/Sequences/Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md",
+                "file": "Python/Core Language/Collections/Sequences/Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Dunder Methods.md"
+                "file": "Python/Core Language/Collections/Sequences/Lists.md"
               }
             }
           },
@@ -172,6 +172,7 @@
   },
   "active": "c771916cbd6bc526",
   "lastOpenFiles": [
+    "Python/Core Language/Dunder Methods.md",
     "Python/Core Language/Collections/Sequences/00 Sequences Overview.md",
     "Python/Core Language/Collections/Sequences/Deque.md",
     "Python/Core Language/Collections/Sequences/Sorting.md",
@@ -197,7 +198,6 @@
     "Python/Core Language/Collections",
     "Python/Core Language/Named Tuples.md",
     "Python/Django/Views and Routing.md",
-    "Python/Core Language/Dunder Methods.md",
     "Python/Django/Projects and Apps.md",
     "Algorithms/Robust Hashing.md",
     "Web Design/HTML",
