@@ -23,4 +23,4 @@
 
 ----
 # Source
-*Fluent Python*, Luciano Ramalho
+*Fluent Python*, Luciano Ramalho, 2015
