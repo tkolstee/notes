@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences Overview.md",
+                "file": "Python/Core Language/Collections/Comprehensions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences Overview.md",
+                "file": "Python/Core Language/Collections/Comprehensions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences Overview.md",
+                "file": "Python/Core Language/Collections/Comprehensions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences Overview.md"
+                "file": "Python/Core Language/Collections/Comprehensions.md"
               }
             }
           },
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,12 +167,12 @@
   },
   "active": "fb8cf61f3396b591",
   "lastOpenFiles": [
+    "Python/Core Language/Collections/Built-In Sequences.md",
     "Python/Core Language/Collections/Named Tuples.md",
-    "Python/Core Language/Collections/Sequences Overview.md",
     "Python/Core Language/Variables and Scoping.md",
     "Python/Core Language/Python Decorators.md",
     "Python/Core Language/Python Context Managers.md",
-    "Python/Core Language/Collections/Python Comprehensions.md",
+    "Python/Core Language/Collections/Comprehensions.md",
     "Python/Core Language/Python Closures.md",
     "Python/Core Language/Looping.md",
     "Python/Core Language/Functions.md",

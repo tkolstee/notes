@@ -20,7 +20,6 @@ Comprehensions are quick ways of generating a collection from another iterable o
 [ x if x%2==0 else 'odd' for x in range(5) ]  # [0, 'odd', 2, 'odd', 4]
 ```
 
-
 ## Multiple Inputs
 ```python
 [ (x, y) for x in range(5) for y in range(5) ]

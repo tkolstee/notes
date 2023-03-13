@@ -1,3 +1,4 @@
+Implemented in C
 
 | Sequence Type     | Container/Flat | Mutability |
 | ----------------- | -------------- | ---------- |
@@ -8,11 +9,14 @@
 | bytes             | Flat           | Immutable  |
 | bytearray         | Flat           | Mutable    |
 | memoryview        | Flat           | Mutable    |
-| array.array       | Flat           | Mutable           |
+| array.array       | Flat           | Mutable    |
 
 **Containers vs. Flat**
 Containers hold references and can handle different types of items.
 Flat sequences hold item values directly and can handle only one type.
+
+
+This UML diagram does not show the actual inheritance of the implementation, but is a useful mental model for understanding the capabilities of collections.
 
 ```mermaid
 classDiagram
