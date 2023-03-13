@@ -1,4 +1,8 @@
+Tuples are not just immutable lists, they're also useful for records with positional fields and dict keys (since they are immutable).
 
+
+
+## Named Tuples
 `collections.namedtuple` is a factory that produces subclasses of tuple with field names and a class name.
 
 ```python

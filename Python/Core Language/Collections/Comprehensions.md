@@ -21,6 +21,7 @@ Comprehensions are quick ways of generating a collection from another iterable o
 ```
 
 ## Multiple Inputs
+Useful for generating cartesian products $(A \times B)$
 ```python
 [ (x, y) for x in range(5) for y in range(5) ]
 ```
@@ -68,7 +69,6 @@ for x in range(10):
 # Output:
 vals = [ [], [0], [0, 3], [0, 3, 6], [0, 3, 6, 9], ...., [0, 3, 6, 9, ..., 24] ]
 ```
-
 
 ```python
 [ [ expr(x, y) for y in coll1 ] for x in coll2 ]
