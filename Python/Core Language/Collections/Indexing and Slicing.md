@@ -14,6 +14,20 @@ numbers[-1] # 71
 numbers[-3] # 26
 ```
 
+Assignment is only possible when replacing a single element:
+```python
+>>> x = list(range(10))
+>>> x
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> x[3] = 33
+>>> x
+[0, 1, 2, 33, 4, 5, 6, 7, 8, 9]
+>>> x[10] = 10
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list assignment index out of range
+```
+
 ## Slicing
 Taking a subset of a collection in order.
 
@@ -60,3 +74,19 @@ while start < len(mylist):
 ```
 
 ### Assigning to Slices
+This will replace the slice with the given values, even if they are of a different size:
+
+```python
+>>> x = list(range(10))
+>>> x[3:5] = [ 33, 44, 55, 66 ]
+>>> x
+[0, 1, 2, 33, 44, 55, 66, 5, 6, 7, 8, 9]
+```
+
+To insert a number between other numbers, use a zero-length slice (start = stop)
+```python
+>>> x = list(range(10))
+>>> x[3:3] = [ 33, 44, 55, 66 ]
+>>> x
+[0, 1, 2, 33, 44, 55, 66, 3, 4, 5, 6, 7, 8, 9]
+```
