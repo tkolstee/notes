@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Sorting.md",
+                "file": "Python/Core Language/Collections/Sequences/Bytes.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Sorting.md",
+                "file": "Python/Core Language/Collections/Sequences/Bytes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Sorting.md",
+                "file": "Python/Core Language/Collections/Sequences/Bytes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Core Language/Collections/Sequences/Sorting.md"
+                "file": "Python/Core Language/Collections/Sequences/Bytes.md"
               }
             }
           },
@@ -203,18 +203,18 @@
   },
   "active": "f8d6666b6c47dd6d",
   "lastOpenFiles": [
+    "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
+    "Python/Core Language/Collections/Sequences/Bytes.md",
+    "Python/Core Language/Collections/Sequences/Byte Array.md",
+    "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
+    "Python/Core Language/Collections/Sequences/Arrays.md",
+    "Python/Core Language/Collections/Sequences/Sorting.md",
     "Python/Core Language/Collections/Sequences/Sequences.md",
     "Python/Core Language/Collections/Sequences/Memory Views.md",
     "Python/Core Language/Collections/Sequences/Indexing and Slicing.md",
     "Python/Core Language/Collections/Sequences/Slicing.md",
     "Python/Core Language/Collections/Python Collections and Iteration.md",
     "Python/Python Memory Mapping.md",
-    "Python/Core Language/Collections/Sequences/Bytes.md",
-    "Python/Core Language/Collections/Sequences/Byte Array.md",
-    "Python/Core Language/Collections/Sequences/Sorting.md",
-    "Python/Core Language/Collections/Sequences/Arrays.md",
-    "Python/Core Language/Collections/Sequences/Built-In Sequences.md",
-    "Python/Core Language/Collections/Sequences/Classifying Sequences.md",
     "Python/Core Language/Collections/Sequences",
     "Python/Libraries/Python Library - Bisect.md",
     "Python/Core Language/Dunder Methods.md",

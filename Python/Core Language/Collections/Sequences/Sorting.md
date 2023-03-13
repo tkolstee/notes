@@ -6,4 +6,3 @@ Both take keywords:
 	- `reverse=True` (default `False`) to reverse the order
 	- `key=function_name` to use a function as the key for sorting (e.g. `str.lower`, `len`).
 
-[[Python/Core Language/Collections/Sequences/Arrays]]
