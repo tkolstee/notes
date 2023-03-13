@@ -11,8 +11,12 @@
             "id": "332cc9666965bfde",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Python/Django/Views and Routing.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "promise",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Python/Django/Views and Routing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Python/Django/Views and Routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Python/Django/Views and Routing.md"
+              }
             }
           },
           {
@@ -150,6 +158,7 @@
   },
   "active": "332cc9666965bfde",
   "lastOpenFiles": [
+    "Python/Django/Projects and Apps.md",
     "Algorithms/Robust Hashing.md",
     "Algorithms/Locality-Sensitive Hashing.md",
     "Algorithms/Minhashing.md",
@@ -177,7 +186,6 @@
     "Web Design/CSS/CSS calc Function.md",
     "Web Design/CSS/CSS Sizing and Positioning Units.md",
     "Web Design/CSS/CSS Colors.md",
-    "Web Design/CSS/CSS Media Queries.md",
     "Web Design/CSS",
     "Web Design/CSS/CSS Flexbox Cheat Sheet.png",
     "Web Design",
